@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Need2Build - 每天更新海内外高曝光需求，匹配GitHub开源项目，帮你找到从0到1或二创的项目方向">
+    <title>Need2Build - 需求在左，产品在右，机会在中间</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="logo" onclick="switchTab('radar')">
+                <div class="logo-icon">
+                    <svg width="28" height="28" viewBox="0 0 40 40" fill="none">
+                        <rect x="2" y="2" width="36" height="36" rx="10" fill="url(#logo-grad)"/>
+                        <path d="M13 20h14M20 13v14" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                        <circle cx="20" cy="20" r="3.5" fill="white"/>
+                        <defs>
+                            <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#0071e3"/>
+                                <stop offset="100%" stop-color="#5856d6"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-title">Need2Build</span>
+                    <span class="logo-slogan">需求在左，产品在右，机会在中间</span>
+                </div>
+            </div>
+
+            <nav class="nav-tabs" id="navTabs">
+                <button class="nav-tab" data-tab="signals" onclick="switchTab('signals')">需求信号流</button>
+                <button class="nav-tab active" data-tab="radar" onclick="switchTab('radar')">机会雷达</button>
+                <button class="nav-tab" data-tab="supply" onclick="switchTab('supply')">开源供给库</button>
+            </nav>
+
+            <div class="nav-actions">
+                <div class="search-box">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="m21 21-4.35-4.35"/>
+                    </svg>
+                    <input type="text" id="searchInput" placeholder="搜索需求、项目、关键词..." oninput="handleSearch(this.value)">
+                </div>
+                <button class="favorites-btn" onclick="toggleFavorites()" title="我的收藏">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+                    </svg>
+                    <span class="favorites-count" id="favoritesCount">0</span>
+                </button>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()" title="菜单">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="6" x2="21" y2="6"/>
+                        <line x1="3" y1="12" x2="21" y2="12"/>
+                        <line x1="3" y1="18" x2="21" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 移动端菜单 -->
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-nav-tab" onclick="switchTab('signals'); toggleMobileMenu()">需求信号流</button>
+        <button class="mobile-nav-tab" onclick="switchTab('radar'); toggleMobileMenu()">机会雷达</button>
+        <button class="mobile-nav-tab" onclick="switchTab('supply'); toggleMobileMenu()">开源供给库</button>
+    </div>
+
+    <!-- 主内容区 -->
+    <main class="main-container">
+        <!-- 左侧侧边栏 -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-section">
+                <div class="sidebar-header">
+                    <span class="sidebar-title">赛道分类</span>
+                    <div class="region-legend">
+                        <span class="legend-item"><span class="legend-dot domestic"></span>国内</span>
+                        <span class="legend-item"><span class="legend-dot overseas"></span>海外</span>
+                    </div>
+                </div>
+                <div class="category-list" id="categoryList">
+                    <!-- 动态生成 -->
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <label class="toggle-switch">
+                    <input type="checkbox" id="showFailures" onchange="toggleFailures(this.checked)">
+                    <span class="toggle-slider"></span>
+                    <span class="toggle-label">显示失败案例</span>
+                </label>
+            </div>
+
+            <div class="sidebar-section sidebar-stats">
+                <div class="stats-title">今日数据</div>
+                <div class="stats-item">
+                    <span class="stats-label">抓取评论</span>
+                    <span class="stats-value">1,247,832</span>
+                </div>
+                <div class="stats-item">
+                    <span class="stats-label">新增机会</span>
+                    <span class="stats-value">286</span>
+                </div>
+                <div class="stats-item">
+                    <span class="stats-label">可二创项目</span>
+                    <span class="stats-value">47</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- 内容区 -->
+        <div class="content-area">
+            <!-- 需求信号流页面 -->
+            <div class="tab-page" id="page-signals" style="display:none;">
+                <div class="page-header">
+                    <h1 class="page-title">需求信号流</h1>
+                    <p class="page-desc">海内外各大平台真实用户需求原文捕捉，每条附原链接，可点击核验</p>
+                </div>
+
+                <!-- 趋势洞察 -->
+                <div class="trends-section">
+                    <div class="trends-header">
+                        <span class="trends-title">趋势洞察</span>
+                        <span class="trends-update">更新于 10 分钟前</span>
+                    </div>
+                    <div class="trends-cards" id="trendsCards">
+                        <!-- 动态生成 -->
+                    </div>
+                </div>
+
+                <!-- 筛选标签 -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <span class="filter-label">平台：</span>
+                        <div class="filter-buttons" id="platformFilters">
+                            <!-- 动态生成 -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 信号列表 -->
+                <div class="signals-list" id="signalsList">
+                    <!-- 动态生成 -->
+                </div>
+            </div>
+
+            <!-- 机会雷达页面 -->
+            <div class="tab-page" id="page-radar">
+                <div class="page-header">
+                    <h1 class="page-title">机会雷达</h1>
+                    <p class="page-desc">高曝光需求 × 开源项目匹配，AI 评分筛选最值得做的方向</p>
+                </div>
+
+                <!-- 数据看板 -->
+                <div class="dashboard-grid" id="dashboardGrid">
+                    <!-- 动态生成 -->
+                </div>
+
+                <!-- 筛选标签 -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <span class="filter-label">类型：</span>
+                        <div class="filter-buttons" id="typeFilters">
+                            <button class="filter-btn active" data-type="all" onclick="filterByType('all')">全部</button>
+                            <button class="filter-btn" data-type="from-scratch" onclick="filterByType('from-scratch')">从0到1</button>
+                            <button class="filter-btn" data-type="remix" onclick="filterByType('remix')">可二创</button>
+                            <button class="filter-btn" data-type="gap" onclick="filterByType('gap')">供给缺口</button>
+                            <button class="filter-btn" data-type="trending" onclick="filterByType('trending')">爆发中</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 机会卡片列表 -->
+                <div class="opportunities-list" id="opportunitiesList">
+                    <!-- 动态生成 -->
+                </div>
+            </div>
+
+            <!-- 开源供给库页面 -->
+            <div class="tab-page" id="page-supply" style="display:none;">
+                <div class="page-header">
+                    <h1 class="page-title">开源供给库</h1>
+                    <p class="page-desc">GitHub 热门开源项目聚合，按技术栈/活跃度/可二创度筛选</p>
+                </div>
+
+                <!-- 筛选标签 -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <span class="filter-label">语言：</span>
+                        <div class="filter-buttons" id="languageFilters">
+                            <button class="filter-btn active" data-lang="all" onclick="filterByLanguage('all')">全部</button>
+                            <button class="filter-btn" data-lang="Python" onclick="filterByLanguage('Python')">Python</button>
+                            <button class="filter-btn" data-lang="JavaScript" onclick="filterByLanguage('JavaScript')">JavaScript</button>
+                            <button class="filter-btn" data-lang="TypeScript" onclick="filterByLanguage('TypeScript')">TypeScript</button>
+                            <button class="filter-btn" data-lang="Go" onclick="filterByLanguage('Go')">Go</button>
+                            <button class="filter-btn" data-lang="Rust" onclick="filterByLanguage('Rust')">Rust</button>
+                        </div>
+                    </div>
+                    <div class="filter-group">
+                        <span class="filter-label">排序：</span>
+                        <div class="filter-buttons">
+                            <button class="filter-btn active" onclick="sortProjects('stars')">Stars</button>
+                            <button class="filter-btn" onclick="sortProjects('activity')">活跃度</button>
+                            <button class="filter-btn" onclick="sortProjects('remix')">可二创度</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 项目列表 -->
+                <div class="projects-list" id="projectsList">
+                    <!-- 动态生成 -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 详情抽屉 -->
+    <div class="drawer-overlay" id="drawerOverlay" onclick="closeDrawer()"></div>
+    <div class="drawer" id="drawer">
+        <div class="drawer-header">
+            <button class="drawer-close" onclick="closeDrawer()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+        </div>
+        <div class="drawer-content" id="drawerContent">
+            <!-- 动态生成 -->
+        </div>
+    </div>
+
+    <!-- 收藏面板 -->
+    <div class="favorites-panel" id="favoritesPanel">
+        <div class="favorites-header">
+            <span class="favorites-title">我的收藏</span>
+            <button class="favorites-close" onclick="toggleFavorites()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+        </div>
+        <div class="favorites-list" id="favoritesList">
+            <!-- 动态生成 -->
+        </div>
+        <div class="favorites-footer">
+            <button class="btn btn-primary" onclick="generateReport()">生成跟踪报告</button>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <span class="footer-logo">Need2Build</span>
+                <span class="footer-desc">需求在左，产品在右，机会在中间</span>
+            </div>
+            <div class="footer-right">
+                <span class="footer-source">数据来源：Twitter · 抖音 · 小红书 · Reddit · 知乎 · GitHub</span>
+                <span class="footer-update">最后更新：2026-09-04 10:30</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast 提示 -->
+    <div class="toast" id="toast"></div>
+
+    <script src="js/data.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
