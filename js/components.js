@@ -201,13 +201,18 @@ function renderSignals(signals) {
 
     container.innerHTML = signals.map(item => {
         const platform = PLATFORMS[item.platform];
+        const isReal = item.isReal === true;
+        const keywords = item.keywords || [];
         return `
-            <div class="signal-card">
+            <div class="signal-card" ${isReal ? 'style="border-left:3px solid #1DA1F2;"' : ''}>
                 <div class="signal-header">
                     <span class="signal-platform">${PLATFORM_ICONS[item.platform]} ${platform.name}</span>
+                    ${isReal ? '<span class="signal-badge-real">真实数据</span>' : ''}
                     <span class="signal-author">${item.author}</span>
                     <span class="signal-time">${item.time}</span>
                     <span class="signal-likes">♥ ${item.likes}</span>
+                    ${item.retweets !== undefined ? `<span class="signal-likes" style="color:#5856d6;">🔁 ${item.retweets}</span>` : ''}
+                    ${item.replies !== undefined ? `<span class="signal-likes" style="color:#34c759;">💬 ${item.replies}</span>` : ''}
                 </div>
                 <div class="signal-content">${item.content}</div>
                 <div class="signal-footer">
@@ -215,7 +220,7 @@ function renderSignals(signals) {
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
                         </svg>
-                        原始数据·非AI生成·可点击核验
+                        ${isReal ? 'Twitter真实抓取·附原链接' : '原始数据·非AI生成·可点击核验'}
                     </span>
                     <a class="signal-link" href="${item.url}" target="_blank" onclick="event.stopPropagation()">
                         查看原文
@@ -224,7 +229,7 @@ function renderSignals(signals) {
                         </svg>
                     </a>
                     <div class="signal-keywords">
-                        ${item.keywords.map(k => `<span class="signal-keyword">${k}</span>`).join('')}
+                        ${keywords.map(k => `<span class="signal-keyword">${k}</span>`).join('')}
                     </div>
                 </div>
             </div>

@@ -1069,6 +1069,18 @@ a {
     letter-spacing: 0.1px;
 }
 
+.signal-badge-real {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 7px;
+    font-size: 10px;
+    font-weight: 600;
+    background: rgba(29, 161, 242, 0.12);
+    color: #1DA1F2;
+    border-radius: var(--radius-full);
+    letter-spacing: 0.2px;
+}
+
 .signal-link {
     display: inline-flex;
     align-items: center;

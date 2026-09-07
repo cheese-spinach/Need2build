@@ -44,7 +44,7 @@ function updateFavoritesCount() {
 }
 
 // 初始化应用
-function initApp() {
+async function initApp() {
     loadFavorites();
     renderCategories();
     renderDashboard();
@@ -54,6 +54,14 @@ function initApp() {
     renderSignals(getFilteredSignals());
     renderProjects(getFilteredProjects());
     renderFavorites();
+
+    // 异步加载真实 Twitter 数据，加载完成后重新渲染
+    loadRealTwitterSignals().then(loaded => {
+        if (loaded) {
+            renderSignals(getFilteredSignals());
+            showToast('已加载最新 Twitter 真实需求数据');
+        }
+    });
 }
 
 // 切换Tab
@@ -209,7 +217,7 @@ function getFilteredOpportunities() {
 
 // 获取筛选后的信号列表
 function getFilteredSignals() {
-    return SIGNALS.filter(item => {
+    return getMergedSignals().filter(item => {
         // 平台筛选
         if (currentPlatformFilter !== 'all' && item.platform !== currentPlatformFilter) {
             return false;
@@ -217,7 +225,7 @@ function getFilteredSignals() {
 
         // 搜索
         if (searchQuery) {
-            const searchText = `${item.author} ${item.content} ${item.keywords.join(' ')}`.toLowerCase();
+            const searchText = `${item.author} ${item.content} ${(item.keywords || []).join(' ')}`.toLowerCase();
             if (!searchText.includes(searchQuery)) {
                 return false;
             }

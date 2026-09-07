@@ -666,3 +666,90 @@ const DASHBOARD = [
     { value: '47', change: '+5.1%', changeType: 'up', label: '可二创项目', desc: '匹配开源项目的成熟方向' },
     { value: '6', change: '', changeType: '', label: '覆盖平台', desc: 'Twitter · 抖音 · 小红书 · Reddit · 知乎 · GitHub', platforms: true }
 ];
+
+// ===== 真实数据加载 =====
+let realTwitterSignals = [];
+let twitterLastUpdated = null;
+
+/**
+ * 从 GitHub 仓库加载真实 Twitter 抓取数据
+ * 成功后合并到 SIGNALS，失败则保持原有模拟数据
+ */
+async function loadRealTwitterSignals() {
+    try {
+        const response = await fetch('data/twitter_signals.json?_t=' + Date.now());
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        const data = await response.json();
+        
+        if (data && data.signals && data.signals.length > 0) {
+            realTwitterSignals = data.signals.map((t, idx) => ({
+                id: 'twitter-' + t.id,
+                platform: 'twitter',
+                author: t.author_username.startsWith('@') ? t.author_username : '@' + t.author_username,
+                authorName: t.author_name,
+                time: formatTwitterTime(t.created_at),
+                likes: formatNumber(t.like_count),
+                retweets: t.retweet_count,
+                replies: t.reply_count,
+                content: t.text,
+                keywords: extractKeywords(t.text),
+                url: t.url,
+                isReal: true,
+                engagement: t.engagement_score
+            }));
+            twitterLastUpdated = data.last_updated;
+            console.log('[Need2Build] 已加载 ' + realTwitterSignals.length + ' 条真实 Twitter 需求信号');
+            return true;
+        }
+    } catch (e) {
+        console.warn('[Need2Build] 真实 Twitter 数据加载失败，使用示例数据:', e.message);
+    }
+    return false;
+}
+
+/**
+ * 获取合并后的需求信号（真实 Twitter 数据 + 其他平台示例数据）
+ */
+function getMergedSignals() {
+    if (realTwitterSignals.length === 0) return SIGNALS;
+    
+    // 过滤掉模拟数据中的 Twitter 信号，用真实数据替换
+    const nonTwitterSignals = SIGNALS.filter(s => s.platform !== 'twitter');
+    // 真实数据按互动量排序
+    const sortedReal = [...realTwitterSignals].sort((a, b) => b.engagement - a.engagement);
+    // 合并：真实 Twitter 数据在前，其他平台数据在后
+    return [...sortedReal, ...nonTwitterSignals];
+}
+
+function formatTwitterTime(isoString) {
+    if (!isoString) return '未知';
+    const date = new Date(isoString);
+    const now = new Date();
+    const diffMs = now - date;
+    const diffMins = Math.floor(diffMs / 60000);
+    const diffHours = Math.floor(diffMs / 3600000);
+    const diffDays = Math.floor(diffMs / 86400000);
+    
+    if (diffMins < 1) return '刚刚';
+    if (diffMins < 60) return diffMins + '分钟前';
+    if (diffHours < 24) return diffHours + '小时前';
+    if (diffDays < 7) return diffDays + '天前';
+    return date.toLocaleDateString('zh-CN');
+}
+
+function formatNumber(num) {
+    if (num >= 10000) return (num / 10000).toFixed(1) + '万';
+    if (num >= 1000) return (num / 1000).toFixed(1) + 'k';
+    return num.toString();
+}
+
+function extractKeywords(text) {
+    // 简单的关键词提取（实际应用中可用AI/NLP）
+    const keywords = [];
+    const patterns = ['app', 'tool', 'software', 'website', 'AI', 'automate', 'automatic', 'need', 'looking for', 'wish'];
+    const lowerText = text.toLowerCase();
+    patterns.forEach(p => {
+        if (lowerText.includes(p.toLowerCase())) keywords.push(p);
+    });
+    return keywords.slice(0, 3);
+}
