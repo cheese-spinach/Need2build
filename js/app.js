@@ -44,7 +44,12 @@ function updateFavoritesCount() {
 }
 
 // 初始化应用
+let appInitialized = false;
+
 async function initApp() {
+    if (appInitialized) return;
+    appInitialized = true;
+
     loadFavorites();
     renderCategories();
     renderDashboard();
@@ -55,10 +60,17 @@ async function initApp() {
     renderProjects(getFilteredProjects());
     renderFavorites();
 
-    // 异步加载真实 Twitter 数据，加载完成后重新渲染
-    loadRealTwitterSignals().then(loaded => {
-        if (loaded) {
-            renderSignals(getFilteredSignals());
+    // 并行加载：通用实时数据（GitHub/非 Twitter）+ 真实 Twitter 数据
+    Promise.all([
+        typeof loadLiveData === 'function' ? loadLiveData() : Promise.resolve(false),
+        loadRealTwitterSignals()
+    ]).then(([liveLoaded, twitterLoaded]) => {
+        renderDashboard();
+        renderTrends();
+        renderSignals(getFilteredSignals());
+        renderProjects(getFilteredProjects());
+        renderFavorites();
+        if (twitterLoaded) {
             showToast('已加载最新 Twitter 真实需求数据');
         }
     });

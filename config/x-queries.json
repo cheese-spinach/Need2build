@@ -1,0 +1,13 @@
+{
+  "maxResults": 5,
+  "queries": [
+    {
+      "query": "(\"I wish there was\" OR \"someone should build\" OR \"is there an app\") -is:retweet lang:en",
+      "label": "海外需求信号"
+    },
+    {
+      "query": "(有没有 OR 求推荐 OR 需要一个) (AI OR 工具 OR 软件) -is:retweet lang:zh",
+      "label": "中文需求信号"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "signals": [
+    {
+      "platform": "douyin",
+      "author": "示例作者",
+      "time": "1小时前",
+      "likes": "1.2万",
+      "content": "这里粘贴从已授权渠道或第三方数据服务导出的抖音原文，必须带可点击的原链接",
+      "keywords": ["示例标签"],
+      "url": "https://www.douyin.com/video/123456"
+    }
+  ]
+}

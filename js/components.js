@@ -195,7 +195,11 @@ function renderSignals(signals) {
     const container = document.getElementById('signalsList');
 
     if (signals.length === 0) {
-        container.innerHTML = `<div style="text-align:center;padding:60px;color:var(--text-tertiary);">暂无匹配的信号</div>`;
+        const noTwitter = currentPlatformFilter === 'twitter' && realTwitterSignals.length === 0;
+        const message = noTwitter
+            ? 'Twitter 数据尚未接入：请在仓库 Settings → Secrets 添加 TWITTER_BEARER_TOKEN 后运行 Refresh live data'
+            : '暂无匹配的信号';
+        container.innerHTML = `<div style="text-align:center;padding:60px;color:var(--text-tertiary);">${message}</div>`;
         return;
     }
 
@@ -203,6 +207,7 @@ function renderSignals(signals) {
         const platform = PLATFORMS[item.platform];
         const isReal = item.isReal === true;
         const keywords = item.keywords || [];
+        const realBadgeText = item.platform === 'twitter' ? 'Twitter 真实抓取·附原链接' : '真实数据·附原链接';
         return `
             <div class="signal-card" ${isReal ? 'style="border-left:3px solid #1DA1F2;"' : ''}>
                 <div class="signal-header">
@@ -220,7 +225,7 @@ function renderSignals(signals) {
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
                         </svg>
-                        ${isReal ? 'Twitter真实抓取·附原链接' : '原始数据·非AI生成·可点击核验'}
+                        ${isReal ? realBadgeText : '原始数据·非AI生成·可点击核验'}
                     </span>
                     <a class="signal-link" href="${item.url}" target="_blank" onclick="event.stopPropagation()">
                         查看原文

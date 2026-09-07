@@ -1,0 +1,42 @@
+name: Refresh live data
+
+on:
+  schedule:
+    # 每 2 小时刷新一次；GitHub Pages 免费方案做不到秒级，这是较稳妥的间隔
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 抓取并生成实时数据
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          X_MAX_RESULTS: ${{ vars.X_MAX_RESULTS }}
+        run: python scripts/collect.py
+
+      - name: 提交数据更新
+        run: |
+          git config user.name "need2build-bot"
+          git config user.email "need2build-bot@users.noreply.github.com"
+          git add js/live-data.json data/twitter_signals.json
+          if git diff --cached --quiet; then
+            echo "没有数据变化，跳过提交"
+          else
+            git commit -m "data: 自动刷新实时数据 $(date -u +'%Y-%m-%d %H:%M')"
+            git push
+          fi

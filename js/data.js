@@ -671,6 +671,15 @@ const DASHBOARD = [
 let realTwitterSignals = [];
 let twitterLastUpdated = null;
 
+// 通用实时数据（js/live-data.json：非 Twitter 信号 + GitHub 项目）
+let liveNonTwitterSignals = [];
+let liveDataLoaded = false;
+
+function setLiveDataState(signals, loaded) {
+    liveNonTwitterSignals = Array.isArray(signals) ? signals : [];
+    liveDataLoaded = Boolean(loaded);
+}
+
 /**
  * 从 GitHub 仓库加载真实 Twitter 抓取数据
  * 成功后合并到 SIGNALS，失败则保持原有模拟数据
@@ -711,14 +720,21 @@ async function loadRealTwitterSignals() {
  * 获取合并后的需求信号（真实 Twitter 数据 + 其他平台示例数据）
  */
 function getMergedSignals() {
-    if (realTwitterSignals.length === 0) return SIGNALS;
-    
-    // 过滤掉模拟数据中的 Twitter 信号，用真实数据替换
-    const nonTwitterSignals = SIGNALS.filter(s => s.platform !== 'twitter');
+    // 通用实时数据可用时优先用它；否则保留示例数据中除 Twitter 以外的部分，
+    // 避免把示例 Twitter 当真实数据展示
+    const fallbackOtherSignals = SIGNALS.filter(s => s.platform !== 'twitter');
+    // live 数据为空时继续使用示例数据，避免没有配好数据源时页面一片空白
+    const otherSignals =
+        liveDataLoaded && liveNonTwitterSignals.length > 0
+            ? liveNonTwitterSignals
+            : fallbackOtherSignals;
+
+    if (realTwitterSignals.length === 0) return otherSignals;
+
     // 真实数据按互动量排序
     const sortedReal = [...realTwitterSignals].sort((a, b) => b.engagement - a.engagement);
-    // 合并：真实 Twitter 数据在前，其他平台数据在后
-    return [...sortedReal, ...nonTwitterSignals];
+    // 合并：真实 Twitter 数据在前，其他平台实时/示例数据在后
+    return [...sortedReal, ...otherSignals];
 }
 
 function formatTwitterTime(isoString) {
