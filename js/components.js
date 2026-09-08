@@ -229,13 +229,15 @@ function renderSignals(signals) {
     container.innerHTML = signals.map(item => {
         const platform = PLATFORMS[item.platform];
         const isReal = item.isReal === true;
+        const isHotList = item.sourceKind === 'hot-list';
         const keywords = item.keywords || [];
         const realBadgeText = item.platform === 'twitter' ? 'Twitter 真实抓取·附原链接' : '真实数据·附原链接';
+        const borderColor = isHotList ? '#FF9500' : isReal ? '#1DA1F2' : '';
         return `
-            <div class="signal-card" ${isReal ? 'style="border-left:3px solid #1DA1F2;"' : ''}>
+            <div class="signal-card" ${borderColor ? `style="border-left:3px solid ${borderColor};"` : ''}>
                 <div class="signal-header">
                     <span class="signal-platform">${PLATFORM_ICONS[item.platform]} ${platform.name}</span>
-                    ${isReal ? '<span class="signal-badge-real">真实数据</span>' : ''}
+                    ${isHotList ? '<span class="signal-badge-hot">平台实时热榜</span>' : isReal ? '<span class="signal-badge-real">真实数据</span>' : ''}
                     <span class="signal-author">${item.author}</span>
                     <span class="signal-time">${item.time}</span>
                     <span class="signal-likes">♥ ${item.likes}</span>
@@ -246,7 +248,7 @@ function renderSignals(signals) {
                 ${item.needText ? `
                 <div class="signal-need">
                     <div class="signal-need-head">
-                        <span class="signal-need-label">需求解读</span>
+                        <span class="signal-need-label">${isHotList ? '趋势解读' : '需求解读'}</span>
                         <span class="signal-need-type">${item.needType || '趋势观察'}</span>
                     </div>
                     <div class="signal-need-text">${item.needText}</div>
@@ -257,10 +259,10 @@ function renderSignals(signals) {
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
                         </svg>
-                        ${isReal ? realBadgeText : '原始数据·非AI生成·可点击核验'}
+                        ${isReal ? (isHotList ? '平台热榜·自动抓取·可点开核验' : realBadgeText) : '原始数据·非AI生成·可点击核验'}
                     </span>
                     <a class="signal-link" href="${item.url}" target="_blank" onclick="event.stopPropagation()">
-                        查看原文
+                        ${isHotList ? '查看热榜来源' : '查看原文'}
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
                         </svg>

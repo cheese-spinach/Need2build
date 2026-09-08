@@ -8,7 +8,8 @@
   1. GitHub 官方 REST API（无需密钥，抓最近高分新仓库）
   2. X (Twitter) API v2 recent search（需要把 Bearer Token 配到 Actions Secret）
   3. RSSHub / 任意 RSS 源（可配置知乎热榜等，见 config/rss-feeds.json）
-  4. 手工导入文件 data/manual-signals.json（抖音/小红书等暂无公开 API 的源）
+  4. 通用 HTTP 热榜/第三方搜索 API（见 config/http-signals.json）
+  5. 手工导入文件 data/manual-signals.json（需要人工维护的精选需求）
 
 用法：python scripts/collect.py
 """
@@ -513,6 +514,7 @@ def normalize_provider_item(item, field_map):
 def fetch_http_signal_feeds(now):
     """通用第三方数据服务适配器：config/http-signals.json 中每个 feed 支持：
     method / headers(可含 ${SECRET}) / query / signalsPath / fieldMap。
+    还支持 label / kind(如 hot-list) / maxItems。
     第三方只需返回 JSON，字段映射在 fieldMap 里配置。
     """
     feeds = read_json(ROOT / "config" / "http-signals.json", [])
@@ -526,13 +528,22 @@ def fetch_http_signal_feeds(now):
         platform = str(feed.get("platform") or "")
         if not url or platform not in PLATFORM_NAMES:
             continue
+        feed_label = str(feed.get("label") or "").strip() or PLATFORM_NAMES.get(platform, platform)
+        source_kind = str(feed.get("kind") or "signal").strip() or "signal"
+        max_items = int(feed.get("maxItems") or 50)
 
         method = str(feed.get("method") or "GET").upper()
         if feed.get("query"):
             query_string = urllib.parse.urlencode(feed["query"])
             url = url + ("&" if "?" in url else "?") + query_string
 
-        headers = feed.get("headers") or {}
+        headers = dict(feed.get("headers") or {})
+        headers.setdefault(
+            "User-Agent",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+        )
+        headers.setdefault("Accept", "application/json, text/plain, */*")
         try:
             data = request_json(method, url, headers=headers, payload=feed.get("body"))
         except Exception as exc:
@@ -550,24 +561,38 @@ def fetch_http_signal_feeds(now):
                 raw_items = []
 
         field_map = feed.get("fieldMap") or {}
+        added = 0
         for item in raw_items:
+            if added >= max_items:
+                break
             normalized = normalize_provider_item(item, field_map)
             link = normalized["url"]
             if not link or link in seen:
                 continue
             seen.add(link)
+            author = normalized["author"]
+            if not author or author == "\u672a\u77e5":
+                author = feed_label
+            raw_time = normalized["time"]
+            if raw_time:
+                time_display = relative_time(raw_time, now) or raw_time
+            else:
+                time_display = "\u521a\u521a"
             signals.append(
                 {
                     "platform": platform,
-                    "author": esc(normalized["author"]),
-                    "time": esc(normalized["time"]) or relative_time(normalized["time"], now),
+                    "author": esc(author),
+                    "time": esc(time_display),
                     "likes": esc(normalized["likes"]),
                     "content": esc(normalized["content"], max_len=400),
                     "keywords": [esc(k) for k in normalized["keywords"][:6]],
                     "url": esc(link),
                     "isReal": True,
+                    "sourceKind": esc(source_kind),
+                    "sourceLabel": esc(feed_label),
                 }
             )
+            added += 1
     return signals, f"\u6210\u529f\u6293\u53d6 {len(signals)} \u6761 HTTP \u4fe1\u53f7"
 
 
@@ -589,17 +614,22 @@ def build_summary(signals, projects, notes):
     for s in signals:
         platform_counts[s["platform"]] = platform_counts.get(s["platform"], 0) + 1
     top_platforms = sorted(platform_counts.items(), key=lambda kv: kv[1], reverse=True)
+    hot_platforms = {s.get("platform") for s in signals if s.get("sourceKind") == "hot-list"}
 
     trend_items = []
     if top_platforms:
         for i, (pid, count) in enumerate(top_platforms[:3], start=1):
             name = PLATFORM_NAMES.get(pid, pid)
+            if pid in hot_platforms:
+                title = f"{name}\u5b9e\u65f6\u70ed\u699c"
+            else:
+                title = f"{name}\u9700\u6c42\u4fe1\u53f7"
             trend_items.append(
                 {
                     "id": i,
-                    "title": f"{name}\u9700\u6c42\u4fe1\u53f7",
+                    "title": title,
                     "value": f"{count} \u6761",
-                    "desc": "\u4e0b\u4e00\u6b21\u81ea\u52a8\u5237\u65b0\u524d\u7684\u6700\u65b0\u6293\u53d6\u91cf",
+                    "desc": "\u6700\u8fd1\u4e00\u8f6e\u81ea\u52a8\u6293\u53d6\u7684\u53ef\u6838\u9a8c\u4fe1\u53f7",
                 }
             )
     if len(trend_items) < 3:
@@ -618,8 +648,8 @@ def build_summary(signals, projects, notes):
             "value": str(len(signals)),
             "change": "",
             "changeType": "",
-            "label": "\u5b9e\u65f6\u9700\u6c42\u4fe1\u53f7",
-            "desc": "\u6700\u8fd1\u4e00\u8f6e\u81ea\u52a8\u6293\u53d6\u7684\u539f\u6587\u6570\u91cf",
+            "label": "\u5b9e\u65f6\u4fe1\u53f7",
+            "desc": "\u6700\u8fd1\u4e00\u8f6e\u81ea\u52a8\u6293\u53d6\u7684\u53ef\u6838\u9a8c\u4fe1\u53f7",
         },
         {
             "value": str(len(projects)),

@@ -740,11 +740,9 @@ function getMergedSignals() {
     // 通用实时数据可用时优先用它；否则保留示例数据中除 Twitter 以外的部分，
     // 避免把示例 Twitter 当真实数据展示
     const fallbackOtherSignals = SIGNALS.filter(s => s.platform !== 'twitter');
-    // live 数据为空时继续使用示例数据，避免没有配好数据源时页面一片空白
-    const otherSignals =
-        liveDataLoaded && liveNonTwitterSignals.length > 0
-            ? liveNonTwitterSignals
-            : fallbackOtherSignals;
+    // live-data.json 加载成功后就以实时数据为准；
+    // 只有实时文件完全没加载成功时才回退示例，避免把示例当真实数据展示
+    const otherSignals = liveDataLoaded ? liveNonTwitterSignals : fallbackOtherSignals;
 
       // 真实数据按互动量排序
       const sortedReal = [...realTwitterSignals].sort((a, b) => b.engagement - a.engagement);

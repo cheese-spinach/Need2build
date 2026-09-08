@@ -1,26 +1,34 @@
 [
   {
-    "name": "小红书第三方搜索接口示例（新红/千瓜/灰豚等）",
-    "enabled": false,
-    "url": "https://api.provider.example.com/v1/xiaohongshu/search",
+    "name": "60s API · 小红书实时热榜",
+    "enabled": true,
+    "url": "https://60s.viki.moe/v2/rednote",
     "method": "GET",
     "platform": "xiaohongshu",
-    "label": "小红书需求信号",
-    "headers": {
-      "Authorization": "Bearer ${XHS_API_TOKEN}"
-    },
-    "query": {
-      "keyword": "工具",
-      "limit": 30
-    },
-    "signalsPath": "data.list",
+    "label": "小红书实时热榜",
+    "kind": "hot-list",
+    "maxItems": 50,
+    "signalsPath": "data",
     "fieldMap": {
-      "content": "note_desc",
-      "author": "author.name",
-      "url": "note_url",
-      "likes": "like_count",
-      "time": "time_text",
-      "keywords": "tags"
+      "content": "title",
+      "url": "link",
+      "likes": "score"
+    }
+  },
+  {
+    "name": "60s API · 抖音实时热榜",
+    "enabled": true,
+    "url": "https://60s.viki.moe/v2/douyin",
+    "method": "GET",
+    "platform": "douyin",
+    "label": "抖音实时热榜",
+    "kind": "hot-list",
+    "maxItems": 50,
+    "signalsPath": "data",
+    "fieldMap": {
+      "content": "title",
+      "url": "link",
+      "likes": "hot_value"
     }
   }
 ]

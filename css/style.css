@@ -1081,6 +1081,18 @@ a {
     letter-spacing: 0.2px;
 }
 
+.signal-badge-hot {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 7px;
+    font-size: 10px;
+    font-weight: 600;
+    background: rgba(255, 149, 0, 0.13);
+    color: #FF9500;
+    border-radius: var(--radius-full);
+    letter-spacing: 0.2px;
+}
+
 .signal-link {
     display: inline-flex;
     align-items: center;

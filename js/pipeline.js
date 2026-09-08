@@ -148,11 +148,16 @@ function enrichSignal(signal) {
 
     const raw = `${signal.content || ''} ${signal.title || ''}`;
     const topic = cleanTopic(signal.content || signal.title || '');
+    const isHotList = signal.sourceKind === 'hot-list';
     let needType = '趋势观察';
     let needText = '';
     let confidence = 35;
 
-    if (DIRECT_NEED_PATTERNS.some(p => p.test(raw))) {
+    if (isHotList) {
+        needType = '趋势观察';
+        needText = `「${topic}」入选${signal.sourceLabel || '平台'}，正在快速升温，属于趋势信号；仍需回到真实笔记/评论验证其背后需求。`;
+        confidence = 30;
+    } else if (DIRECT_NEED_PATTERNS.some(p => p.test(raw))) {
         needType = '直接需求';
         needText = `用户正在主动寻找「${topic}」相关的解决方案，属于可立即验证的产品需求。`;
         confidence = 88;
@@ -361,7 +366,15 @@ function buildOpportunityFromGroup(domain, group, projects, opportunityId) {
 }
 
 function buildOpportunitiesFromSignals(signals, projects) {
-    const enriched = signals.map(s => enrichSignal(s)).filter(s => s && (s.content || s.title));
+    const enriched = signals
+        .map((s, idx) => {
+            const enrichedSignal = enrichSignal(s);
+            if (enrichedSignal && (enrichedSignal.content || enrichedSignal.title) && !enrichedSignal.id) {
+                enrichedSignal.id = `sig-${idx + 1}`;
+            }
+            return enrichedSignal;
+        })
+        .filter(s => s && (s.content || s.title));
     const groups = new Map();
 
     for (const signal of enriched) {
@@ -385,7 +398,13 @@ function buildOpportunitiesFromSignals(signals, projects) {
 
 function refreshOpportunityPipeline() {
     // 只有存在真实信号时才自动重建机会雷达；否则保留原有人工示例
-    if (liveNonTwitterSignals.length === 0 && realTwitterSignals.length === 0) return false;
+    if (liveNonTwitterSignals.length === 0 && realTwitterSignals.length === 0) {
+        // 实时文件已加载但确实没有信号时，清空人工示例，避免把演示数据展示成真机会
+        if (typeof liveDataLoaded === 'boolean' && liveDataLoaded) {
+            OPPORTUNITIES.splice(0, OPPORTUNITIES.length);
+        }
+        return false;
+    }
 
     const signals = getMergedSignals();
     const built = buildOpportunitiesFromSignals(signals, PROJECTS);

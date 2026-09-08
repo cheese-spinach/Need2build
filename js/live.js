@@ -30,6 +30,7 @@ async function loadLiveData() {
         if (live.updatedAt) {
             renderLiveUpdateTime(live.updatedAt);
         }
+        updateLiveSourceLabel();
         return true;
     } catch (err) {
         console.warn('[Need2Build] 通用实时数据加载失败，保留示例数据:', err);
@@ -59,4 +60,27 @@ function relativeLiveTime(date) {
     if (diffSeconds < 3600) return `${Math.floor(diffSeconds / 60)} 分钟前`;
     if (diffSeconds < 86400) return `${Math.floor(diffSeconds / 3600)} 小时前`;
     return `${Math.floor(diffSeconds / 86400)} 天前`;
+}
+
+// 页脚数据来源：只显示当前真实有信号的平台
+function updateLiveSourceLabel() {
+    const el = document.getElementById('liveSourceText');
+    if (!el) return;
+
+    const seen = new Set();
+    (realTwitterSignals || []).forEach(s => {
+        if (s && s.platform) seen.add(s.platform);
+    });
+    (liveNonTwitterSignals || []).forEach(s => {
+        if (s && s.platform) seen.add(s.platform);
+    });
+    if (Array.isArray(PROJECTS) && PROJECTS.length > 0) seen.add('github');
+
+    const order = ['xiaohongshu', 'douyin', 'zhihu', 'twitter', 'reddit', 'github'];
+    const names = order
+        .filter(p => seen.has(p))
+        .map(p => (PLATFORMS[p] ? PLATFORMS[p].name : p));
+    el.textContent = names.length
+        ? '实时数据：' + names.join(' · ')
+        : '示例数据 · 尚未接入实时源';
 }

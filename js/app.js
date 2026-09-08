@@ -70,6 +70,9 @@ async function initApp() {
             refreshOpportunityPipeline();
         }
         updatePipelineDashboard();
+        if (typeof updateLiveSourceLabel === 'function') {
+            updateLiveSourceLabel();
+        }
         renderCategories();
         renderDashboard();
         renderTrends();
