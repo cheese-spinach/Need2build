@@ -40,6 +40,9 @@ GitHub Pages 是纯静态托管，前端不能保存密钥，也不能直接调�
 
 公共 RSSHub 实例容易限流，建议自建。没有 RSSHub 时跳过即可，不影响其他源。
 
+当前 `config/rss-feeds.json` 已配置一个可用的公共实例（`hub.slarker.me/zhihu/hot`）。
+如果该实例失效，可换成 `rsshub.ktachibana.party/zhihu/hot`，或改用自建 RSSHub。
+
 ## 第三步：抖音 / 小红书全网内容（重要限制）
 
 这两家**没有对外开放的全网关键词搜索 API**，GitHub Actions 这个简单方案无法直接“抓全网”。

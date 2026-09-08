@@ -23,6 +23,7 @@ import sys
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -122,9 +123,14 @@ def parse_iso(value):
         return None
     text = str(value).strip()
     text = text.replace("Z", "+00:00")
+    text = re.sub(r"\s(GMT|UTC)$", "+0000", text)
     try:
         return dt.datetime.fromisoformat(text)
     except ValueError:
+        try:
+            return parsedate_to_datetime(text)
+        except (TypeError, ValueError, OverflowError):
+            pass
         try:
             # RFC 822（RSS pubDate）
             return dt.datetime.strptime(text, "%a, %d %b %Y %H:%M:%S %z")
