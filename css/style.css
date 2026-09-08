@@ -2136,3 +2136,142 @@ a {
     background: rgba(0, 113, 227, 0.2);
     color: var(--text-primary);
 }
+
+/* ===== 三段链路条 ===== */
+.pipeline-bar {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    padding: 12px 18px;
+    margin-bottom: var(--spacing-lg);
+    background: linear-gradient(135deg, rgba(0, 113, 227, 0.06), rgba(88, 86, 214, 0.06));
+    border: 0.5px solid rgba(0, 113, 227, 0.14);
+    border-radius: var(--radius-lg);
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+
+.pipeline-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.pipeline-item small {
+    font-weight: 400;
+    color: var(--text-tertiary);
+}
+
+.pipeline-arrow {
+    color: var(--text-tertiary);
+    font-size: 16px;
+}
+
+.pipeline-bullseye {
+    position: relative;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    flex: none;
+    color: var(--color-accent);
+}
+
+.pipeline-bullseye i {
+    position: absolute;
+    border: 1.5px solid currentColor;
+    border-radius: 50%;
+}
+
+.pipeline-bullseye i:nth-child(1) { inset: 0; opacity: 0.3; }
+.pipeline-bullseye i:nth-child(2) { inset: 4px; opacity: 0.65; }
+.pipeline-bullseye i:nth-child(3) {
+    inset: 8px;
+    background: currentColor;
+    border: none;
+}
+
+/* ===== 需求解读 ===== */
+.signal-need {
+    margin: 12px 0;
+    padding: 11px 13px;
+    background: linear-gradient(135deg, rgba(0, 113, 227, 0.05), rgba(88, 86, 214, 0.05));
+    border-left: 3px solid var(--color-accent);
+    border-radius: var(--radius-md);
+}
+
+.signal-need-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.signal-need-label {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 9px;
+    background: var(--color-accent);
+    color: #fff;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.signal-need-type {
+    font-size: 11px;
+    color: var(--text-tertiary);
+}
+
+.signal-need-text {
+    font-size: 13px;
+    line-height: 1.65;
+    color: var(--text-primary);
+}
+
+.signal-need-domain {
+    margin-top: 6px;
+    font-size: 11px;
+    color: var(--text-tertiary);
+}
+
+.signal-trace-btn,
+.project-opportunity-btn {
+    margin-left: auto;
+    padding: 5px 11px;
+    border: 0.5px solid rgba(0, 113, 227, 0.3);
+    border-radius: 999px;
+    background: rgba(0, 113, 227, 0.08);
+    color: var(--color-accent);
+    font-size: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background .2s;
+}
+
+.signal-trace-btn:hover,
+.project-opportunity-btn:hover {
+    background: rgba(0, 113, 227, 0.16);
+}
+
+.drawer-evidence {
+    margin: -6px 0 18px;
+    font-size: 12px;
+    color: var(--text-tertiary);
+}
+
+.source-text a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color .2s;
+}
+
+.source-text a:hover {
+    color: var(--color-accent);
+}
+
+.meta-sources {
+    color: var(--text-tertiary);
+}

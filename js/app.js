@@ -65,15 +65,70 @@ async function initApp() {
         typeof loadLiveData === 'function' ? loadLiveData() : Promise.resolve(false),
         loadRealTwitterSignals()
     ]).then(([liveLoaded, twitterLoaded]) => {
+        // 真实数据就绪后重建机会雷达：信号 → 机会 → 开源项目 自动关联
+        if (typeof refreshOpportunityPipeline === 'function') {
+            refreshOpportunityPipeline();
+        }
+        updatePipelineDashboard();
+        renderCategories();
         renderDashboard();
         renderTrends();
         renderSignals(getFilteredSignals());
+        renderOpportunities(getFilteredOpportunities());
         renderProjects(getFilteredProjects());
         renderFavorites();
         if (twitterLoaded) {
             showToast('已加载最新 Twitter 真实需求数据');
         }
     });
+}
+
+// 让数据看板反映“信号 → 机会 → 供给”三段链路，而不是三张孤立数字
+function updatePipelineDashboard() {
+    const signalCount = getMergedSignals().length;
+    const opportunityCount = OPPORTUNITIES.length;
+    const projectCount = PROJECTS.length;
+    DASHBOARD.splice(
+        0,
+        DASHBOARD.length,
+        { value: String(signalCount), change: '', changeType: '', label: '需求信号', desc: '原文 + 需求解读，可点开原文核验' },
+        { value: String(opportunityCount), change: '', changeType: '', label: '机会雷达', desc: '由需求信号自动聚类，带证据链' },
+        { value: String(projectCount), change: '', changeType: '', label: '开源供给', desc: '可二创/复用的真实项目' },
+        { value: '', change: '', changeType: '', label: '三段链路', desc: '信号 → 机会 → 项目，三者可互相跳转', platforms: true }
+    );
+
+    const sidebarMap = {
+        sidebarSignalCount: signalCount,
+        sidebarOpportunityCount: opportunityCount,
+        sidebarProjectCount: projectCount
+    };
+    Object.entries(sidebarMap).forEach(([id, value]) => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = value;
+    });
+}
+
+// 从一条需求信号跳转到它聚合出的机会
+function openSignalOpportunity(signalId) {
+    const signal = getMergedSignals().find(s => String(s.id) === String(signalId));
+    if (!signal || !signal.opportunityId) {
+        switchTab('radar');
+        showToast('这条信号仍处于观察中，尚未聚类为机会');
+        return;
+    }
+    switchTab('radar');
+    openDrawer(signal.opportunityId);
+}
+
+// 从开源项目跳转到它可支撑的机会
+function openProjectOpportunities(projectId) {
+    const project = PROJECTS.find(p => String(p.id) === String(projectId));
+    if (!project || !project.relatedOpportunityIds || project.relatedOpportunityIds.length === 0) {
+        showToast('该项目暂未匹配到机会，仍在供给池观察中');
+        return;
+    }
+    switchTab('radar');
+    openDrawer(project.relatedOpportunityIds[0]);
 }
 
 // 切换Tab

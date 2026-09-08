@@ -10,6 +10,28 @@ const PLATFORM_ICONS = {
     github: `<svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>`
 };
 
+// 统一替换为「靶心」图标，保留各平台品牌色
+function targetMarkIcon(size, color) {
+    return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="10" stroke="${color}" stroke-opacity="0.32" stroke-width="1.4"/>
+        <circle cx="12" cy="12" r="5.8" stroke="${color}" stroke-opacity="0.7" stroke-width="1.5"/>
+        <circle cx="12" cy="12" r="1.8" fill="${color}"/>
+        <path d="M12 1.8v3M12 19.2v3M1.8 12h3M19.2 12h3" stroke="${color}" stroke-opacity="0.4" stroke-width="1.2" stroke-linecap="round"/>
+    </svg>`;
+}
+
+const PLATFORM_TARGET_COLORS = {
+    xiaohongshu: '#FF2442',
+    douyin: '#1a1a1a',
+    zhihu: '#0066ff',
+    twitter: '#1DA1F2',
+    reddit: '#ff4500',
+    github: '#FFFFFF'
+};
+Object.keys(PLATFORM_TARGET_COLORS).forEach(key => {
+    PLATFORM_ICONS[key] = targetMarkIcon(key === 'github' ? 18 : 14, PLATFORM_TARGET_COLORS[key]);
+});
+
 // 渲染赛道分类菜单
 function renderCategories() {
     const container = document.getElementById('categoryList');
@@ -130,6 +152,7 @@ function renderOpportunityCard(item) {
                         ${PLATFORM_ICONS[item.comment.platform]}
                         <span class="meta-author">${item.comment.author}</span>
                     </span>
+                    ${item.evidenceCount ? `<span class="meta-item meta-sources">来自 ${item.evidenceCount} 条信号</span>` : ''}
                     <span class="meta-item meta-likes">♥ ${item.comment.likes}</span>
                     <span class="meta-item meta-projects">${item.projects} 个匹配开源项目</span>
                     <span class="meta-item meta-cost">${item.cost}</span>
@@ -220,6 +243,15 @@ function renderSignals(signals) {
                     ${item.replies !== undefined ? `<span class="signal-likes" style="color:#34c759;">💬 ${item.replies}</span>` : ''}
                 </div>
                 <div class="signal-content">${item.content}</div>
+                ${item.needText ? `
+                <div class="signal-need">
+                    <div class="signal-need-head">
+                        <span class="signal-need-label">需求解读</span>
+                        <span class="signal-need-type">${item.needType || '趋势观察'}</span>
+                    </div>
+                    <div class="signal-need-text">${item.needText}</div>
+                    ${item.domainName ? `<div class="signal-need-domain">追踪主题：${item.domainName}</div>` : ''}
+                </div>` : ''}
                 <div class="signal-footer">
                     <span class="signal-badge">
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -236,6 +268,9 @@ function renderSignals(signals) {
                     <div class="signal-keywords">
                         ${keywords.map(k => `<span class="signal-keyword">${k}</span>`).join('')}
                     </div>
+                    ${item.opportunityId ? `<button class="signal-trace-btn" onclick="openSignalOpportunity('${item.id}')">
+                        查看关联机会 →
+                    </button>` : ''}
                 </div>
             </div>
         `;
@@ -274,6 +309,9 @@ function renderProjects(projects) {
                 <span class="project-meta-item ${item.activity === '高度活跃' ? 'active' : ''}">● ${item.activity}</span>
                 <span class="project-meta-item">更新于 ${item.lastUpdate}</span>
                 <span class="project-meta-item">Forks ${item.forks}</span>
+                ${item.relatedOpportunityCount ? `<button class="project-opportunity-btn" onclick="event.stopPropagation(); openProjectOpportunities('${item.id}')">
+                    支撑 ${item.relatedOpportunityCount} 个机会
+                </button>` : ''}
                 <div class="remix-score">
                     <span class="remix-score-label">可二创度</span>
                     <span class="remix-score-value">${item.remixScore}</span>
@@ -320,6 +358,7 @@ function renderDrawer(item) {
     const dims = item.dims;
     container.innerHTML = `
         <h1 class="drawer-title">${item.title}</h1>
+        <div class="drawer-evidence">证据链：${item.evidenceCount || item.detail.sources.length} 条信号 → ${item.projects || 0} 个开源项目</div>
 
         <!-- 评分维度 -->
         <div class="drawer-section">
@@ -365,7 +404,7 @@ function renderDrawer(item) {
                         </div>
                         <div class="source-info">
                             <div class="source-author">${s.author}</div>
-                            <div class="source-text">${s.text}</div>
+                            <div class="source-text">${s.url ? `<a href="${s.url}" target="_blank" rel="noopener">${s.text}</a>` : s.text}</div>
                         </div>
                         <span class="source-percent">${s.percent}%</span>
                     </div>

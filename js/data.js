@@ -729,13 +729,16 @@ function getMergedSignals() {
             ? liveNonTwitterSignals
             : fallbackOtherSignals;
 
-    if (realTwitterSignals.length === 0) return otherSignals;
-
-    // 真实数据按互动量排序
-    const sortedReal = [...realTwitterSignals].sort((a, b) => b.engagement - a.engagement);
-    // 合并：真实 Twitter 数据在前，其他平台实时/示例数据在后
-    return [...sortedReal, ...otherSignals];
-}
+      // 真实数据按互动量排序
+      const sortedReal = [...realTwitterSignals].sort((a, b) => b.engagement - a.engagement);
+      // 合并：真实 Twitter 数据在前，其他平台实时/示例数据在后
+      const merged = [...sortedReal, ...otherSignals];
+      // 给每条信号补上“需求解读”，让原始摘抄变成可追踪的需求信号
+      if (typeof enrichSignal === 'function') {
+          merged.forEach(s => enrichSignal(s));
+      }
+      return merged;
+  }
 
 function formatTwitterTime(isoString) {
     if (!isoString) return '未知';
