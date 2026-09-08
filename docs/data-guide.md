@@ -52,6 +52,9 @@ GitHub Pages 是纯静态托管，前端不能保存密钥，也不能直接调�
 2. **购买第三方数据服务**（新红、千瓜、蝉妈妈等），用它们提供的导出/API 拿数据
 3. **把第三方导出的内容放入 `data/manual-signals.json`**，下次定时任务会自动合并进页面
 
+仓库已经建好空的 `data/manual-signals.json`，可以直接编辑 `signals` 数组；
+页面会把这些条目标记为“真实数据”，每条必须带原链接。
+
 `data/manual-signals.json` 格式与 `data/manual-signals.example.json` 一致，`platform` 字段必须是
 `douyin` / `xiaohongshu` / `zhihu` 之一，每条必须带可点击的原链接。
 
