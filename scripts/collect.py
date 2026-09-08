@@ -236,6 +236,7 @@ def fetch_x_signals(now):
         "User-Agent": "Need2Build-Collector/1.0",
     }
     any_success = False
+    errors = []
 
     for entry in queries:
         query = str(entry.get("query") or "").strip()
@@ -255,7 +256,14 @@ def fetch_x_signals(now):
             data = fetch_json(url, headers=headers)
             any_success = True
         except Exception as exc:
-            log("X search 失败：", exc)
+            detail = f"{type(exc).__name__}: {exc}"
+            if hasattr(exc, "read"):
+                try:
+                    detail = exc.read().decode("utf-8", "replace")[:400]
+                except Exception:
+                    pass
+            errors.append(detail)
+            log("X search 失败：", detail)
             continue
 
         users = {u["id"]: u for u in (data.get("includes") or {}).get("users", [])}
@@ -293,7 +301,8 @@ def fetch_x_signals(now):
             )
 
     if not any_success:
-        return None, "Twitter API 全部请求失败，保留原有 twitter_signals.json"
+        error_text = "；".join(errors[:3])
+        return None, f"Twitter API 请求失败：{error_text or '未知错误'}"
 
     signals.sort(key=lambda s: s["engagement_score"], reverse=True)
     signals = signals[:30]
