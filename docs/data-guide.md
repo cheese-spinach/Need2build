@@ -43,7 +43,17 @@ GitHub Pages 是纯静态托管，前端不能保存密钥，也不能直接调�
 当前 `config/rss-feeds.json` 已配置一个可用的公共实例（`hub.slarker.me/zhihu/hot`）。
 如果该实例失效，可换成 `rsshub.ktachibana.party/zhihu/hot`，或改用自建 RSSHub。
 
-## 第三步：抖音 / 小红书全网内容（重要限制）
+## 第三步：抖音 / 小红书（当前：60s 实时热榜已启用）
+
+当前 `config/http-signals.json` 已启用 [60s API](https://docs.60s-api.viki.moe) 的两个实时热搜接口：
+
+- 小红书：`https://60s.viki.moe/v2/rednote`（备用公共实例自动容错）
+- 抖音：`https://60s.viki.moe/v2/douyin`
+
+GitHub Actions 每 2 小时自动抓取并写入 `js/live-data.json`；前端会把这两类数据明确标注为
+“平台实时热榜”，信号解读标记为“趋势观察”，不会伪装成真实用户需求原文。
+
+如果你要做“发现需求”级别的**全网内容搜索**，仍需注意以下限制：
 
 这两家**没有对外开放的全网关键词搜索 API**，GitHub Actions 这个简单方案无法直接“抓全网”。
 正规可行路径只有三种：
@@ -84,5 +94,6 @@ GitHub Secret，不需要把 Token 写在配置文件里。如果服务商的鉴
 - **页面还是旧数据？** 手动运行一次 **Refresh live data**，等待 Pages 重新部署（通常 1–3 分钟）
 - **某平台列表为空？** 表示该源还没配置成功，打开 Actions 日志查看 `sourceNotes`
 - **想改成每 30 分钟？** 修改 `.github/workflows/refresh-data.yml` 的 cron，并注意 X 的 API 额度
-- **live-data.json / twitter_signals.json 不存在或为空？** 页面自动回退到 `js/data.js`
-  中的示例数据（Twitter 示例除外，避免把假数据标成真实抓取）
+- **live-data.json 加载失败（文件不存在/网络错误）？** 页面暂时回退到 `js/data.js` 示例数据，
+  页脚会标明“示例数据”
+- **live-data.json 加载成功但为空？** 页面显示“暂无匹配的信号”，不会把人工示例伪装成实时数据
