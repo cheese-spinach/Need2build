@@ -1,7 +1,26 @@
 [
   {
-    "url": "",
+    "name": "小红书第三方搜索接口示例（新红/千瓜/灰豚等）",
+    "enabled": false,
+    "url": "https://api.provider.example.com/v1/xiaohongshu/search",
+    "method": "GET",
     "platform": "xiaohongshu",
-    "label": "第三方数据服务示例"
+    "label": "小红书需求信号",
+    "headers": {
+      "Authorization": "Bearer ${XHS_API_TOKEN}"
+    },
+    "query": {
+      "keyword": "工具",
+      "limit": 30
+    },
+    "signalsPath": "data.list",
+    "fieldMap": {
+      "content": "note_desc",
+      "author": "author.name",
+      "url": "note_url",
+      "likes": "like_count",
+      "time": "time_text",
+      "keywords": "tags"
+    }
   }
 ]

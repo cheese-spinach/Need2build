@@ -26,6 +26,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          XHS_API_TOKEN: ${{ secrets.XHS_API_TOKEN }}
+          XHS_API_KEY: ${{ secrets.XHS_API_KEY }}
+          XHS_API_SECRET: ${{ secrets.XHS_API_SECRET }}
           X_MAX_RESULTS: ${{ vars.X_MAX_RESULTS }}
         run: python scripts/collect.py
 

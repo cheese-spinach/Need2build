@@ -428,36 +428,142 @@ def load_manual_signals():
     return signals
 
 
+def expand_env_value(value):
+    """把配置里的 ${ENV_NAME} 展开为 GitHub Actions Secret / 环境变量。"""
+    if isinstance(value, str):
+        def replace(match):
+            return os.environ.get(match.group(1), "")
+        return re.sub(r"\$\{([A-Za-z_][A-Za-z0-9_]*)\}", replace, value)
+    if isinstance(value, list):
+        return [expand_env_value(item) for item in value]
+    if isinstance(value, dict):
+        return {key: expand_env_value(item) for key, item in value.items()}
+    return value
+
+
+def deep_get(obj, path):
+    """按 a.b.c 路径取值，支持数字下标访问 list。"""
+    if path is None:
+        return obj
+    current = obj
+    for part in str(path).split("."):
+        if isinstance(current, dict):
+            current = current.get(part)
+        elif isinstance(current, list) and part.isdigit():
+            current = current[int(part)]
+        else:
+            return None
+    return current
+
+
+def request_json(method, url, headers=None, payload=None):
+    headers = headers or {}
+    if method == "POST":
+        body = json.dumps(payload or {}).encode("utf-8")
+        req = urllib.request.Request(
+            url,
+            data=body,
+            headers={**headers, "Content-Type": "application/json"},
+            method="POST",
+        )
+    else:
+        req = urllib.request.Request(url, headers=headers, method=method)
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def normalize_provider_item(item, field_map):
+    """把第三方返回的任意字段结构归一化为页面 signal 结构。"""
+    aliases = {
+        "content": ["content", "note_desc", "desc", "text", "note_title", "title", "body"],
+        "author": ["author", "author_name", "nickname", "user_name", "user.nickname", "author.name"],
+        "url": ["url", "note_url", "share_url", "link", "post_url", "detail_url"],
+        "likes": ["likes", "like_count", "liked_count", "like_num", "fav_count"],
+        "time": ["time", "time_text", "created_at", "publish_time", "pub_time"],
+        "keywords": ["keywords", "tags", "topics", "key_words"],
+    }
+
+    def pick(ours):
+        custom_path = field_map.get(ours) if isinstance(field_map, dict) else None
+        if custom_path:
+            value = deep_get(item, custom_path)
+            if value not in (None, ""):
+                return value
+        for alias in aliases.get(ours, []):
+            value = deep_get(item, alias)
+            if value not in (None, ""):
+                return value
+        return ""
+
+    keywords = pick("keywords")
+    if isinstance(keywords, list):
+        keyword_list = keywords
+    else:
+        keyword_list = [k for k in str(keywords).replace("，", ",").split(",") if k.strip()]
+    return {
+        "content": str(pick("content") or ""),
+        "author": str(pick("author") or "\u672a\u77e5"),
+        "url": str(pick("url") or ""),
+        "likes": str(pick("likes") or ""),
+        "time": str(pick("time") or ""),
+        "keywords": keyword_list,
+    }
+
+
 def fetch_http_signal_feeds(now):
-    """兼容第三方数据服务：config/http-signals.json 中的每个 URL 需返回
-    {"signals": [{platform, author, time, likes, content, keywords, url}, ...]}。
+    """通用第三方数据服务适配器：config/http-signals.json 中每个 feed 支持：
+    method / headers(可含 ${SECRET}) / query / signalsPath / fieldMap。
+    第三方只需返回 JSON，字段映射在 fieldMap 里配置。
     """
     feeds = read_json(ROOT / "config" / "http-signals.json", [])
     signals = []
     seen = set()
-    for feed in feeds:
+    for raw_feed in feeds:
+        if raw_feed.get("enabled") is False:
+            continue
+        feed = expand_env_value(raw_feed)
         url = str(feed.get("url") or "").strip()
         platform = str(feed.get("platform") or "")
         if not url or platform not in PLATFORM_NAMES:
             continue
+
+        method = str(feed.get("method") or "GET").upper()
+        if feed.get("query"):
+            query_string = urllib.parse.urlencode(feed["query"])
+            url = url + ("&" if "?" in url else "?") + query_string
+
+        headers = feed.get("headers") or {}
         try:
-            data = fetch_json(url)
+            data = request_json(method, url, headers=headers, payload=feed.get("body"))
         except Exception as exc:
             log("HTTP \u4fe1\u53f7\u6e90\u5931\u8d25\uff1a", url, exc)
             continue
-        for item in (data.get("signals") or []):
-            link = str(item.get("url") or "")
+
+        signals_path = feed.get("signalsPath")
+        raw_items = deep_get(data, signals_path) if signals_path else data.get("signals")
+        if not isinstance(raw_items, list):
+            if isinstance(data, list):
+                raw_items = data
+            elif isinstance(data.get("data"), list):
+                raw_items = data["data"]
+            else:
+                raw_items = []
+
+        field_map = feed.get("fieldMap") or {}
+        for item in raw_items:
+            normalized = normalize_provider_item(item, field_map)
+            link = normalized["url"]
             if not link or link in seen:
                 continue
             seen.add(link)
             signals.append(
                 {
                     "platform": platform,
-                    "author": esc(item.get("author") or "\u672a\u77e5"),
-                    "time": esc(item.get("time") or relative_time(item.get("created_at"), now)),
-                    "likes": esc(item.get("likes") or ""),
-                    "content": esc(item.get("content") or "", max_len=400),
-                    "keywords": [esc(k) for k in (item.get("keywords") or [])],
+                    "author": esc(normalized["author"]),
+                    "time": esc(normalized["time"]) or relative_time(normalized["time"], now),
+                    "likes": esc(normalized["likes"]),
+                    "content": esc(normalized["content"], max_len=400),
+                    "keywords": [esc(k) for k in normalized["keywords"][:6]],
                     "url": esc(link),
                     "isReal": True,
                 }

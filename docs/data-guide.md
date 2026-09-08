@@ -58,6 +58,21 @@ GitHub Pages 是纯静态托管，前端不能保存密钥，也不能直接调�
 如果第三方服务提供 REST API 且返回 `{"signals": [...]}`，也可以把接口地址填进
 `config/http-signals.json`，定时任务会自动调用并合并。
 
+### 小红书第三方 API 接入步骤
+
+1. 向数据服务商（新红 / 千瓜 / 灰豚等）确认它的 **API 文档**、**接口地址**、
+   请求头和返回字段结构
+2. 把密钥配置到 GitHub Secrets（例如 `XHS_API_TOKEN`），值不要写进代码
+3. 编辑 `config/http-signals.json`，把 `enabled` 改为 `true`，并填入真实 URL、
+   请求头和字段映射（`fieldMap` 指向返回 JSON 中对应的字段）
+4. 手动运行一次 **Refresh live data**，在仓库 `js/live-data.json` 的
+   `sourceNotes` 中查看是否抓取成功
+
+示例中 `headers.Authorization` 的值 `Bearer ${XHS_API_TOKEN}` 会自动读取同名
+GitHub Secret，不需要把 Token 写在配置文件里。如果服务商的鉴权方式是
+`api_key` 参数或签名头，也都可以写在 `query` / `headers` 中并用
+`${XHS_API_KEY}`、`${XHS_API_SECRET}` 占位。
+
 `live-data.json` 里的信号会被标记为真实数据；Twitter 信号在 `twitter_signals.json`
 中单独维护，标记为“真实抓取”。
 
