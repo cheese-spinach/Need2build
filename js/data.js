@@ -55,6 +55,23 @@ const CATEGORIES = [
             { id: 'overseas-content', name: '海外内容', keywords: ['YouTube', 'TikTok', '海外自媒体', '短剧出海'] },
             { id: 'supply', name: '供应链外迁', keywords: ['供应链', '东南亚', '墨西哥', '制造'] }
         ]
+    },
+    {
+        id: 'live-themes',
+        name: '实时需求主题',
+        icon: '🎯',
+        subcategories: [
+            { id: 'auto_ev', name: '智能出行 / 新能源', keywords: ['汽车', '新能源', '电动车', '车企'] },
+            { id: 'digital', name: '数码与智能硬件', keywords: ['手机', '折叠屏', '数码', '硬件'] },
+            { id: 'finance', name: '理财与消费决策', keywords: ['理财', '银行', '股票', '消费'] },
+            { id: 'health_silver', name: '健康与银发', keywords: ['健康', '养老', '老人', '医疗'] },
+            { id: 'pet', name: '宠物经济', keywords: ['宠物', '猫', '狗'] },
+            { id: 'work_edu', name: '职场与学习', keywords: ['职场', '就业', '学习', '教育'] },
+            { id: 'content_media', name: '内容与娱乐消费', keywords: ['自媒体', '短视频', '直播', '影视'] },
+            { id: 'travel_local', name: '文旅与本地生活', keywords: ['旅游', '民宿', '本地', '社区'] },
+            { id: 'industry_trend', name: '产业与供应链', keywords: ['供应链', '制造', '稀土', '行业'] },
+            { id: 'general', name: '综合趋势观察', keywords: ['趋势', '现象', '热议'] }
+        ]
     }
 ];
 

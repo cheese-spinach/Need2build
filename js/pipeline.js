@@ -178,6 +178,7 @@ function enrichSignal(signal) {
     const legacy = matchLegacyCategory(raw);
     const likes = parseSignalLikes(signal);
     const score = Math.min(95, confidence + Math.min(10, Math.log10(likes + 1) * 2));
+    const useLegacyCategory = domain.id === 'general' && legacy;
 
     signal.needType = needType;
     signal.needText = needText;
@@ -185,8 +186,8 @@ function enrichSignal(signal) {
     signal.demandScore = Math.round(score);
     signal.domain = domain.id;
     signal.domainName = domain.name;
-    signal.category = legacy ? legacy.category : 'all';
-    signal.categoryName = legacy ? legacy.categoryName : domain.name;
+    signal.category = domain.id === 'general' ? (legacy ? legacy.category : 'general') : domain.id;
+    signal.categoryName = useLegacyCategory ? legacy.categoryName : domain.name;
     return signal;
 }
 
