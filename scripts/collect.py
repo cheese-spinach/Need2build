@@ -513,7 +513,8 @@ def normalize_provider_item(item, field_map):
 
 def fetch_http_signal_feeds(now):
     """通用第三方数据服务适配器：config/http-signals.json 中每个 feed 支持：
-    method / headers(可含 ${SECRET}) / query / signalsPath / fieldMap。
+    method / headers(可含 ${SECRET}) / query / signalsPath / fieldMap /
+    fallbackUrls（主 URL 失败时自动依次尝试）。
     还支持 label / kind(如 hot-list) / maxItems。
     第三方只需返回 JSON，字段映射在 fieldMap 里配置。
     """
@@ -535,7 +536,15 @@ def fetch_http_signal_feeds(now):
         method = str(feed.get("method") or "GET").upper()
         if feed.get("query"):
             query_string = urllib.parse.urlencode(feed["query"])
-            url = url + ("&" if "?" in url else "?") + query_string
+            candidate_urls = []
+            for candidate in [url] + [str(u) for u in (feed.get("fallbackUrls") or [])]:
+                candidate = candidate.strip()
+                if not candidate:
+                    continue
+                candidate_urls.append(candidate + ("&" if "?" in candidate else "?") + query_string)
+        else:
+            candidate_urls = [url] + [str(u).strip() for u in (feed.get("fallbackUrls") or [])]
+            candidate_urls = [u for u in candidate_urls if u]
 
         headers = dict(feed.get("headers") or {})
         headers.setdefault(
@@ -544,10 +553,14 @@ def fetch_http_signal_feeds(now):
             "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
         )
         headers.setdefault("Accept", "application/json, text/plain, */*")
-        try:
-            data = request_json(method, url, headers=headers, payload=feed.get("body"))
-        except Exception as exc:
-            log("HTTP \u4fe1\u53f7\u6e90\u5931\u8d25\uff1a", url, exc)
+        data = None
+        for candidate in candidate_urls:
+            try:
+                data = request_json(method, candidate, headers=headers, payload=feed.get("body"))
+                break
+            except Exception as exc:
+                log("HTTP \u4fe1\u53f7\u6e90\u5931\u8d25\uff1a", candidate, exc)
+        if data is None:
             continue
 
         signals_path = feed.get("signalsPath")

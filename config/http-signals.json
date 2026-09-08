@@ -8,6 +8,10 @@
     "label": "小红书实时热榜",
     "kind": "hot-list",
     "maxItems": 50,
+    "fallbackUrls": [
+      "https://60s.7se.cn/v2/rednote",
+      "https://60s.crystelf.top/v2/rednote"
+    ],
     "signalsPath": "data",
     "fieldMap": {
       "content": "title",
@@ -24,6 +28,10 @@
     "label": "抖音实时热榜",
     "kind": "hot-list",
     "maxItems": 50,
+    "fallbackUrls": [
+      "https://60s.7se.cn/v2/douyin",
+      "https://60s.crystelf.top/v2/douyin"
+    ],
     "signalsPath": "data",
     "fieldMap": {
       "content": "title",
