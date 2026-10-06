@@ -183,6 +183,23 @@
                     <!-- 动态生成 -->
                 </div>
 
+                <!-- 需求雷达：平台词表 → 关联词扩散 → 需求 → 开源项目 -->
+                <div class="need-radar-section" id="needRadarSection" style="display:none;">
+                    <div class="nr-section-head">
+                        <h2 class="nr-section-title">需求雷达 · 自动发现</h2>
+                        <p class="nr-section-desc" id="needRadarSummary"></p>
+                        <p class="nr-section-note">
+                            链路：抖音指数平台词表（机器取词，无人挑词）→ 关联词自动扩散 → 需求形状过滤 → GitHub 开源项目匹配。
+                            卡片不显示综合评分，因为评分尚未用真实数据校准。
+                        </p>
+                    </div>
+                    <div class="need-radar-list" id="needRadarList">
+                        <!-- 动态生成 -->
+                    </div>
+                </div>
+
+                <div class="section-divider">以下为老链路（热榜信号聚类）的结果</div>
+
                 <!-- 筛选标签 -->
                 <div class="filter-bar">
                     <div class="filter-group">
@@ -296,6 +313,7 @@
     <script src="js/data.js"></script>
     <script src="js/live.js"></script>
     <script src="js/pipeline.js"></script>
+    <script src="js/need-radar.js"></script>
     <script src="js/components.js"></script>
     <script src="js/app.js"></script>
 </body>

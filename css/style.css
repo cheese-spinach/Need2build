@@ -2287,3 +2287,155 @@ a {
 .meta-sources {
     color: var(--text-tertiary);
 }
+
+/* ===== 需求雷达（新链路）===== */
+.need-radar-section {
+    margin: 4px 0 28px;
+}
+
+.nr-section-head {
+    margin-bottom: 14px;
+}
+
+.nr-section-title {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 6px;
+}
+
+.nr-section-desc {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin: 0 0 6px;
+}
+
+.nr-section-note {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.section-divider {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    padding-top: 14px;
+    margin: 0 0 14px;
+}
+
+.need-radar-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 14px;
+}
+
+.nr-card {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-left: 3px solid #0071e3;
+    border-radius: 12px;
+    padding: 14px 16px;
+}
+
+.nr-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.nr-seed {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.nr-badge {
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 999px;
+    background: rgba(0, 113, 227, 0.1);
+    color: #0071e3;
+}
+
+.nr-origin,
+.nr-meta {
+    font-size: 11px;
+    color: var(--text-tertiary);
+}
+
+.nr-directions {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.nr-dir {
+    display: flex;
+    gap: 8px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.nr-dir-label {
+    flex: 0 0 68px;
+    font-size: 11px;
+    color: var(--text-secondary);
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    padding: 1px 6px;
+    height: fit-content;
+    text-align: center;
+}
+
+.nr-dir-words {
+    color: var(--text-primary);
+}
+
+.nr-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.08);
+    padding-top: 10px;
+}
+
+.nr-projects-empty {
+    font-size: 12px;
+    color: var(--text-tertiary);
+}
+
+.nr-project {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+.nr-project-name {
+    font-weight: 600;
+    color: #0071e3;
+    white-space: nowrap;
+}
+
+.nr-project-stars {
+    color: var(--text-tertiary);
+    white-space: nowrap;
+}
+
+.nr-project-desc {
+    color: var(--text-secondary);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.nr-project:hover .nr-project-name {
+    text-decoration: underline;
+}

@@ -1,0 +1,2878 @@
+{
+  "generatedAt": "2026-10-05T07:04:29.427Z",
+  "source": "抖音指数（原巨量算数）· 创作指南关键词榜 + 关键词分析关联分析",
+  "poolDomains": 24,
+  "poolWords": 119,
+  "seedCount": 29,
+  "opportunityCount": 22,
+  "projectsMatched": 21,
+  "errors": [],
+  "opportunities": [
+    {
+      "id": "opp-养生",
+      "seed": "养生",
+      "origin": "platform-pool",
+      "status": "可验证",
+      "demandWordCount": 7,
+      "relatedWordCount": 7,
+      "directionCount": 4,
+      "directions": [
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "附近养生馆",
+            "spa养生会所",
+            "美容养生馆",
+            "会馆"
+          ]
+        },
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "养生壶"
+          ]
+        },
+        {
+          "shapeId": "local",
+          "shape": "地域就近",
+          "words": [
+            "附近团"
+          ]
+        },
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "养生方法"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "养生壶",
+          "value": 81,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "附近养生馆",
+          "value": 49,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "spa养生会所",
+          "value": 46,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "美容养生馆",
+          "value": 40,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "会馆",
+          "value": 39,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "附近团",
+          "value": 37,
+          "shape": "地域就近",
+          "shapeId": "local"
+        },
+        {
+          "word": "养生方法",
+          "value": 36,
+          "shape": "求解教程",
+          "shapeId": "howto"
+        }
+      ],
+      "unmatchedSample": [],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "mescon/Muximux",
+          "stars": 1220,
+          "description": "A self-hosted homelab dashboard with an optional built-in reverse proxy that makes stubborn apps work in iframes",
+          "topics": [
+            "caddy",
+            "dashboard",
+            "docker",
+            "golang",
+            "grafana",
+            "health-monitoring",
+            "homelab",
+            "htpc",
+            "iframe",
+            "plex",
+            "radarr",
+            "reverse-proxy",
+            "self-hosted",
+            "sonarr",
+            "svelte"
+          ],
+          "language": "Go",
+          "url": "https://github.com/mescon/Muximux"
+        },
+        {
+          "name": "aashari/example-android-mi-band-2",
+          "stars": 108,
+          "description": "Android example showing Bluetooth communication with Xiaomi Mi Band 2. Demonstrates device pairing, data syncing, activi",
+          "topics": [
+            "android",
+            "bluetooth",
+            "fitness-tracker",
+            "health-monitoring",
+            "iot",
+            "mi-band",
+            "wearable",
+            "xiaomi"
+          ],
+          "language": "Java",
+          "url": "https://github.com/aashari/example-android-mi-band-2"
+        },
+        {
+          "name": "lvetech/ALT",
+          "stars": 81,
+          "description": "Non-contact real-time heartbeats and respiration monitoring using Artificial Light Texture (ALT).",
+          "topics": [
+            "blood-pressure",
+            "contactless",
+            "health-monitoring",
+            "healthcare",
+            "heartbeats",
+            "kinect",
+            "non-contact",
+            "picamera",
+            "pulse",
+            "raspberry-pi",
+            "realsense",
+            "realsense-camera",
+            "respiration",
+            "sleep",
+            "structure-sensor"
+          ],
+          "language": "Python",
+          "url": "https://github.com/lvetech/ALT"
+        }
+      ],
+      "projectProbe": "附近养生馆"
+    },
+    {
+      "id": "opp-减肥",
+      "seed": "减肥",
+      "origin": "seed",
+      "status": "可验证",
+      "demandWordCount": 6,
+      "relatedWordCount": 14,
+      "directionCount": 4,
+      "directions": [
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "减肥前后对比",
+            "最有效"
+          ]
+        },
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "减肥餐",
+            "减肥产品"
+          ]
+        },
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "怎么减肥"
+          ]
+        },
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "减肥训练营"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "怎么减肥",
+          "value": 77,
+          "shape": "求解教程",
+          "shapeId": "howto"
+        },
+        {
+          "word": "减肥训练营",
+          "value": 70,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "减肥前后对比",
+          "value": 66,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        },
+        {
+          "word": "减肥餐",
+          "value": 64,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "减肥产品",
+          "value": 63,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "最有效",
+          "value": 55,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        }
+      ],
+      "unmatchedSample": [
+        "减肥操",
+        "减肥法",
+        "减肥期",
+        "减肥成功",
+        "减肥效果",
+        "健身操",
+        "减肥最快",
+        "减肥能吃"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "hasaneyldrm/exercises-dataset",
+          "stars": 22512,
+          "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
+          "topics": [
+            "dataset",
+            "exercise-database",
+            "exercises",
+            "fitness",
+            "fitness-app",
+            "gym",
+            "json",
+            "logpress",
+            "react-native",
+            "workout"
+          ],
+          "language": "HTML",
+          "url": "https://github.com/hasaneyldrm/exercises-dataset"
+        },
+        {
+          "name": "Snouzy/workout-cool",
+          "stars": 8548,
+          "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
+          "topics": [
+            "coach",
+            "exercise",
+            "feature-sliced-design",
+            "fitness",
+            "gym",
+            "health",
+            "nextjs",
+            "open-source",
+            "postgresql",
+            "prisma",
+            "radix-ui",
+            "react",
+            "shadcn-ui",
+            "tailwindcss",
+            "training",
+            "typescript",
+            "webapp",
+            "workout"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/Snouzy/workout-cool"
+        },
+        {
+          "name": "wger-project/wger",
+          "stars": 7019,
+          "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
+          "topics": [
+            "django",
+            "fitness",
+            "gym",
+            "hacktoberfest",
+            "python",
+            "self-hosted",
+            "workout"
+          ],
+          "language": "Python",
+          "url": "https://github.com/wger-project/wger"
+        }
+      ],
+      "projectProbe": "减肥前后对比"
+    },
+    {
+      "id": "opp-亲子游",
+      "seed": "亲子游",
+      "origin": "seed",
+      "status": "可验证",
+      "demandWordCount": 5,
+      "relatedWordCount": 12,
+      "directionCount": 4,
+      "directions": [
+        {
+          "shapeId": "local",
+          "shape": "地域就近",
+          "words": [
+            "三天两晚",
+            "周末亲子游"
+          ]
+        },
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "好去处"
+          ]
+        },
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "亲子游攻略"
+          ]
+        },
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "带娃"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "好去处",
+          "value": 50,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        },
+        {
+          "word": "亲子游攻略",
+          "value": 34,
+          "shape": "求解教程",
+          "shapeId": "howto"
+        },
+        {
+          "word": "带娃",
+          "value": 31,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "三天两晚",
+          "value": 21,
+          "shape": "地域就近",
+          "shapeId": "local"
+        },
+        {
+          "word": "周末亲子游",
+          "value": 16,
+          "shape": "地域就近",
+          "shapeId": "local"
+        }
+      ],
+      "unmatchedSample": [
+        "亲子游玩",
+        "亲子",
+        "亲子游乐园",
+        "国庆亲子游",
+        "北京亲子游",
+        "西安亲子游",
+        "两天一夜"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "JourniOne-ai/JourniOne-Planning-Skills",
+          "stars": 492,
+          "description": "JourniOne 旅行规划 Skill：从灵感与逐日路线，到带地图、可分享的 Travel Journal，按需衔接酒店与航班。",
+          "topics": [
+            "agent-skills",
+            "ai-agent",
+            "itinerary",
+            "journione",
+            "travel-journal",
+            "travel-planning"
+          ],
+          "language": "JavaScript",
+          "url": "https://github.com/JourniOne-ai/JourniOne-Planning-Skills"
+        },
+        {
+          "name": "zexuanw958-svg/travel-plan-viz",
+          "stars": 397,
+          "description": "Migo · 旅行领航 —— 把旅行行程生成为单文件、可离线、手机优先的 HTML（交互地图+每日时间轴+出发前提醒）。Claude Code / Codex 通用 Skill（travel-plan-viz）。",
+          "topics": [
+            "agent-skill",
+            "claude-code",
+            "claude-skill",
+            "codex",
+            "html",
+            "itinerary",
+            "migo",
+            "mobile-first",
+            "offline-first",
+            "travel",
+            "trip-planner"
+          ],
+          "language": "JavaScript",
+          "url": "https://github.com/zexuanw958-svg/travel-plan-viz"
+        },
+        {
+          "name": "rohitkumbhar/surmai",
+          "stars": 282,
+          "description": "Surmai is a personal/family travel organizer",
+          "topics": [
+            "itinerary",
+            "organization",
+            "planning",
+            "travel"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/rohitkumbhar/surmai"
+        }
+      ],
+      "projectProbe": "三天两晚"
+    },
+    {
+      "id": "opp-副业",
+      "seed": "副业",
+      "origin": "seed",
+      "status": "可验证",
+      "demandWordCount": 12,
+      "relatedWordCount": 17,
+      "directionCount": 3,
+      "directions": [
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "线上赚钱",
+            "抖音赚钱",
+            "副业兼职",
+            "宝妈在家赚钱简单的副业",
+            "赚钱的",
+            "适合宝妈",
+            "线上兼职",
+            "手机赚钱",
+            "大学生赚钱"
+          ]
+        },
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "副业教程",
+            "副业怎么做"
+          ]
+        },
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "副业推荐"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "副业推荐",
+          "value": 100,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        },
+        {
+          "word": "线上赚钱",
+          "value": 80,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "副业教程",
+          "value": 71,
+          "shape": "求解教程",
+          "shapeId": "howto"
+        },
+        {
+          "word": "抖音赚钱",
+          "value": 47,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "副业怎么做",
+          "value": 47,
+          "shape": "求解教程",
+          "shapeId": "howto"
+        },
+        {
+          "word": "副业兼职",
+          "value": 45,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "宝妈在家赚钱简单的副业",
+          "value": 39,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "赚钱的",
+          "value": 37,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "适合宝妈",
+          "value": 35,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "线上兼职",
+          "value": 33,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "手机赚钱",
+          "value": 33,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "大学生赚钱",
+          "value": 32,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        }
+      ],
+      "unmatchedSample": [
+        "副业项目",
+        "不上班",
+        "做副业",
+        "在家做",
+        "失业者"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "weijunext/indie-hacker-tools",
+          "stars": 7977,
+          "description": "收录独立开发者出海技术栈和工具",
+          "topics": [],
+          "language": "",
+          "url": "https://github.com/weijunext/indie-hacker-tools"
+        },
+        {
+          "name": "mayeaux/nodetube",
+          "stars": 2363,
+          "description": "Open-source YouTube alternative that offers video, audio and image uploads, livestreaming and built-in monetization",
+          "topics": [
+            "alternative",
+            "audio-streaming",
+            "image-hosting",
+            "livestreaming",
+            "monetization",
+            "video-streaming",
+            "youtube"
+          ],
+          "language": "JavaScript",
+          "url": "https://github.com/mayeaux/nodetube"
+        },
+        {
+          "name": "XiaomingX/indie-hacker-tools-plus",
+          "stars": 1874,
+          "description": "为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and tools",
+          "topics": [
+            "agent",
+            "ai",
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "aws",
+            "azure",
+            "cloudflare",
+            "github",
+            "hacker",
+            "indiehacker",
+            "llm",
+            "nextjs",
+            "shadcn"
+          ],
+          "language": "",
+          "url": "https://github.com/XiaomingX/indie-hacker-tools-plus"
+        }
+      ],
+      "projectProbe": "线上赚钱"
+    },
+    {
+      "id": "opp-零食",
+      "seed": "零食",
+      "origin": "platform-pool",
+      "status": "可验证",
+      "demandWordCount": 11,
+      "relatedWordCount": 11,
+      "directionCount": 3,
+      "directions": [
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "赵一鸣零食",
+            "抢零食",
+            "零食大礼包",
+            "糖巢零食",
+            "宠物零食",
+            "儿童零食",
+            "休闲零食",
+            "追剧必备零食",
+            "充饥零食"
+          ]
+        },
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "零食推荐"
+          ]
+        },
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "零食店"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "赵一鸣零食",
+          "value": 72,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "零食推荐",
+          "value": 69,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        },
+        {
+          "word": "抢零食",
+          "value": 69,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "零食店",
+          "value": 63,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "零食大礼包",
+          "value": 60,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "糖巢零食",
+          "value": 58,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "宠物零食",
+          "value": 54,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "儿童零食",
+          "value": 51,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "休闲零食",
+          "value": 48,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "追剧必备零食",
+          "value": 48,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "充饥零食",
+          "value": 48,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        }
+      ],
+      "unmatchedSample": [],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "Widle-Studio/Grocery-App",
+          "stars": 1139,
+          "description": "Flutter Grocery Shopping App (Mobile App, Web App)",
+          "topics": [
+            "dart",
+            "ecommerce",
+            "ecommerce-application",
+            "ecommerce-shopping-solution",
+            "ecommerce-store",
+            "flutter",
+            "flutter-app",
+            "flutter-apps",
+            "flutter-demo",
+            "flutter-material",
+            "flutter-material-app",
+            "flutter-showcase",
+            "flutter-ui",
+            "flutter-web",
+            "flutter-widget",
+            "go",
+            "grocery",
+            "material-design"
+          ],
+          "language": "Dart",
+          "url": "https://github.com/Widle-Studio/Grocery-App"
+        },
+        {
+          "name": "scoumbourdis/grocery-crud",
+          "stars": 1006,
+          "description": "Grocery CRUD is a PHP Codeigniter Framework library that creates a full functional CRUD system without the requirement o",
+          "topics": [
+            "codeigniter",
+            "codeigniter3",
+            "grocery-crud",
+            "php"
+          ],
+          "language": "PHP",
+          "url": "https://github.com/scoumbourdis/grocery-crud"
+        },
+        {
+          "name": "jspahrsummers/GroceryList",
+          "stars": 859,
+          "description": "iPhone grocery list app, synchronized using GitHub :banana:",
+          "topics": [],
+          "language": "Objective-C",
+          "url": "https://github.com/jspahrsummers/GroceryList"
+        }
+      ],
+      "projectProbe": "赵一鸣零食"
+    },
+    {
+      "id": "opp-养老",
+      "seed": "养老",
+      "origin": "seed",
+      "status": "可验证",
+      "demandWordCount": 7,
+      "relatedWordCount": 12,
+      "directionCount": 3,
+      "directions": [
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "赡养老人",
+            "灵活就业",
+            "退休人员养老",
+            "退休养老金"
+          ]
+        },
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "养老保险",
+            "农村养老保险"
+          ]
+        },
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "注意事项"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "养老保险",
+          "value": 88,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "赡养老人",
+          "value": 49,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "灵活就业",
+          "value": 45,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "农村养老保险",
+          "value": 43,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "退休人员养老",
+          "value": 42,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "退休养老金",
+          "value": 40,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "注意事项",
+          "value": 41,
+          "shape": "求解教程",
+          "shapeId": "howto"
+        }
+      ],
+      "unmatchedSample": [
+        "补发",
+        "缴费",
+        "上调",
+        "家庭养老",
+        "上海养老"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "yf0522/ai-companion-runtime",
+          "stars": 45,
+          "description": "Eldercare runtime: risk-gated companion with reminders, anti-fraud, family escalation, and traceability",
+          "topics": [
+            "ai-agent",
+            "companion-ai",
+            "eldercare",
+            "esp32-s3",
+            "family-care",
+            "fraud-detection",
+            "realtime-ai"
+          ],
+          "language": "Python",
+          "url": "https://github.com/yf0522/ai-companion-runtime"
+        },
+        {
+          "name": "nclamvn/bom-cham",
+          "stars": 26,
+          "description": "Bờm Chăm — AI chăm sóc người thân cao tuổi 🏠 Để gia đình yên tâm, để ông bà an vui",
+          "topics": [
+            "ai",
+            "eldercare",
+            "home-assistant",
+            "iot",
+            "smart-home",
+            "telegram-bot",
+            "typescript",
+            "vietnam"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/nclamvn/bom-cham"
+        },
+        {
+          "name": "GeriLife/wellbeing",
+          "stars": 13,
+          "description": "Welbeing activity log and visualization tool.",
+          "topics": [
+            "activity-counts",
+            "activity-heatmap",
+            "activity-trends",
+            "eldercare",
+            "elderly",
+            "elderly-people",
+            "emotion",
+            "geri",
+            "nursing",
+            "residential-care",
+            "residents",
+            "visualization",
+            "wellbeing"
+          ],
+          "language": "JavaScript",
+          "url": "https://github.com/GeriLife/wellbeing"
+        }
+      ],
+      "projectProbe": "赡养老人"
+    },
+    {
+      "id": "opp-辅食",
+      "seed": "辅食",
+      "origin": "seed",
+      "status": "可验证",
+      "demandWordCount": 6,
+      "relatedWordCount": 15,
+      "directionCount": 3,
+      "directions": [
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "宝宝",
+            "一岁宝宝辅食",
+            "宝宝吃辅食"
+          ]
+        },
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "辅食锅",
+            "辅食机"
+          ]
+        },
+        {
+          "shapeId": "trust",
+          "shape": "验证口碑",
+          "words": [
+            "难吃"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "宝宝",
+          "value": 100,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "辅食锅",
+          "value": 87,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "一岁宝宝辅食",
+          "value": 70,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "宝宝吃辅食",
+          "value": 66,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "辅食机",
+          "value": 51,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "难吃",
+          "value": 49,
+          "shape": "验证口碑",
+          "shapeId": "trust"
+        }
+      ],
+      "unmatchedSample": [
+        "做辅食",
+        "辅食粥",
+        "山药",
+        "辅食勺",
+        "儿童辅食",
+        "米粉",
+        "菠菜",
+        "核桃油"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "Oak-and-Sprout/sprout-track",
+          "stars": 388,
+          "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
+          "topics": [
+            "activity",
+            "baby",
+            "baby-tracker",
+            "family-friendly",
+            "open-source",
+            "self-hosted",
+            "sprout",
+            "sprout-track",
+            "tracker",
+            "tracking"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/Oak-and-Sprout/sprout-track"
+        },
+        {
+          "name": "mikebarkmin/baby-tracker",
+          "stars": 73,
+          "description": "A progressive web app to track your baby and share the data with your family in real-time.",
+          "topics": [
+            "express",
+            "react",
+            "socketio",
+            "styled-components"
+          ],
+          "language": "JavaScript",
+          "url": "https://github.com/mikebarkmin/baby-tracker"
+        },
+        {
+          "name": "Woyken/huckleberry-homeassistant",
+          "stars": 39,
+          "description": "Home Assistant integration for Huckleberry baby tracker app - monitor sleep, feeding, diapers, and growth tracking",
+          "topics": [
+            "baby-tracker",
+            "hacs",
+            "home-assistant",
+            "huckleberry"
+          ],
+          "language": "Python",
+          "url": "https://github.com/Woyken/huckleberry-homeassistant"
+        }
+      ],
+      "projectProbe": "宝宝"
+    },
+    {
+      "id": "opp-考研",
+      "seed": "考研",
+      "origin": "seed",
+      "status": "可验证",
+      "demandWordCount": 5,
+      "relatedWordCount": 14,
+      "directionCount": 3,
+      "directions": [
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "证件照",
+            "考研机构"
+          ]
+        },
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "考研报录比",
+            "考研择校"
+          ]
+        },
+        {
+          "shapeId": "tool",
+          "shape": "工具获取",
+          "words": [
+            "计算机考研"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "证件照",
+          "value": 63,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "计算机考研",
+          "value": 62,
+          "shape": "工具获取",
+          "shapeId": "tool"
+        },
+        {
+          "word": "考研报录比",
+          "value": 52,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        },
+        {
+          "word": "考研择校",
+          "value": 37,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        },
+        {
+          "word": "考研机构",
+          "value": 35,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        }
+      ],
+      "unmatchedSample": [
+        "考研预报名",
+        "考研报名",
+        "考研数学",
+        "考研政治",
+        "考研上岸",
+        "考研院校",
+        "保研",
+        "考研时间"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "ankidroid/Anki-Android",
+          "stars": 11935,
+          "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
+          "topics": [
+            "android",
+            "anki",
+            "ankidroid",
+            "education",
+            "flashcards",
+            "kotlin",
+            "learning",
+            "srs"
+          ],
+          "language": "Kotlin",
+          "url": "https://github.com/ankidroid/Anki-Android"
+        },
+        {
+          "name": "5mdld/anki-jlpt-decks",
+          "stars": 3031,
+          "description": "【egg rolls】JLPT N1～N5 一万词 Anki 牌组【简／繁】【语音＆例句】；Anki，日语，日文，日本語，牌组，卡组，牌組，卡組，能力考，日檢",
+          "topics": [
+            "anki",
+            "anki-deck",
+            "deck",
+            "flashcards",
+            "fsrs",
+            "japanese",
+            "jlpt",
+            "language-learning",
+            "n1",
+            "n2",
+            "n3",
+            "n4",
+            "n5",
+            "srs",
+            "vocabulary",
+            "vocabulary-learning"
+          ],
+          "language": "HTML",
+          "url": "https://github.com/5mdld/anki-jlpt-decks"
+        },
+        {
+          "name": "kantord/LibreLingo",
+          "stars": 2636,
+          "description": "🐢 🌎 📚 a community-owned language-learning platform",
+          "topics": [
+            "agplv3",
+            "education",
+            "flashcards",
+            "foreign-language",
+            "hacktoberfest",
+            "hacktoberfest2022",
+            "language-learning",
+            "python",
+            "second-language-acquisition",
+            "spaced-repetition",
+            "svelte"
+          ],
+          "language": "Python",
+          "url": "https://github.com/kantord/LibreLingo"
+        }
+      ],
+      "projectProbe": "证件照"
+    },
+    {
+      "id": "opp-简历",
+      "seed": "简历",
+      "origin": "seed",
+      "status": "可验证",
+      "demandWordCount": 4,
+      "relatedWordCount": 8,
+      "directionCount": 3,
+      "directions": [
+        {
+          "shapeId": "tool",
+          "shape": "工具获取",
+          "words": [
+            "个人简历模板",
+            "简历模板"
+          ]
+        },
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "简历怎么写"
+          ]
+        },
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "应届生"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "简历怎么写",
+          "value": 26,
+          "shape": "求解教程",
+          "shapeId": "howto"
+        },
+        {
+          "word": "个人简历模板",
+          "value": 20,
+          "shape": "工具获取",
+          "shapeId": "tool"
+        },
+        {
+          "word": "应届生",
+          "value": 19,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "简历模板",
+          "value": 17,
+          "shape": "工具获取",
+          "shapeId": "tool"
+        }
+      ],
+      "unmatchedSample": [
+        "投简历",
+        "个人资料",
+        "秋招",
+        "写简历"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "reactive-resume/reactive-resume",
+          "stars": 43794,
+          "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
+          "topics": [
+            "agent-skills",
+            "ai",
+            "dsh-plugin",
+            "hacktoberfest",
+            "javascript",
+            "mcp-server",
+            "react",
+            "resume-builder",
+            "self-hosted",
+            "typescript"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/reactive-resume/reactive-resume"
+        },
+        {
+          "name": "srbhr/Resume-Matcher",
+          "stars": 28585,
+          "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
+          "topics": [
+            "applicant-tracking-system",
+            "ats",
+            "hacktoberfest",
+            "machine-learning",
+            "natural-language-processing",
+            "nextjs",
+            "python",
+            "resume",
+            "resume-builder",
+            "resume-parser",
+            "text-similarity",
+            "typescript",
+            "vector-search",
+            "word-embeddings"
+          ],
+          "language": "Python",
+          "url": "https://github.com/srbhr/Resume-Matcher"
+        },
+        {
+          "name": "rendercv/rendercv",
+          "stars": 17702,
+          "description": "Resume builder for academics and engineers",
+          "topics": [
+            "cv",
+            "cv-builder",
+            "cv-generator",
+            "cv-template",
+            "python",
+            "resume",
+            "resume-builder",
+            "resume-generator",
+            "resume-template",
+            "typst"
+          ],
+          "language": "Python",
+          "url": "https://github.com/rendercv/rendercv"
+        }
+      ],
+      "projectProbe": "个人简历模板"
+    },
+    {
+      "id": "opp-考公",
+      "seed": "考公",
+      "origin": "seed",
+      "status": "可验证",
+      "demandWordCount": 4,
+      "relatedWordCount": 12,
+      "directionCount": 3,
+      "directions": [
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "怎么学习",
+            "有多难"
+          ]
+        },
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "应届生"
+          ]
+        },
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "报班"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "怎么学习",
+          "value": 43,
+          "shape": "求解教程",
+          "shapeId": "howto"
+        },
+        {
+          "word": "有多难",
+          "value": 37,
+          "shape": "求解教程",
+          "shapeId": "howto"
+        },
+        {
+          "word": "应届生",
+          "value": 35,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "报班",
+          "value": 34,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        }
+      ],
+      "unmatchedSample": [
+        "岗位",
+        "题目",
+        "备考公务员",
+        "考公面试",
+        "考研",
+        "政审",
+        "退役军人",
+        "报考公务员"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "kuriv/civil-service-exam",
+          "stars": 1003,
+          "description": "公务员考试知识思维导图，我们岸上见！",
+          "topics": [
+            "civil-service",
+            "civil-service-exam",
+            "civil-services",
+            "civil-services-exam",
+            "mindmap",
+            "mindmaps"
+          ],
+          "language": "Go",
+          "url": "https://github.com/kuriv/civil-service-exam"
+        },
+        {
+          "name": "zhangxiangliang/civil-service-exam",
+          "stars": 983,
+          "description": "考试攻略 | 公务员 | 事业单位",
+          "topics": [],
+          "language": "",
+          "url": "https://github.com/zhangxiangliang/civil-service-exam"
+        },
+        {
+          "name": "ministryofjustice/modernisation-platform",
+          "stars": 723,
+          "description": "A place for the core work of the Modernisation Platform • This repository is defined and managed in Terraform",
+          "topics": [
+            "architecture-decisions",
+            "aws",
+            "civil-service",
+            "documentation",
+            "modernisation-platform"
+          ],
+          "language": "HCL",
+          "url": "https://github.com/ministryofjustice/modernisation-platform"
+        }
+      ],
+      "projectProbe": "怎么学习"
+    },
+    {
+      "id": "opp-睡眠",
+      "seed": "睡眠",
+      "origin": "seed",
+      "status": "可验证",
+      "demandWordCount": 4,
+      "relatedWordCount": 12,
+      "directionCount": 3,
+      "directions": [
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "睡眠面膜",
+            "睡眠眼罩"
+          ]
+        },
+        {
+          "shapeId": "trust",
+          "shape": "验证口碑",
+          "words": [
+            "高质量睡眠"
+          ]
+        },
+        {
+          "shapeId": "tool",
+          "shape": "工具获取",
+          "words": [
+            "睡眠监测"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "高质量睡眠",
+          "value": 84,
+          "shape": "验证口碑",
+          "shapeId": "trust"
+        },
+        {
+          "word": "睡眠监测",
+          "value": 65,
+          "shape": "工具获取",
+          "shapeId": "tool"
+        },
+        {
+          "word": "睡眠面膜",
+          "value": 57,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "睡眠眼罩",
+          "value": 47,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        }
+      ],
+      "unmatchedSample": [
+        "睡眠曲",
+        "睡眠助眠",
+        "护颈椎",
+        "睡眠音乐",
+        "睡眠时间",
+        "助眠",
+        "睡眠障碍",
+        "改善睡眠"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "DanielJamesTronca/SleepChartKit",
+          "stars": 247,
+          "description": "A production-ready, high-fidelity reproduction of Apple's detailed sleep analysis chart, built with pure SwiftUI.",
+          "topics": [
+            "apple-health",
+            "chart",
+            "fitness",
+            "healthkit",
+            "ios",
+            "sleep-chart",
+            "sleep-tracking",
+            "swift",
+            "swift-package",
+            "swiftui",
+            "swiftui-components"
+          ],
+          "language": "Swift",
+          "url": "https://github.com/DanielJamesTronca/SleepChartKit"
+        },
+        {
+          "name": "satayutata/geniemax-core",
+          "stars": 142,
+          "description": "Free, open, MIT health-analytics engine — recovery, sleep, HRV, strain, calories — no subscription. Currently reads WHOO",
+          "topics": [
+            "e2ee",
+            "health",
+            "hrv",
+            "local-first",
+            "quantified-self",
+            "recovery",
+            "sleep-tracking",
+            "swift",
+            "swift-package",
+            "wearables"
+          ],
+          "language": "Swift",
+          "url": "https://github.com/satayutata/geniemax-core"
+        },
+        {
+          "name": "diegoscarabelli/garmin-health-data",
+          "stars": 122,
+          "description": "A simple Python CLI to download Garmin Connect data as local files and load them into a SQLite database for analysis",
+          "topics": [
+            "ai-agents",
+            "cli",
+            "etl",
+            "fitdecode",
+            "fitness",
+            "garmin",
+            "garmin-connect",
+            "health-data",
+            "heart-rate",
+            "python",
+            "quantified-self",
+            "sleep-tracking",
+            "sqlite",
+            "wellness"
+          ],
+          "language": "Python",
+          "url": "https://github.com/diegoscarabelli/garmin-health-data"
+        }
+      ],
+      "projectProbe": "睡眠面膜"
+    },
+    {
+      "id": "opp-健身",
+      "seed": "健身",
+      "origin": "seed",
+      "status": "可验证",
+      "demandWordCount": 3,
+      "relatedWordCount": 12,
+      "directionCount": 3,
+      "directions": [
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "健身器材"
+          ]
+        },
+        {
+          "shapeId": "local",
+          "shape": "地域就近",
+          "words": [
+            "附近团"
+          ]
+        },
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "健身团购"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "健身器材",
+          "value": 30,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "附近团",
+          "value": 28,
+          "shape": "地域就近",
+          "shapeId": "local"
+        },
+        {
+          "word": "健身团购",
+          "value": 26,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        }
+      ],
+      "unmatchedSample": [
+        "健身房",
+        "古法健身",
+        "游泳健身",
+        "健身直播",
+        "有氧健身操",
+        "健身运动",
+        "有氧运动",
+        "自助健身"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "hasaneyldrm/exercises-dataset",
+          "stars": 22512,
+          "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
+          "topics": [
+            "dataset",
+            "exercise-database",
+            "exercises",
+            "fitness",
+            "fitness-app",
+            "gym",
+            "json",
+            "logpress",
+            "react-native",
+            "workout"
+          ],
+          "language": "HTML",
+          "url": "https://github.com/hasaneyldrm/exercises-dataset"
+        },
+        {
+          "name": "Snouzy/workout-cool",
+          "stars": 8548,
+          "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
+          "topics": [
+            "coach",
+            "exercise",
+            "feature-sliced-design",
+            "fitness",
+            "gym",
+            "health",
+            "nextjs",
+            "open-source",
+            "postgresql",
+            "prisma",
+            "radix-ui",
+            "react",
+            "shadcn-ui",
+            "tailwindcss",
+            "training",
+            "typescript",
+            "webapp",
+            "workout"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/Snouzy/workout-cool"
+        },
+        {
+          "name": "wger-project/wger",
+          "stars": 7019,
+          "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
+          "topics": [
+            "django",
+            "fitness",
+            "gym",
+            "hacktoberfest",
+            "python",
+            "self-hosted",
+            "workout"
+          ],
+          "language": "Python",
+          "url": "https://github.com/wger-project/wger"
+        }
+      ],
+      "projectProbe": "健身器材"
+    },
+    {
+      "id": "opp-收纳",
+      "seed": "收纳",
+      "origin": "seed",
+      "status": "可验证",
+      "demandWordCount": 7,
+      "relatedWordCount": 15,
+      "directionCount": 2,
+      "directions": [
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "收纳包",
+            "收纳柜",
+            "收纳架",
+            "收纳神器",
+            "收纳册",
+            "整理箱"
+          ]
+        },
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "攻略"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "收纳包",
+          "value": 100,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "收纳柜",
+          "value": 73,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "收纳架",
+          "value": 73,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "收纳神器",
+          "value": 63,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "收纳册",
+          "value": 37,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "攻略",
+          "value": 34,
+          "shape": "求解教程",
+          "shapeId": "howto"
+        },
+        {
+          "word": "整理箱",
+          "value": 34,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        }
+      ],
+      "unmatchedSample": [
+        "收纳筐",
+        "化妆收纳",
+        "收纳整理",
+        "大容量",
+        "旅行收纳",
+        "沉浸式收纳",
+        "抽屉式",
+        "衣柜收纳"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "abuanwar072/furniture_app_flutter",
+          "stars": 619,
+          "description": "watch it on YouTube ",
+          "topics": [
+            "android-app",
+            "flutter",
+            "ios-app"
+          ],
+          "language": "Dart",
+          "url": "https://github.com/abuanwar072/furniture_app_flutter"
+        },
+        {
+          "name": "clvrai/furniture",
+          "stars": 577,
+          "description": "IKEA Furniture Assembly Environment for Long-Horizon Complex Manipulation Tasks",
+          "topics": [
+            "furniture-assembly",
+            "imitation-learning",
+            "reinforcement-learning-environments",
+            "robot-learning",
+            "robotics"
+          ],
+          "language": "Python",
+          "url": "https://github.com/clvrai/furniture"
+        },
+        {
+          "name": "JideGuru/FlutterFurnitureAppUI",
+          "stars": 511,
+          "description": "Flutter representation of a furniture app UI",
+          "topics": [
+            "android",
+            "cross-platform",
+            "flutter",
+            "furniture",
+            "furniture-app-ui",
+            "ios",
+            "mobile",
+            "ui"
+          ],
+          "language": "Dart",
+          "url": "https://github.com/JideGuru/FlutterFurnitureAppUI"
+        }
+      ],
+      "projectProbe": "收纳包"
+    },
+    {
+      "id": "opp-宠物",
+      "seed": "宠物",
+      "origin": "seed",
+      "status": "可验证",
+      "demandWordCount": 6,
+      "relatedWordCount": 12,
+      "directionCount": 2,
+      "directions": [
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "宠物医院",
+            "宠物店",
+            "宠物殡葬"
+          ]
+        },
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "宠物用品",
+            "宠物零食",
+            "宠物食品"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "宠物医院",
+          "value": 100,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "宠物店",
+          "value": 83,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "宠物用品",
+          "value": 51,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "宠物零食",
+          "value": 48,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "宠物食品",
+          "value": 41,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "宠物殡葬",
+          "value": 33,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        }
+      ],
+      "unmatchedSample": [
+        "宠物狗",
+        "宠物洗澡",
+        "养宠物",
+        "小宠物",
+        "带宠物",
+        "宠物市场"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "YosemiteCrew/Yosemite-Crew",
+          "stars": 2020,
+          "description": "Open-source operating system for animal health",
+          "topics": [
+            "animal-health",
+            "animals",
+            "docker",
+            "open-source-healthcare",
+            "pets",
+            "pims",
+            "pms",
+            "practice-management-system",
+            "react-native",
+            "self-hosted",
+            "typescript",
+            "veterinary",
+            "veterinary-software"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/YosemiteCrew/Yosemite-Crew"
+        },
+        {
+          "name": "pjborowiecki/ARKA-Veterinary-Clinic-Page-and-Appointment-Booking-System",
+          "stars": 165,
+          "description": "A full-stack freelance project built for one of my clients using NextJS 14 with its latest features (app router, server ",
+          "topics": [
+            "appointment-booking",
+            "booking-system",
+            "drizzle",
+            "drizzle-orm",
+            "full-stack",
+            "landing-page",
+            "mysql",
+            "next-14",
+            "next-auth",
+            "nextjs",
+            "react",
+            "react-email",
+            "react-hook-form",
+            "resend",
+            "server-actions",
+            "shadcn-ui",
+            "tailwind-css",
+            "typescript",
+            "veterinary"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/pjborowiecki/ARKA-Veterinary-Clinic-Page-and-Appointment-Booking-System"
+        },
+        {
+          "name": "scylladb/care-pet",
+          "stars": 52,
+          "description": "Care Pet IoT ScyllaDB example",
+          "topics": [
+            "database",
+            "iot",
+            "nosql"
+          ],
+          "language": "JavaScript",
+          "url": "https://github.com/scylladb/care-pet"
+        }
+      ],
+      "projectProbe": "宠物医院"
+    },
+    {
+      "id": "opp-咖啡",
+      "seed": "咖啡",
+      "origin": "platform-pool",
+      "status": "可验证",
+      "demandWordCount": 3,
+      "relatedWordCount": 3,
+      "directionCount": 2,
+      "directions": [
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "咖啡馆",
+            "抖音团购"
+          ]
+        },
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "咖啡机"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "咖啡馆",
+          "value": 46,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "咖啡机",
+          "value": 39,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "抖音团购",
+          "value": 31,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        }
+      ],
+      "unmatchedSample": [],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "sdaschner/scalable-coffee-shop",
+          "stars": 407,
+          "description": "A scalable, event-driven and event-sourced Java EE application",
+          "topics": [],
+          "language": "Java",
+          "url": "https://github.com/sdaschner/scalable-coffee-shop"
+        },
+        {
+          "name": "darshanpawar101/Coffee-Shop-App",
+          "stars": 349,
+          "description": "",
+          "topics": [],
+          "language": "TypeScript",
+          "url": "https://github.com/darshanpawar101/Coffee-Shop-App"
+        },
+        {
+          "name": "erickdc7/coffee-shop-website-design",
+          "stars": 166,
+          "description": "Coffee Shop Website",
+          "topics": [
+            "coffee-shop-website",
+            "responsive-design"
+          ],
+          "language": "HTML",
+          "url": "https://github.com/erickdc7/coffee-shop-website-design"
+        }
+      ],
+      "projectProbe": "咖啡馆"
+    },
+    {
+      "id": "opp-火锅",
+      "seed": "火锅",
+      "origin": "platform-pool",
+      "status": "可验证",
+      "demandWordCount": 2,
+      "relatedWordCount": 9,
+      "directionCount": 2,
+      "directions": [
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "火锅店"
+          ]
+        },
+        {
+          "shapeId": "local",
+          "shape": "地域就近",
+          "words": [
+            "附近团"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "火锅店",
+          "value": 78,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "附近团",
+          "value": 58,
+          "shape": "地域就近",
+          "shapeId": "local"
+        }
+      ],
+      "unmatchedSample": [
+        "龍歌自助小火锅",
+        "重庆火锅",
+        "地摊火锅",
+        "潮汕牛肉火锅",
+        "串串火锅",
+        "旋转小火锅",
+        "海鲜火锅"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "tastyigniter/TastyIgniter",
+          "stars": 3774,
+          "description": ":fire: Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants",
+          "topics": [
+            "food-ordering",
+            "food-ordering-system",
+            "laravel",
+            "multiple-restaurant",
+            "multiplelocations",
+            "onlineorderingapp",
+            "ordering-system",
+            "php",
+            "reservation-system",
+            "restaurant-management",
+            "restaurant-menu",
+            "table-booking",
+            "tastyigniter"
+          ],
+          "language": "PHP",
+          "url": "https://github.com/tastyigniter/TastyIgniter"
+        },
+        {
+          "name": "enatega/food-delivery-multivendor",
+          "stars": 1387,
+          "description": "Enatega is a fully customizable and scalable delivery management system that supports multiple business models and servi",
+          "topics": [
+            "delivery-application",
+            "enatega",
+            "food-delivery",
+            "food-delivery-application",
+            "food-ordering",
+            "food-ordering-system",
+            "foodpanda-clone",
+            "marketplace",
+            "marketplace-solution",
+            "multi-vendor",
+            "multiple-restaurant",
+            "ninjas-code",
+            "online-food",
+            "online-food-order",
+            "online-food-store",
+            "onlineorderingapp",
+            "ordering-system",
+            "restaurant-management",
+            "ubereats-clone"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/enatega/food-delivery-multivendor"
+        },
+        {
+          "name": "enatega/food-delivery-singlevendor",
+          "stars": 676,
+          "description": "A fully functional and white label food delivery solution. Capable of building your own food delivery application! Inclu",
+          "topics": [
+            "enatega",
+            "food-delivery",
+            "food-delivery-app",
+            "food-delivery-application",
+            "food-ordering",
+            "food-ordering-application",
+            "grocery-app",
+            "ninjas-code",
+            "online-food-order",
+            "online-food-ordering-system",
+            "order-food",
+            "order-management",
+            "ordering-system",
+            "restaurant-app",
+            "restaurant-management",
+            "restaurant-order",
+            "restaurant-order-system"
+          ],
+          "language": "JavaScript",
+          "url": "https://github.com/enatega/food-delivery-singlevendor"
+        }
+      ],
+      "projectProbe": "火锅店"
+    },
+    {
+      "id": "opp-营养",
+      "seed": "营养",
+      "origin": "platform-pool",
+      "status": "可验证",
+      "demandWordCount": 4,
+      "relatedWordCount": 4,
+      "directionCount": 1,
+      "directions": [
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "三餐",
+            "营养餐",
+            "gnc营养包",
+            "营养食品"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "三餐",
+          "value": 93,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "营养餐",
+          "value": 72,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "gnc营养包",
+          "value": 50,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "营养食品",
+          "value": 49,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        }
+      ],
+      "unmatchedSample": [],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "apoorvdarshan/fud-ai",
+          "stars": 453,
+          "description": "Fud AI — free & open-source AI calorie & workout tracker for iOS and Android. Privacy-first, local-first, bring your own",
+          "topics": [
+            "ai",
+            "android",
+            "calorie-tracker",
+            "exercise",
+            "fitness",
+            "food-tracker",
+            "health",
+            "health-connect",
+            "healthkit",
+            "intermittent-fasting",
+            "ios",
+            "jetpack-compose",
+            "kotlin",
+            "macros",
+            "nutrition",
+            "open-source",
+            "swift",
+            "swiftui",
+            "weight-tracker",
+            "workout-tracker"
+          ],
+          "language": "Kotlin",
+          "url": "https://github.com/apoorvdarshan/fud-ai"
+        },
+        {
+          "name": "kcal-app/kcal",
+          "stars": 354,
+          "description": "the personal food nutrition journal",
+          "topics": [
+            "calorie-tracker",
+            "diet-managment",
+            "food-data",
+            "food-journal",
+            "health",
+            "macronutrients",
+            "nutrition-information",
+            "nutrition-label",
+            "recipes",
+            "self-hosted"
+          ],
+          "language": "PHP",
+          "url": "https://github.com/kcal-app/kcal"
+        },
+        {
+          "name": "brandonp2412/FitBook",
+          "stars": 171,
+          "description": "Offline-first calorie and nutrition tracker with barcode scanning, food search, macro tracking, and progress graphs. Bui",
+          "topics": [
+            "android",
+            "barcode-scanner",
+            "calorie-tracker",
+            "dart",
+            "data-visualization",
+            "diet-tracker",
+            "fdroid",
+            "flutter",
+            "food-diary",
+            "health-app",
+            "macro-tracker",
+            "nutrition",
+            "offline-first",
+            "open-source",
+            "openfoodfacts",
+            "windows"
+          ],
+          "language": "Dart",
+          "url": "https://github.com/brandonp2412/FitBook"
+        }
+      ],
+      "projectProbe": "三餐"
+    },
+    {
+      "id": "opp-中医",
+      "seed": "中医",
+      "origin": "platform-pool",
+      "status": "可验证",
+      "demandWordCount": 4,
+      "relatedWordCount": 4,
+      "directionCount": 1,
+      "directions": [
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "中医医院",
+            "中医诊所",
+            "中医馆",
+            "第一附属医院"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "中医医院",
+          "value": 100,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "中医诊所",
+          "value": 76,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "中医馆",
+          "value": 73,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "第一附属医院",
+          "value": 29,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        }
+      ],
+      "unmatchedSample": [],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "jangviktor-web/nihaixia",
+          "stars": 3439,
+          "description": "倪海厦视角的中医Agent Skill，基于倪海厦教学资料开发，蒸馏倪师伤寒论、金匮要略、黄帝内经、神农本草经、针灸篇等，人纪/医案/经方思维，六经辨证，八纲辨证，天机道，天纪，紫微斗数，易经，阴阳，八卦，五行，风水，地纪等，总结8个诊断公",
+          "topics": [
+            "acupuncture",
+            "agent-skill",
+            "agent-skills",
+            "chinese-medicine",
+            "claude-code-skills",
+            "codex-skill",
+            "nihaisha",
+            "nihaixia",
+            "nishi",
+            "openclaw",
+            "openclaw-skill",
+            "openclaw-skills",
+            "tcm",
+            "tcmcp",
+            "traditional-chinese-medicine",
+            "traditional-chinese-medicine-healthcare"
+          ],
+          "language": "HTML",
+          "url": "https://github.com/jangviktor-web/nihaixia"
+        },
+        {
+          "name": "pariskang/CMLM-ZhongJing",
+          "stars": 527,
+          "description": "首个中医大语言模型——“仲景”。受古代中医学巨匠张仲景深邃智慧启迪，专为传统中医领域打造的预训练大语言模型。  The first-ever Traditional Chinese Medicine large language model",
+          "topics": [
+            "chatbot",
+            "chinese-medicine",
+            "chinese-medicine-tcm",
+            "cmlm-zhongjing",
+            "large-language-models",
+            "zhngzhongjing",
+            "zhongjinggpt"
+          ],
+          "language": "Jupyter Notebook",
+          "url": "https://github.com/pariskang/CMLM-ZhongJing"
+        },
+        {
+          "name": "jangviktor-web/nihaixia-app",
+          "stars": 226,
+          "description": "倪海厦汉唐中医安卓客户端 · 中医六经辨证、伤寒论、子午流注、紫微斗数、易经、八字四柱排盘、周公解梦、小儿关煞、每日黄历、道教神仙节日、节气养生、玉匣记身体占，离线安卓应用中医诊断玄学助手：一款完全免费的 Flutter/Dart Andr",
+          "topics": [
+            "android",
+            "chinese-medicine",
+            "dart",
+            "diagnosis",
+            "differential-diagnosis",
+            "flutter",
+            "herbal-medicine",
+            "jingfang",
+            "medical-app",
+            "medical-cases",
+            "meridian",
+            "ni-haisha",
+            "nihaisha",
+            "nihaixia",
+            "offline-app",
+            "offline-first",
+            "shanghan-lun",
+            "six-meridian",
+            "traditional-chinese-medicine",
+            "ziweidoushu"
+          ],
+          "language": "Dart",
+          "url": "https://github.com/jangviktor-web/nihaixia-app"
+        }
+      ],
+      "projectProbe": "中医医院"
+    },
+    {
+      "id": "opp-口腔",
+      "seed": "口腔",
+      "origin": "platform-pool",
+      "status": "可验证",
+      "demandWordCount": 3,
+      "relatedWordCount": 3,
+      "directionCount": 1,
+      "directions": [
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "口腔医院",
+            "口腔诊所",
+            "口腔护理"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "口腔医院",
+          "value": 100,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "口腔诊所",
+          "value": 70,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "口腔护理",
+          "value": 33,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        }
+      ],
+      "unmatchedSample": [],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "alexcorvi/apexo",
+          "stars": 131,
+          "description": "A web/desktop application to manage your dental clinic practice.",
+          "topics": [
+            "clinic",
+            "clinic-data",
+            "dental",
+            "dentistry"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/alexcorvi/apexo"
+        },
+        {
+          "name": "Yoosseph/dental-scope",
+          "stars": 114,
+          "description": "Explore teeth, jaws, nerves, tissues, root canals, cross-sections and layered dental structures in 3D.",
+          "topics": [
+            "dental",
+            "dental-anatomy",
+            "dentist",
+            "dentist-system",
+            "dentistry",
+            "dentistry-software",
+            "interactive",
+            "medical-education",
+            "open-source",
+            "react",
+            "teeth",
+            "threejs",
+            "typescript"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/Yoosseph/dental-scope"
+        },
+        {
+          "name": "dentalpin/dentalpin",
+          "stars": 84,
+          "description": "The open source agentic dental software. Built for AI.",
+          "topics": [
+            "agentic-ai",
+            "ai-agent",
+            "clinic-management",
+            "dental",
+            "dental-software",
+            "dentistry",
+            "ehr",
+            "emr",
+            "fastapi",
+            "healthcare",
+            "mcp",
+            "nuxtjs",
+            "odontogram",
+            "open-source",
+            "postgresql",
+            "practice-management",
+            "self-hosted",
+            "spain",
+            "verifactu",
+            "vue3"
+          ],
+          "language": "Python",
+          "url": "https://github.com/dentalpin/dentalpin"
+        }
+      ],
+      "projectProbe": "口腔医院"
+    },
+    {
+      "id": "opp-蛋糕",
+      "seed": "蛋糕",
+      "origin": "platform-pool",
+      "status": "可验证",
+      "demandWordCount": 2,
+      "relatedWordCount": 2,
+      "directionCount": 1,
+      "directions": [
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "蛋糕店",
+            "抖音团购"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "蛋糕店",
+          "value": 100,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "抖音团购",
+          "value": 69,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        }
+      ],
+      "unmatchedSample": [],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [],
+      "projectProbe": "蛋糕店"
+    },
+    {
+      "id": "opp-海鲜",
+      "seed": "海鲜",
+      "origin": "platform-pool",
+      "status": "可验证",
+      "demandWordCount": 2,
+      "relatedWordCount": 5,
+      "directionCount": 1,
+      "directions": [
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "海鲜团购",
+            "海鲜店"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "海鲜团购",
+          "value": 64,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        },
+        {
+          "word": "海鲜店",
+          "value": 55,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        }
+      ],
+      "unmatchedSample": [
+        "海鲜火锅",
+        "火锅",
+        "海鲜自助火锅"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "Widle-Studio/Grocery-App",
+          "stars": 1139,
+          "description": "Flutter Grocery Shopping App (Mobile App, Web App)",
+          "topics": [
+            "dart",
+            "ecommerce",
+            "ecommerce-application",
+            "ecommerce-shopping-solution",
+            "ecommerce-store",
+            "flutter",
+            "flutter-app",
+            "flutter-apps",
+            "flutter-demo",
+            "flutter-material",
+            "flutter-material-app",
+            "flutter-showcase",
+            "flutter-ui",
+            "flutter-web",
+            "flutter-widget",
+            "go",
+            "grocery",
+            "material-design"
+          ],
+          "language": "Dart",
+          "url": "https://github.com/Widle-Studio/Grocery-App"
+        },
+        {
+          "name": "scoumbourdis/grocery-crud",
+          "stars": 1006,
+          "description": "Grocery CRUD is a PHP Codeigniter Framework library that creates a full functional CRUD system without the requirement o",
+          "topics": [
+            "codeigniter",
+            "codeigniter3",
+            "grocery-crud",
+            "php"
+          ],
+          "language": "PHP",
+          "url": "https://github.com/scoumbourdis/grocery-crud"
+        },
+        {
+          "name": "jspahrsummers/GroceryList",
+          "stars": 859,
+          "description": "iPhone grocery list app, synchronized using GitHub :banana:",
+          "topics": [],
+          "language": "Objective-C",
+          "url": "https://github.com/jspahrsummers/GroceryList"
+        }
+      ],
+      "projectProbe": "海鲜团购"
+    },
+    {
+      "id": "opp-装修",
+      "seed": "装修",
+      "origin": "seed",
+      "status": "可验证",
+      "demandWordCount": 2,
+      "relatedWordCount": 12,
+      "directionCount": 1,
+      "directions": [
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "装修效果图",
+            "装修风格推荐"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "装修效果图",
+          "value": 100,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        },
+        {
+          "word": "装修风格推荐",
+          "value": 38,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        }
+      ],
+      "unmatchedSample": [
+        "房子装修",
+        "承重墙",
+        "小户型装修",
+        "别墅装修",
+        "三室一厅",
+        "装修房子",
+        "大平层装修",
+        "风格装修"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "zx029w/zhuangxiu-skills",
+          "stars": 70,
+          "description": "45个装修避坑独立Skill合集 — 覆盖全屋定制、老房改造、合同审核、报价审核、方案诊断、环保避坑、流程管控、翻车急救、避坑问答、增项避雷、公司选择等装修全流程",
+          "topics": [
+            "agent-skills",
+            "claude-skills",
+            "home-renovation",
+            "renovation",
+            "skills"
+          ],
+          "language": "Python",
+          "url": "https://github.com/zx029w/zhuangxiu-skills"
+        },
+        {
+          "name": "meet244/Interia",
+          "stars": 21,
+          "description": "Interia: Your all-in-one interior design website, providing ideas, services, room designs, safety tips, testimonials, an",
+          "topics": [
+            "creative-design",
+            "design-ideas",
+            "design-solutions",
+            "furniture",
+            "home-decor",
+            "home-improvement",
+            "interior-design",
+            "modern-design",
+            "renovation",
+            "room-designs",
+            "stylish-interiors"
+          ],
+          "language": "CSS",
+          "url": "https://github.com/meet244/Interia"
+        },
+        {
+          "name": "SammyLeths/makeova",
+          "stars": 20,
+          "description": "Makeova is a modern responsive HTML5 landing page template suitable for use by home renovation agencies or contractors. ",
+          "topics": [
+            "bootstrap5",
+            "constant-velocity-slider",
+            "css3",
+            "glightbox",
+            "home-renovation",
+            "home-renovation-template",
+            "html5",
+            "javascript",
+            "renovation-contractor",
+            "sass",
+            "vanilla-javascript"
+          ],
+          "language": "CSS",
+          "url": "https://github.com/SammyLeths/makeova"
+        }
+      ],
+      "projectProbe": "装修效果图"
+    }
+  ],
+  "rejected": [
+    {
+      "seed": "烤肉",
+      "rows": 1,
+      "reason": "需求形状词 < 2"
+    },
+    {
+      "seed": "皮肤",
+      "rows": 0,
+      "reason": "无关联词数据"
+    },
+    {
+      "seed": "疼痛",
+      "rows": 0,
+      "reason": "无关联词数据"
+    },
+    {
+      "seed": "牙齿",
+      "rows": 1,
+      "reason": "需求形状词 < 2"
+    },
+    {
+      "seed": "关节",
+      "rows": 0,
+      "reason": "无关联词数据"
+    },
+    {
+      "seed": "旗袍",
+      "rows": 20,
+      "reason": "需求形状词 < 2"
+    },
+    {
+      "seed": "理财",
+      "rows": 12,
+      "reason": "需求形状词 < 2"
+    }
+  ]
+}

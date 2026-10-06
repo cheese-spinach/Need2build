@@ -1,0 +1,1628 @@
+{
+  "generatedAt": "2026-10-05T03:46:23.908Z",
+  "platform": "douyin",
+  "sourceName": "抖音指数（原巨量算数）",
+  "hotListDate": "2026-10-05",
+  "metricLabel": "相关性",
+  "subjectLabel": "搜索指数均值",
+  "thresholds": {
+    "minNeedWords": 2
+  },
+  "summary": {
+    "topics": 15,
+    "analyzed": 15,
+    "cards": 13,
+    "rejected": 2
+  },
+  "calibration": {
+    "analyzedCount": 15,
+    "unmatchedTotal": 127,
+    "unmatchedSample": [
+      "田曦薇",
+      "严肃",
+      "女明星",
+      "珠宝",
+      "旗袍造型",
+      "民国旗袍",
+      "太绝了",
+      "赵露思",
+      "古董",
+      "新中式",
+      "时代",
+      "旗袍写真"
+    ]
+  },
+  "cards": [
+    {
+      "id": "dy-s03",
+      "platform": "douyin",
+      "sourceName": "抖音指数（原巨量算数）",
+      "origin": "seed",
+      "title": "减肥｜赛道种子",
+      "status": "可验证",
+      "dataComplete": false,
+      "topic": {
+        "rank": null,
+        "title": "赛道种子",
+        "hotValue": null,
+        "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index/analysis?source=creator&keyword=%E5%87%8F%E8%82%A5&appName=aweme"
+      },
+      "subject": {
+        "keyword": "减肥",
+        "searchIndex": null,
+        "contentIndex": null
+      },
+      "demandEvidence": [
+        {
+          "word": "怎么减肥",
+          "searchIndex": 77,
+          "shape": "求解教程",
+          "shapeId": "howto",
+          "matched": "怎么"
+        },
+        {
+          "word": "减肥训练营",
+          "searchIndex": 70,
+          "shape": "服务诉求",
+          "shapeId": "service",
+          "matched": "训练营"
+        },
+        {
+          "word": "减肥前后对比",
+          "searchIndex": 66,
+          "shape": "选型决策",
+          "shapeId": "choice",
+          "matched": "对比"
+        },
+        {
+          "word": "减肥餐",
+          "searchIndex": 64,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*餐"
+        },
+        {
+          "word": "减肥产品",
+          "searchIndex": 63,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*产品"
+        },
+        {
+          "word": "最有效",
+          "searchIndex": 55,
+          "shape": "选型决策",
+          "shapeId": "choice",
+          "matched": "最有效"
+        }
+      ],
+      "directions": [
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "减肥前后对比",
+            "最有效"
+          ]
+        },
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "减肥餐",
+            "减肥产品"
+          ]
+        },
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "怎么减肥"
+          ]
+        },
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "减肥训练营"
+          ]
+        }
+      ],
+      "needWordCount": 6,
+      "demandShapeCount": 4,
+      "evidenceLevel": 3,
+      "missingData": [
+        "「减肥」搜索指数均值未填"
+      ],
+      "relatedCount": 14,
+      "unmatchedCount": 8,
+      "unmatchedSample": [
+        "减肥操",
+        "减肥法",
+        "减肥期",
+        "减肥成功",
+        "减肥效果",
+        "健身操",
+        "减肥最快",
+        "减肥能吃"
+      ],
+      "gaps": [
+        "相关性只反映热度/相关性，不含真人原话；需按 proofLinks 去抖音取证 3 条求助/评论",
+        "本批次用于校准阈值，跑完后再决定是否引入评分"
+      ],
+      "proofLinks": [
+        {
+          "word": "怎么减肥",
+          "douyinSearch": "https://www.douyin.com/search/%E6%80%8E%E4%B9%88%E5%87%8F%E8%82%A5"
+        },
+        {
+          "word": "减肥训练营",
+          "douyinSearch": "https://www.douyin.com/search/%E5%87%8F%E8%82%A5%E8%AE%AD%E7%BB%83%E8%90%A5"
+        },
+        {
+          "word": "减肥前后对比",
+          "douyinSearch": "https://www.douyin.com/search/%E5%87%8F%E8%82%A5%E5%89%8D%E5%90%8E%E5%AF%B9%E6%AF%94"
+        }
+      ]
+    },
+    {
+      "id": "dy-s14",
+      "platform": "douyin",
+      "sourceName": "抖音指数（原巨量算数）",
+      "origin": "seed",
+      "title": "亲子游｜赛道种子",
+      "status": "可验证",
+      "dataComplete": false,
+      "topic": {
+        "rank": null,
+        "title": "赛道种子",
+        "hotValue": null,
+        "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index/analysis?source=creator&keyword=%E4%BA%B2%E5%AD%90%E6%B8%B8&appName=aweme"
+      },
+      "subject": {
+        "keyword": "亲子游",
+        "searchIndex": null,
+        "contentIndex": null
+      },
+      "demandEvidence": [
+        {
+          "word": "好去处",
+          "searchIndex": 50,
+          "shape": "选型决策",
+          "shapeId": "choice",
+          "matched": "好去处"
+        },
+        {
+          "word": "亲子游攻略",
+          "searchIndex": 34,
+          "shape": "求解教程",
+          "shapeId": "howto",
+          "matched": "攻略"
+        },
+        {
+          "word": "带娃",
+          "searchIndex": 31,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "带娃"
+        },
+        {
+          "word": "三天两晚",
+          "searchIndex": 21,
+          "shape": "地域就近",
+          "shapeId": "local",
+          "matched": "三天两晚"
+        },
+        {
+          "word": "周末亲子游",
+          "searchIndex": 16,
+          "shape": "地域就近",
+          "shapeId": "local",
+          "matched": "周末"
+        }
+      ],
+      "directions": [
+        {
+          "shapeId": "local",
+          "shape": "地域就近",
+          "words": [
+            "三天两晚",
+            "周末亲子游"
+          ]
+        },
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "好去处"
+          ]
+        },
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "亲子游攻略"
+          ]
+        },
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "带娃"
+          ]
+        }
+      ],
+      "needWordCount": 5,
+      "demandShapeCount": 4,
+      "evidenceLevel": 3,
+      "missingData": [
+        "「亲子游」搜索指数均值未填"
+      ],
+      "relatedCount": 12,
+      "unmatchedCount": 7,
+      "unmatchedSample": [
+        "亲子游玩",
+        "亲子",
+        "亲子游乐园",
+        "国庆亲子游",
+        "北京亲子游",
+        "西安亲子游",
+        "两天一夜"
+      ],
+      "gaps": [
+        "相关性只反映热度/相关性，不含真人原话；需按 proofLinks 去抖音取证 3 条求助/评论",
+        "本批次用于校准阈值，跑完后再决定是否引入评分"
+      ],
+      "proofLinks": [
+        {
+          "word": "好去处",
+          "douyinSearch": "https://www.douyin.com/search/%E5%A5%BD%E5%8E%BB%E5%A4%84"
+        },
+        {
+          "word": "亲子游攻略",
+          "douyinSearch": "https://www.douyin.com/search/%E4%BA%B2%E5%AD%90%E6%B8%B8%E6%94%BB%E7%95%A5"
+        },
+        {
+          "word": "带娃",
+          "douyinSearch": "https://www.douyin.com/search/%E5%B8%A6%E5%A8%83"
+        }
+      ]
+    },
+    {
+      "id": "dy-s01",
+      "platform": "douyin",
+      "sourceName": "抖音指数（原巨量算数）",
+      "origin": "seed",
+      "title": "副业｜赛道种子",
+      "status": "可验证",
+      "dataComplete": true,
+      "topic": {
+        "rank": null,
+        "title": "赛道种子",
+        "hotValue": null,
+        "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index/analysis?source=creator&keyword=%E5%89%AF%E4%B8%9A&appName=aweme"
+      },
+      "subject": {
+        "keyword": "副业",
+        "searchIndex": 66000,
+        "contentIndex": 29000
+      },
+      "demandEvidence": [
+        {
+          "word": "副业推荐",
+          "searchIndex": 100,
+          "shape": "选型决策",
+          "shapeId": "choice",
+          "matched": "推荐"
+        },
+        {
+          "word": "线上赚钱",
+          "searchIndex": 80,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "赚钱"
+        },
+        {
+          "word": "副业教程",
+          "searchIndex": 71,
+          "shape": "求解教程",
+          "shapeId": "howto",
+          "matched": "教程"
+        },
+        {
+          "word": "抖音赚钱",
+          "searchIndex": 47,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "赚钱"
+        },
+        {
+          "word": "副业怎么做",
+          "searchIndex": 47,
+          "shape": "求解教程",
+          "shapeId": "howto",
+          "matched": "怎么"
+        },
+        {
+          "word": "副业兼职",
+          "searchIndex": 45,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "兼职"
+        },
+        {
+          "word": "宝妈在家赚钱简单的副业",
+          "searchIndex": 39,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "宝妈"
+        },
+        {
+          "word": "赚钱的",
+          "searchIndex": 37,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "赚钱"
+        },
+        {
+          "word": "适合宝妈",
+          "searchIndex": 35,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "宝妈"
+        },
+        {
+          "word": "线上兼职",
+          "searchIndex": 33,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "兼职"
+        },
+        {
+          "word": "手机赚钱",
+          "searchIndex": 33,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "赚钱"
+        },
+        {
+          "word": "大学生赚钱",
+          "searchIndex": 32,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "大学生"
+        }
+      ],
+      "directions": [
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "线上赚钱",
+            "抖音赚钱",
+            "副业兼职",
+            "宝妈在家赚钱简单的副业",
+            "赚钱的",
+            "适合宝妈",
+            "线上兼职",
+            "手机赚钱",
+            "大学生赚钱"
+          ]
+        },
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "副业教程",
+            "副业怎么做"
+          ]
+        },
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "副业推荐"
+          ]
+        }
+      ],
+      "needWordCount": 12,
+      "demandShapeCount": 3,
+      "evidenceLevel": 3,
+      "missingData": [],
+      "relatedCount": 17,
+      "unmatchedCount": 5,
+      "unmatchedSample": [
+        "副业项目",
+        "不上班",
+        "做副业",
+        "在家做",
+        "失业者"
+      ],
+      "gaps": [
+        "相关性只反映热度/相关性，不含真人原话；需按 proofLinks 去抖音取证 3 条求助/评论",
+        "本批次用于校准阈值，跑完后再决定是否引入评分"
+      ],
+      "proofLinks": [
+        {
+          "word": "副业推荐",
+          "douyinSearch": "https://www.douyin.com/search/%E5%89%AF%E4%B8%9A%E6%8E%A8%E8%8D%90"
+        },
+        {
+          "word": "线上赚钱",
+          "douyinSearch": "https://www.douyin.com/search/%E7%BA%BF%E4%B8%8A%E8%B5%9A%E9%92%B1"
+        },
+        {
+          "word": "副业教程",
+          "douyinSearch": "https://www.douyin.com/search/%E5%89%AF%E4%B8%9A%E6%95%99%E7%A8%8B"
+        }
+      ]
+    },
+    {
+      "id": "dy-s10",
+      "platform": "douyin",
+      "sourceName": "抖音指数（原巨量算数）",
+      "origin": "seed",
+      "title": "养老｜赛道种子",
+      "status": "可验证",
+      "dataComplete": false,
+      "topic": {
+        "rank": null,
+        "title": "赛道种子",
+        "hotValue": null,
+        "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index/analysis?source=creator&keyword=%E5%85%BB%E8%80%81&appName=aweme"
+      },
+      "subject": {
+        "keyword": "养老",
+        "searchIndex": null,
+        "contentIndex": null
+      },
+      "demandEvidence": [
+        {
+          "word": "养老保险",
+          "searchIndex": 88,
+          "shape": "服务诉求",
+          "shapeId": "service",
+          "matched": "保险"
+        },
+        {
+          "word": "赡养老人",
+          "searchIndex": 49,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "老人"
+        },
+        {
+          "word": "灵活就业",
+          "searchIndex": 45,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "就业"
+        },
+        {
+          "word": "农村养老保险",
+          "searchIndex": 43,
+          "shape": "服务诉求",
+          "shapeId": "service",
+          "matched": "保险"
+        },
+        {
+          "word": "退休人员养老",
+          "searchIndex": 42,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "退休"
+        },
+        {
+          "word": "注意事项",
+          "searchIndex": 41,
+          "shape": "求解教程",
+          "shapeId": "howto",
+          "matched": "注意事项"
+        },
+        {
+          "word": "退休养老金",
+          "searchIndex": 40,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "退休"
+        }
+      ],
+      "directions": [
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "赡养老人",
+            "灵活就业",
+            "退休人员养老",
+            "退休养老金"
+          ]
+        },
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "养老保险",
+            "农村养老保险"
+          ]
+        },
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "注意事项"
+          ]
+        }
+      ],
+      "needWordCount": 7,
+      "demandShapeCount": 3,
+      "evidenceLevel": 3,
+      "missingData": [
+        "「养老」搜索指数均值未填"
+      ],
+      "relatedCount": 12,
+      "unmatchedCount": 5,
+      "unmatchedSample": [
+        "补发",
+        "缴费",
+        "上调",
+        "家庭养老",
+        "上海养老"
+      ],
+      "gaps": [
+        "相关性只反映热度/相关性，不含真人原话；需按 proofLinks 去抖音取证 3 条求助/评论",
+        "本批次用于校准阈值，跑完后再决定是否引入评分"
+      ],
+      "proofLinks": [
+        {
+          "word": "养老保险",
+          "douyinSearch": "https://www.douyin.com/search/%E5%85%BB%E8%80%81%E4%BF%9D%E9%99%A9"
+        },
+        {
+          "word": "赡养老人",
+          "douyinSearch": "https://www.douyin.com/search/%E8%B5%A1%E5%85%BB%E8%80%81%E4%BA%BA"
+        },
+        {
+          "word": "灵活就业",
+          "douyinSearch": "https://www.douyin.com/search/%E7%81%B5%E6%B4%BB%E5%B0%B1%E4%B8%9A"
+        }
+      ]
+    },
+    {
+      "id": "dy-s05",
+      "platform": "douyin",
+      "sourceName": "抖音指数（原巨量算数）",
+      "origin": "seed",
+      "title": "辅食｜赛道种子",
+      "status": "可验证",
+      "dataComplete": false,
+      "topic": {
+        "rank": null,
+        "title": "赛道种子",
+        "hotValue": null,
+        "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index/analysis?source=creator&keyword=%E8%BE%85%E9%A3%9F&appName=aweme"
+      },
+      "subject": {
+        "keyword": "辅食",
+        "searchIndex": null,
+        "contentIndex": null
+      },
+      "demandEvidence": [
+        {
+          "word": "宝宝",
+          "searchIndex": 100,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "宝宝"
+        },
+        {
+          "word": "辅食锅",
+          "searchIndex": 87,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*锅"
+        },
+        {
+          "word": "一岁宝宝辅食",
+          "searchIndex": 70,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "宝宝"
+        },
+        {
+          "word": "宝宝吃辅食",
+          "searchIndex": 66,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "宝宝"
+        },
+        {
+          "word": "辅食机",
+          "searchIndex": 51,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*机"
+        },
+        {
+          "word": "难吃",
+          "searchIndex": 49,
+          "shape": "验证口碑",
+          "shapeId": "trust",
+          "matched": "难吃"
+        }
+      ],
+      "directions": [
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "宝宝",
+            "一岁宝宝辅食",
+            "宝宝吃辅食"
+          ]
+        },
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "辅食锅",
+            "辅食机"
+          ]
+        },
+        {
+          "shapeId": "trust",
+          "shape": "验证口碑",
+          "words": [
+            "难吃"
+          ]
+        }
+      ],
+      "needWordCount": 6,
+      "demandShapeCount": 3,
+      "evidenceLevel": 3,
+      "missingData": [
+        "「辅食」搜索指数均值未填"
+      ],
+      "relatedCount": 15,
+      "unmatchedCount": 9,
+      "unmatchedSample": [
+        "做辅食",
+        "辅食粥",
+        "山药",
+        "辅食勺",
+        "儿童辅食",
+        "米粉",
+        "菠菜",
+        "核桃油"
+      ],
+      "gaps": [
+        "相关性只反映热度/相关性，不含真人原话；需按 proofLinks 去抖音取证 3 条求助/评论",
+        "本批次用于校准阈值，跑完后再决定是否引入评分"
+      ],
+      "proofLinks": [
+        {
+          "word": "宝宝",
+          "douyinSearch": "https://www.douyin.com/search/%E5%AE%9D%E5%AE%9D"
+        },
+        {
+          "word": "辅食锅",
+          "douyinSearch": "https://www.douyin.com/search/%E8%BE%85%E9%A3%9F%E9%94%85"
+        },
+        {
+          "word": "一岁宝宝辅食",
+          "douyinSearch": "https://www.douyin.com/search/%E4%B8%80%E5%B2%81%E5%AE%9D%E5%AE%9D%E8%BE%85%E9%A3%9F"
+        }
+      ]
+    },
+    {
+      "id": "dy-s02",
+      "platform": "douyin",
+      "sourceName": "抖音指数（原巨量算数）",
+      "origin": "seed",
+      "title": "考研｜赛道种子",
+      "status": "可验证",
+      "dataComplete": false,
+      "topic": {
+        "rank": null,
+        "title": "赛道种子",
+        "hotValue": null,
+        "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index/analysis?source=creator&keyword=%E8%80%83%E7%A0%94&appName=aweme"
+      },
+      "subject": {
+        "keyword": "考研",
+        "searchIndex": null,
+        "contentIndex": null
+      },
+      "demandEvidence": [
+        {
+          "word": "证件照",
+          "searchIndex": 63,
+          "shape": "服务诉求",
+          "shapeId": "service",
+          "matched": "证件照"
+        },
+        {
+          "word": "计算机考研",
+          "searchIndex": 62,
+          "shape": "工具获取",
+          "shapeId": "tool",
+          "matched": "计算"
+        },
+        {
+          "word": "考研报录比",
+          "searchIndex": 52,
+          "shape": "选型决策",
+          "shapeId": "choice",
+          "matched": "报录比"
+        },
+        {
+          "word": "考研择校",
+          "searchIndex": 37,
+          "shape": "选型决策",
+          "shapeId": "choice",
+          "matched": "择校"
+        },
+        {
+          "word": "考研机构",
+          "searchIndex": 35,
+          "shape": "服务诉求",
+          "shapeId": "service",
+          "matched": "机构"
+        }
+      ],
+      "directions": [
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "证件照",
+            "考研机构"
+          ]
+        },
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "考研报录比",
+            "考研择校"
+          ]
+        },
+        {
+          "shapeId": "tool",
+          "shape": "工具获取",
+          "words": [
+            "计算机考研"
+          ]
+        }
+      ],
+      "needWordCount": 5,
+      "demandShapeCount": 3,
+      "evidenceLevel": 3,
+      "missingData": [
+        "「考研」搜索指数均值未填"
+      ],
+      "relatedCount": 14,
+      "unmatchedCount": 9,
+      "unmatchedSample": [
+        "考研预报名",
+        "考研报名",
+        "考研数学",
+        "考研政治",
+        "考研上岸",
+        "考研院校",
+        "保研",
+        "考研时间"
+      ],
+      "gaps": [
+        "相关性只反映热度/相关性，不含真人原话；需按 proofLinks 去抖音取证 3 条求助/评论",
+        "本批次用于校准阈值，跑完后再决定是否引入评分"
+      ],
+      "proofLinks": [
+        {
+          "word": "证件照",
+          "douyinSearch": "https://www.douyin.com/search/%E8%AF%81%E4%BB%B6%E7%85%A7"
+        },
+        {
+          "word": "计算机考研",
+          "douyinSearch": "https://www.douyin.com/search/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%80%83%E7%A0%94"
+        },
+        {
+          "word": "考研报录比",
+          "douyinSearch": "https://www.douyin.com/search/%E8%80%83%E7%A0%94%E6%8A%A5%E5%BD%95%E6%AF%94"
+        }
+      ]
+    },
+    {
+      "id": "dy-s09",
+      "platform": "douyin",
+      "sourceName": "抖音指数（原巨量算数）",
+      "origin": "seed",
+      "title": "简历｜赛道种子",
+      "status": "可验证",
+      "dataComplete": false,
+      "topic": {
+        "rank": null,
+        "title": "赛道种子",
+        "hotValue": null,
+        "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index/analysis?source=creator&keyword=%E7%AE%80%E5%8E%86&appName=aweme"
+      },
+      "subject": {
+        "keyword": "简历",
+        "searchIndex": null,
+        "contentIndex": null
+      },
+      "demandEvidence": [
+        {
+          "word": "简历怎么写",
+          "searchIndex": 26,
+          "shape": "求解教程",
+          "shapeId": "howto",
+          "matched": "怎么"
+        },
+        {
+          "word": "个人简历模板",
+          "searchIndex": 20,
+          "shape": "工具获取",
+          "shapeId": "tool",
+          "matched": "模板"
+        },
+        {
+          "word": "应届生",
+          "searchIndex": 19,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "应届生"
+        },
+        {
+          "word": "简历模板",
+          "searchIndex": 17,
+          "shape": "工具获取",
+          "shapeId": "tool",
+          "matched": "模板"
+        }
+      ],
+      "directions": [
+        {
+          "shapeId": "tool",
+          "shape": "工具获取",
+          "words": [
+            "个人简历模板",
+            "简历模板"
+          ]
+        },
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "简历怎么写"
+          ]
+        },
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "应届生"
+          ]
+        }
+      ],
+      "needWordCount": 4,
+      "demandShapeCount": 3,
+      "evidenceLevel": 3,
+      "missingData": [
+        "「简历」搜索指数均值未填"
+      ],
+      "relatedCount": 8,
+      "unmatchedCount": 4,
+      "unmatchedSample": [
+        "投简历",
+        "个人资料",
+        "秋招",
+        "写简历"
+      ],
+      "gaps": [
+        "相关性只反映热度/相关性，不含真人原话；需按 proofLinks 去抖音取证 3 条求助/评论",
+        "本批次用于校准阈值，跑完后再决定是否引入评分"
+      ],
+      "proofLinks": [
+        {
+          "word": "简历怎么写",
+          "douyinSearch": "https://www.douyin.com/search/%E7%AE%80%E5%8E%86%E6%80%8E%E4%B9%88%E5%86%99"
+        },
+        {
+          "word": "个人简历模板",
+          "douyinSearch": "https://www.douyin.com/search/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BF"
+        },
+        {
+          "word": "应届生",
+          "douyinSearch": "https://www.douyin.com/search/%E5%BA%94%E5%B1%8A%E7%94%9F"
+        }
+      ]
+    },
+    {
+      "id": "dy-s12",
+      "platform": "douyin",
+      "sourceName": "抖音指数（原巨量算数）",
+      "origin": "seed",
+      "title": "考公｜赛道种子",
+      "status": "可验证",
+      "dataComplete": false,
+      "topic": {
+        "rank": null,
+        "title": "赛道种子",
+        "hotValue": null,
+        "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index/analysis?source=creator&keyword=%E8%80%83%E5%85%AC&appName=aweme"
+      },
+      "subject": {
+        "keyword": "考公",
+        "searchIndex": null,
+        "contentIndex": null
+      },
+      "demandEvidence": [
+        {
+          "word": "怎么学习",
+          "searchIndex": 43,
+          "shape": "求解教程",
+          "shapeId": "howto",
+          "matched": "怎么"
+        },
+        {
+          "word": "有多难",
+          "searchIndex": 37,
+          "shape": "求解教程",
+          "shapeId": "howto",
+          "matched": "有多难"
+        },
+        {
+          "word": "应届生",
+          "searchIndex": 35,
+          "shape": "人群长尾",
+          "shapeId": "crowd",
+          "matched": "应届生"
+        },
+        {
+          "word": "报班",
+          "searchIndex": 34,
+          "shape": "服务诉求",
+          "shapeId": "service",
+          "matched": "报班"
+        }
+      ],
+      "directions": [
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "怎么学习",
+            "有多难"
+          ]
+        },
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "应届生"
+          ]
+        },
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "报班"
+          ]
+        }
+      ],
+      "needWordCount": 4,
+      "demandShapeCount": 3,
+      "evidenceLevel": 3,
+      "missingData": [
+        "「考公」搜索指数均值未填"
+      ],
+      "relatedCount": 12,
+      "unmatchedCount": 8,
+      "unmatchedSample": [
+        "岗位",
+        "题目",
+        "备考公务员",
+        "考公面试",
+        "考研",
+        "政审",
+        "退役军人",
+        "报考公务员"
+      ],
+      "gaps": [
+        "相关性只反映热度/相关性，不含真人原话；需按 proofLinks 去抖音取证 3 条求助/评论",
+        "本批次用于校准阈值，跑完后再决定是否引入评分"
+      ],
+      "proofLinks": [
+        {
+          "word": "怎么学习",
+          "douyinSearch": "https://www.douyin.com/search/%E6%80%8E%E4%B9%88%E5%AD%A6%E4%B9%A0"
+        },
+        {
+          "word": "有多难",
+          "douyinSearch": "https://www.douyin.com/search/%E6%9C%89%E5%A4%9A%E9%9A%BE"
+        },
+        {
+          "word": "应届生",
+          "douyinSearch": "https://www.douyin.com/search/%E5%BA%94%E5%B1%8A%E7%94%9F"
+        }
+      ]
+    },
+    {
+      "id": "dy-s13",
+      "platform": "douyin",
+      "sourceName": "抖音指数（原巨量算数）",
+      "origin": "seed",
+      "title": "睡眠｜赛道种子",
+      "status": "可验证",
+      "dataComplete": false,
+      "topic": {
+        "rank": null,
+        "title": "赛道种子",
+        "hotValue": null,
+        "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index/analysis?source=creator&keyword=%E7%9D%A1%E7%9C%A0&appName=aweme"
+      },
+      "subject": {
+        "keyword": "睡眠",
+        "searchIndex": null,
+        "contentIndex": null
+      },
+      "demandEvidence": [
+        {
+          "word": "高质量睡眠",
+          "searchIndex": 84,
+          "shape": "验证口碑",
+          "shapeId": "trust",
+          "matched": "质量"
+        },
+        {
+          "word": "睡眠监测",
+          "searchIndex": 65,
+          "shape": "工具获取",
+          "shapeId": "tool",
+          "matched": "监测"
+        },
+        {
+          "word": "睡眠面膜",
+          "searchIndex": 57,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*面膜"
+        },
+        {
+          "word": "睡眠眼罩",
+          "searchIndex": 47,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*眼罩"
+        }
+      ],
+      "directions": [
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "睡眠面膜",
+            "睡眠眼罩"
+          ]
+        },
+        {
+          "shapeId": "trust",
+          "shape": "验证口碑",
+          "words": [
+            "高质量睡眠"
+          ]
+        },
+        {
+          "shapeId": "tool",
+          "shape": "工具获取",
+          "words": [
+            "睡眠监测"
+          ]
+        }
+      ],
+      "needWordCount": 4,
+      "demandShapeCount": 3,
+      "evidenceLevel": 3,
+      "missingData": [
+        "「睡眠」搜索指数均值未填"
+      ],
+      "relatedCount": 12,
+      "unmatchedCount": 8,
+      "unmatchedSample": [
+        "睡眠曲",
+        "睡眠助眠",
+        "护颈椎",
+        "睡眠音乐",
+        "睡眠时间",
+        "助眠",
+        "睡眠障碍",
+        "改善睡眠"
+      ],
+      "gaps": [
+        "相关性只反映热度/相关性，不含真人原话；需按 proofLinks 去抖音取证 3 条求助/评论",
+        "本批次用于校准阈值，跑完后再决定是否引入评分"
+      ],
+      "proofLinks": [
+        {
+          "word": "高质量睡眠",
+          "douyinSearch": "https://www.douyin.com/search/%E9%AB%98%E8%B4%A8%E9%87%8F%E7%9D%A1%E7%9C%A0"
+        },
+        {
+          "word": "睡眠监测",
+          "douyinSearch": "https://www.douyin.com/search/%E7%9D%A1%E7%9C%A0%E7%9B%91%E6%B5%8B"
+        },
+        {
+          "word": "睡眠面膜",
+          "douyinSearch": "https://www.douyin.com/search/%E7%9D%A1%E7%9C%A0%E9%9D%A2%E8%86%9C"
+        }
+      ]
+    },
+    {
+      "id": "dy-s08",
+      "platform": "douyin",
+      "sourceName": "抖音指数（原巨量算数）",
+      "origin": "seed",
+      "title": "健身｜赛道种子",
+      "status": "可验证",
+      "dataComplete": false,
+      "topic": {
+        "rank": null,
+        "title": "赛道种子",
+        "hotValue": null,
+        "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index/analysis?source=creator&keyword=%E5%81%A5%E8%BA%AB&appName=aweme"
+      },
+      "subject": {
+        "keyword": "健身",
+        "searchIndex": null,
+        "contentIndex": null
+      },
+      "demandEvidence": [
+        {
+          "word": "健身器材",
+          "searchIndex": 30,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*器材"
+        },
+        {
+          "word": "附近团",
+          "searchIndex": 28,
+          "shape": "地域就近",
+          "shapeId": "local",
+          "matched": "附近"
+        },
+        {
+          "word": "健身团购",
+          "searchIndex": 26,
+          "shape": "服务诉求",
+          "shapeId": "service",
+          "matched": "团购"
+        }
+      ],
+      "directions": [
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "健身器材"
+          ]
+        },
+        {
+          "shapeId": "local",
+          "shape": "地域就近",
+          "words": [
+            "附近团"
+          ]
+        },
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "健身团购"
+          ]
+        }
+      ],
+      "needWordCount": 3,
+      "demandShapeCount": 3,
+      "evidenceLevel": 3,
+      "missingData": [
+        "「健身」搜索指数均值未填"
+      ],
+      "relatedCount": 12,
+      "unmatchedCount": 9,
+      "unmatchedSample": [
+        "健身房",
+        "古法健身",
+        "游泳健身",
+        "健身直播",
+        "有氧健身操",
+        "健身运动",
+        "有氧运动",
+        "自助健身"
+      ],
+      "gaps": [
+        "相关性只反映热度/相关性，不含真人原话；需按 proofLinks 去抖音取证 3 条求助/评论",
+        "本批次用于校准阈值，跑完后再决定是否引入评分"
+      ],
+      "proofLinks": [
+        {
+          "word": "健身器材",
+          "douyinSearch": "https://www.douyin.com/search/%E5%81%A5%E8%BA%AB%E5%99%A8%E6%9D%90"
+        },
+        {
+          "word": "附近团",
+          "douyinSearch": "https://www.douyin.com/search/%E9%99%84%E8%BF%91%E5%9B%A2"
+        },
+        {
+          "word": "健身团购",
+          "douyinSearch": "https://www.douyin.com/search/%E5%81%A5%E8%BA%AB%E5%9B%A2%E8%B4%AD"
+        }
+      ]
+    },
+    {
+      "id": "dy-s07",
+      "platform": "douyin",
+      "sourceName": "抖音指数（原巨量算数）",
+      "origin": "seed",
+      "title": "收纳｜赛道种子",
+      "status": "可验证",
+      "dataComplete": false,
+      "topic": {
+        "rank": null,
+        "title": "赛道种子",
+        "hotValue": null,
+        "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index/analysis?source=creator&keyword=%E6%94%B6%E7%BA%B3&appName=aweme"
+      },
+      "subject": {
+        "keyword": "收纳",
+        "searchIndex": null,
+        "contentIndex": null
+      },
+      "demandEvidence": [
+        {
+          "word": "收纳包",
+          "searchIndex": 100,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*包"
+        },
+        {
+          "word": "收纳柜",
+          "searchIndex": 73,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*柜"
+        },
+        {
+          "word": "收纳架",
+          "searchIndex": 73,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*架"
+        },
+        {
+          "word": "收纳神器",
+          "searchIndex": 63,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*神器"
+        },
+        {
+          "word": "收纳册",
+          "searchIndex": 37,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*册"
+        },
+        {
+          "word": "攻略",
+          "searchIndex": 34,
+          "shape": "求解教程",
+          "shapeId": "howto",
+          "matched": "攻略"
+        },
+        {
+          "word": "整理箱",
+          "searchIndex": 34,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*箱"
+        }
+      ],
+      "directions": [
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "收纳包",
+            "收纳柜",
+            "收纳架",
+            "收纳神器",
+            "收纳册",
+            "整理箱"
+          ]
+        },
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "攻略"
+          ]
+        }
+      ],
+      "needWordCount": 7,
+      "demandShapeCount": 2,
+      "evidenceLevel": 2,
+      "missingData": [
+        "「收纳」搜索指数均值未填"
+      ],
+      "relatedCount": 15,
+      "unmatchedCount": 8,
+      "unmatchedSample": [
+        "收纳筐",
+        "化妆收纳",
+        "收纳整理",
+        "大容量",
+        "旅行收纳",
+        "沉浸式收纳",
+        "抽屉式",
+        "衣柜收纳"
+      ],
+      "gaps": [
+        "相关性只反映热度/相关性，不含真人原话；需按 proofLinks 去抖音取证 3 条求助/评论",
+        "本批次用于校准阈值，跑完后再决定是否引入评分"
+      ],
+      "proofLinks": [
+        {
+          "word": "收纳包",
+          "douyinSearch": "https://www.douyin.com/search/%E6%94%B6%E7%BA%B3%E5%8C%85"
+        },
+        {
+          "word": "收纳柜",
+          "douyinSearch": "https://www.douyin.com/search/%E6%94%B6%E7%BA%B3%E6%9F%9C"
+        },
+        {
+          "word": "收纳架",
+          "douyinSearch": "https://www.douyin.com/search/%E6%94%B6%E7%BA%B3%E6%9E%B6"
+        }
+      ]
+    },
+    {
+      "id": "dy-s11",
+      "platform": "douyin",
+      "sourceName": "抖音指数（原巨量算数）",
+      "origin": "seed",
+      "title": "宠物｜赛道种子",
+      "status": "可验证",
+      "dataComplete": false,
+      "topic": {
+        "rank": null,
+        "title": "赛道种子",
+        "hotValue": null,
+        "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index/analysis?source=creator&keyword=%E5%AE%A0%E7%89%A9&appName=aweme"
+      },
+      "subject": {
+        "keyword": "宠物",
+        "searchIndex": null,
+        "contentIndex": null
+      },
+      "demandEvidence": [
+        {
+          "word": "宠物医院",
+          "searchIndex": 100,
+          "shape": "服务诉求",
+          "shapeId": "service",
+          "matched": "医院"
+        },
+        {
+          "word": "宠物店",
+          "searchIndex": 83,
+          "shape": "服务诉求",
+          "shapeId": "service",
+          "matched": "*店"
+        },
+        {
+          "word": "宠物用品",
+          "searchIndex": 51,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*用品"
+        },
+        {
+          "word": "宠物零食",
+          "searchIndex": 48,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*零食"
+        },
+        {
+          "word": "宠物食品",
+          "searchIndex": 41,
+          "shape": "品类求购",
+          "shapeId": "purchase",
+          "matched": "*食品"
+        },
+        {
+          "word": "宠物殡葬",
+          "searchIndex": 33,
+          "shape": "服务诉求",
+          "shapeId": "service",
+          "matched": "殡葬"
+        }
+      ],
+      "directions": [
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "宠物医院",
+            "宠物店",
+            "宠物殡葬"
+          ]
+        },
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "宠物用品",
+            "宠物零食",
+            "宠物食品"
+          ]
+        }
+      ],
+      "needWordCount": 6,
+      "demandShapeCount": 2,
+      "evidenceLevel": 2,
+      "missingData": [
+        "「宠物」搜索指数均值未填"
+      ],
+      "relatedCount": 12,
+      "unmatchedCount": 6,
+      "unmatchedSample": [
+        "宠物狗",
+        "宠物洗澡",
+        "养宠物",
+        "小宠物",
+        "带宠物",
+        "宠物市场"
+      ],
+      "gaps": [
+        "相关性只反映热度/相关性，不含真人原话；需按 proofLinks 去抖音取证 3 条求助/评论",
+        "本批次用于校准阈值，跑完后再决定是否引入评分"
+      ],
+      "proofLinks": [
+        {
+          "word": "宠物医院",
+          "douyinSearch": "https://www.douyin.com/search/%E5%AE%A0%E7%89%A9%E5%8C%BB%E9%99%A2"
+        },
+        {
+          "word": "宠物店",
+          "douyinSearch": "https://www.douyin.com/search/%E5%AE%A0%E7%89%A9%E5%BA%97"
+        },
+        {
+          "word": "宠物用品",
+          "douyinSearch": "https://www.douyin.com/search/%E5%AE%A0%E7%89%A9%E7%94%A8%E5%93%81"
+        }
+      ]
+    },
+    {
+      "id": "dy-s04",
+      "platform": "douyin",
+      "sourceName": "抖音指数（原巨量算数）",
+      "origin": "seed",
+      "title": "装修｜赛道种子",
+      "status": "可验证",
+      "dataComplete": false,
+      "topic": {
+        "rank": null,
+        "title": "赛道种子",
+        "hotValue": null,
+        "url": "https://creator.douyin.com/creator-micro/creator-count/arithmetic-index/analysis?source=creator&keyword=%E8%A3%85%E4%BF%AE&appName=aweme"
+      },
+      "subject": {
+        "keyword": "装修",
+        "searchIndex": null,
+        "contentIndex": null
+      },
+      "demandEvidence": [
+        {
+          "word": "装修效果图",
+          "searchIndex": 100,
+          "shape": "选型决策",
+          "shapeId": "choice",
+          "matched": "效果图"
+        },
+        {
+          "word": "装修风格推荐",
+          "searchIndex": 38,
+          "shape": "选型决策",
+          "shapeId": "choice",
+          "matched": "推荐"
+        }
+      ],
+      "directions": [
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "装修效果图",
+            "装修风格推荐"
+          ]
+        }
+      ],
+      "needWordCount": 2,
+      "demandShapeCount": 1,
+      "evidenceLevel": 1,
+      "missingData": [
+        "「装修」搜索指数均值未填"
+      ],
+      "relatedCount": 12,
+      "unmatchedCount": 10,
+      "unmatchedSample": [
+        "房子装修",
+        "承重墙",
+        "小户型装修",
+        "别墅装修",
+        "三室一厅",
+        "装修房子",
+        "大平层装修",
+        "风格装修"
+      ],
+      "gaps": [
+        "相关性只反映热度/相关性，不含真人原话；需按 proofLinks 去抖音取证 3 条求助/评论",
+        "本批次用于校准阈值，跑完后再决定是否引入评分"
+      ],
+      "proofLinks": [
+        {
+          "word": "装修效果图",
+          "douyinSearch": "https://www.douyin.com/search/%E8%A3%85%E4%BF%AE%E6%95%88%E6%9E%9C%E5%9B%BE"
+        },
+        {
+          "word": "装修风格推荐",
+          "douyinSearch": "https://www.douyin.com/search/%E8%A3%85%E4%BF%AE%E9%A3%8E%E6%A0%BC%E6%8E%A8%E8%8D%90"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "title": "国庆漂亮旗袍妆（热榜派生·负对照）",
+      "keyword": "旗袍",
+      "origin": "hot-topic-control",
+      "reason": "需求形状关联词 0/2 个，未达门槛",
+      "needWords": [],
+      "relatedCount": 20,
+      "unmatchedSample": [
+        "田曦薇",
+        "严肃",
+        "女明星",
+        "珠宝",
+        "旗袍造型",
+        "民国旗袍",
+        "太绝了",
+        "赵露思"
+      ]
+    },
+    {
+      "title": "赛道种子",
+      "keyword": "理财",
+      "origin": "seed",
+      "reason": "需求形状关联词 1/2 个，未达门槛",
+      "needWords": [
+        "如何理财"
+      ],
+      "relatedCount": 12,
+      "unmatchedSample": [
+        "理财日记",
+        "50万投资",
+        "个人理财",
+        "支付宝理财",
+        "理财投资理财",
+        "最佳方案",
+        "理财知识",
+        "家庭理财"
+      ]
+    }
+  ]
+}

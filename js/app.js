@@ -63,8 +63,9 @@ async function initApp() {
     // 并行加载：通用实时数据（GitHub/非 Twitter）+ 真实 Twitter 数据
     Promise.all([
         typeof loadLiveData === 'function' ? loadLiveData() : Promise.resolve(false),
-        loadRealTwitterSignals()
-    ]).then(([liveLoaded, twitterLoaded]) => {
+        loadRealTwitterSignals(),
+        typeof loadNeedRadar === 'function' ? loadNeedRadar() : Promise.resolve(false)
+    ]).then(([liveLoaded, twitterLoaded, needRadarLoaded]) => {
         // 真实数据就绪后重建机会雷达：信号 → 机会 → 开源项目 自动关联
         if (typeof refreshOpportunityPipeline === 'function') {
             refreshOpportunityPipeline();
@@ -78,6 +79,9 @@ async function initApp() {
         renderTrends();
         renderSignals(getFilteredSignals());
         renderOpportunities(getFilteredOpportunities());
+        if (typeof renderNeedRadar === 'function') {
+            renderNeedRadar();
+        }
         renderProjects(getFilteredProjects());
         renderFavorites();
         if (twitterLoaded) {

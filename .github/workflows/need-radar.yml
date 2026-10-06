@@ -1,0 +1,45 @@
+name: Refresh need radar
+
+# 说明：需求雷达分两段。
+#   取数（平台词表 + 关联词）目前需要浏览器登录态，手动跑一次后写入 data/need-radar-raw.json；
+#   分析 + GitHub 项目匹配是纯离线的，由本工作流每天定时执行。
+# 也就是说：词表更新靠人工触发一次抓取，需求分析和项目匹配全自动。
+
+on:
+  schedule:
+    # 每天 UTC 01:00 = 北京时间 09:00
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 生成需求雷达
+        env:
+          # 用仓库自带 token，GitHub 搜索配额从 10 次/分钟提到 30 次/分钟
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/need-radar.mjs
+
+      - name: 提交数据更新
+        run: |
+          git config user.name "need2build-bot"
+          git config user.email "need2build-bot@users.noreply.github.com"
+          git add data/need-radar.json
+          if git diff --cached --quiet; then
+            echo "没有数据变化，跳过提交"
+          else
+            git commit -m "data: 刷新需求雷达 $(date -u +'%Y-%m-%d %H:%M')"
+            git push
+          fi
