@@ -1,16 +1,21 @@
 {
-  "generatedAt": "2026-10-05T07:04:29.427Z",
+  "generatedAt": "2026-10-06T03:40:49.853Z",
   "source": "抖音指数（原巨量算数）· 创作指南关键词榜 + 关键词分析关联分析",
   "poolDomains": 24,
   "poolWords": 119,
-  "seedCount": 29,
-  "opportunityCount": 22,
-  "projectsMatched": 21,
+  "seedCount": 42,
+  "sources": {
+    "douyin": 22,
+    "xiaohongshu": 11
+  },
+  "opportunityCount": 33,
+  "projectsMatched": 32,
   "errors": [],
   "opportunities": [
     {
-      "id": "opp-养生",
+      "id": "opp-douyin-养生",
       "seed": "养生",
+      "platform": "douyin",
       "origin": "platform-pool",
       "status": "可验证",
       "demandWordCount": 7,
@@ -93,6 +98,7 @@
           "shapeId": "howto"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [],
       "gaps": [
         "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
@@ -168,8 +174,9 @@
       "projectProbe": "附近养生馆"
     },
     {
-      "id": "opp-减肥",
+      "id": "opp-douyin-减肥",
       "seed": "减肥",
+      "platform": "douyin",
       "origin": "seed",
       "status": "可验证",
       "demandWordCount": 6,
@@ -245,6 +252,7 @@
           "shapeId": "choice"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
         "减肥操",
         "减肥法",
@@ -262,7 +270,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 22512,
+          "stars": 22538,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -308,7 +316,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7019,
+          "stars": 7032,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -326,8 +334,150 @@
       "projectProbe": "减肥前后对比"
     },
     {
-      "id": "opp-亲子游",
+      "id": "opp-xiaohongshu-收纳",
+      "seed": "收纳",
+      "platform": "xiaohongshu",
+      "origin": "xhs-filter",
+      "status": "可验证",
+      "demandWordCount": 6,
+      "relatedWordCount": 15,
+      "directionCount": 4,
+      "directions": [
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "置物架",
+            "化妆包",
+            "行李箱"
+          ]
+        },
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "整理技巧"
+          ]
+        },
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "儿童玩具"
+          ]
+        },
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "小包推荐"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "整理技巧",
+          "value": null,
+          "shape": "求解教程",
+          "shapeId": "howto"
+        },
+        {
+          "word": "儿童玩具",
+          "value": null,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "置物架",
+          "value": null,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "化妆包",
+          "value": null,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "小包推荐",
+          "value": null,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        },
+        {
+          "word": "行李箱",
+          "value": null,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        }
+      ],
+      "geoHints": [],
+      "unmatchedSample": [
+        "房间布置",
+        "小户型",
+        "沉浸式",
+        "衣服",
+        "家居",
+        "书桌桌面",
+        "抽屉",
+        "零食"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "abuanwar072/furniture_app_flutter",
+          "stars": 619,
+          "description": "watch it on YouTube ",
+          "topics": [
+            "android-app",
+            "flutter",
+            "ios-app"
+          ],
+          "language": "Dart",
+          "url": "https://github.com/abuanwar072/furniture_app_flutter"
+        },
+        {
+          "name": "clvrai/furniture",
+          "stars": 577,
+          "description": "IKEA Furniture Assembly Environment for Long-Horizon Complex Manipulation Tasks",
+          "topics": [
+            "furniture-assembly",
+            "imitation-learning",
+            "reinforcement-learning-environments",
+            "robot-learning",
+            "robotics"
+          ],
+          "language": "Python",
+          "url": "https://github.com/clvrai/furniture"
+        },
+        {
+          "name": "JideGuru/FlutterFurnitureAppUI",
+          "stars": 511,
+          "description": "Flutter representation of a furniture app UI",
+          "topics": [
+            "android",
+            "cross-platform",
+            "flutter",
+            "furniture",
+            "furniture-app-ui",
+            "ios",
+            "mobile",
+            "ui"
+          ],
+          "language": "Dart",
+          "url": "https://github.com/JideGuru/FlutterFurnitureAppUI"
+        }
+      ],
+      "projectProbe": "置物架"
+    },
+    {
+      "id": "opp-douyin-亲子游",
       "seed": "亲子游",
+      "platform": "douyin",
       "origin": "seed",
       "status": "可验证",
       "demandWordCount": 5,
@@ -396,6 +546,7 @@
           "shapeId": "local"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
         "亲子游玩",
         "亲子",
@@ -412,7 +563,7 @@
       "projects": [
         {
           "name": "JourniOne-ai/JourniOne-Planning-Skills",
-          "stars": 492,
+          "stars": 509,
           "description": "JourniOne 旅行规划 Skill：从灵感与逐日路线，到带地图、可分享的 Travel Journal，按需衔接酒店与航班。",
           "topics": [
             "agent-skills",
@@ -462,8 +613,9 @@
       "projectProbe": "三天两晚"
     },
     {
-      "id": "opp-副业",
+      "id": "opp-douyin-副业",
       "seed": "副业",
+      "platform": "douyin",
       "origin": "seed",
       "status": "可验证",
       "demandWordCount": 12,
@@ -575,6 +727,7 @@
           "shapeId": "crowd"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
         "副业项目",
         "不上班",
@@ -589,7 +742,7 @@
       "projects": [
         {
           "name": "weijunext/indie-hacker-tools",
-          "stars": 7977,
+          "stars": 7976,
           "description": "收录独立开发者出海技术栈和工具",
           "topics": [],
           "language": "",
@@ -638,8 +791,9 @@
       "projectProbe": "线上赚钱"
     },
     {
-      "id": "opp-零食",
+      "id": "opp-douyin-零食",
       "seed": "零食",
+      "platform": "douyin",
       "origin": "platform-pool",
       "status": "可验证",
       "demandWordCount": 11,
@@ -744,6 +898,7 @@
           "shapeId": "purchase"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [],
       "gaps": [
         "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
@@ -802,8 +957,153 @@
       "projectProbe": "赵一鸣零食"
     },
     {
-      "id": "opp-养老",
+      "id": "opp-douyin-辅食",
+      "seed": "辅食",
+      "platform": "douyin",
+      "origin": "seed",
+      "status": "可验证",
+      "demandWordCount": 7,
+      "relatedWordCount": 15,
+      "directionCount": 3,
+      "directions": [
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "宝宝",
+            "一岁宝宝辅食",
+            "宝宝吃辅食",
+            "儿童辅食"
+          ]
+        },
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "辅食锅",
+            "辅食机"
+          ]
+        },
+        {
+          "shapeId": "trust",
+          "shape": "验证口碑",
+          "words": [
+            "难吃"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "宝宝",
+          "value": 100,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "辅食锅",
+          "value": 87,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "一岁宝宝辅食",
+          "value": 70,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "宝宝吃辅食",
+          "value": 66,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "儿童辅食",
+          "value": 60,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "辅食机",
+          "value": 51,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "难吃",
+          "value": 49,
+          "shape": "验证口碑",
+          "shapeId": "trust"
+        }
+      ],
+      "geoHints": [],
+      "unmatchedSample": [
+        "做辅食",
+        "辅食粥",
+        "山药",
+        "辅食勺",
+        "米粉",
+        "菠菜",
+        "核桃油",
+        "西兰花"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "Oak-and-Sprout/sprout-track",
+          "stars": 388,
+          "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
+          "topics": [
+            "activity",
+            "baby",
+            "baby-tracker",
+            "family-friendly",
+            "open-source",
+            "self-hosted",
+            "sprout",
+            "sprout-track",
+            "tracker",
+            "tracking"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/Oak-and-Sprout/sprout-track"
+        },
+        {
+          "name": "mikebarkmin/baby-tracker",
+          "stars": 73,
+          "description": "A progressive web app to track your baby and share the data with your family in real-time.",
+          "topics": [
+            "express",
+            "react",
+            "socketio",
+            "styled-components"
+          ],
+          "language": "JavaScript",
+          "url": "https://github.com/mikebarkmin/baby-tracker"
+        },
+        {
+          "name": "Woyken/huckleberry-homeassistant",
+          "stars": 39,
+          "description": "Home Assistant integration for Huckleberry baby tracker app - monitor sleep, feeding, diapers, and growth tracking",
+          "topics": [
+            "baby-tracker",
+            "hacs",
+            "home-assistant",
+            "huckleberry"
+          ],
+          "language": "Python",
+          "url": "https://github.com/Woyken/huckleberry-homeassistant"
+        }
+      ],
+      "projectProbe": "宝宝"
+    },
+    {
+      "id": "opp-douyin-养老",
       "seed": "养老",
+      "platform": "douyin",
       "origin": "seed",
       "status": "可验证",
       "demandWordCount": 7,
@@ -880,6 +1180,7 @@
           "shapeId": "howto"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
         "补发",
         "缴费",
@@ -951,9 +1252,10 @@
       "projectProbe": "赡养老人"
     },
     {
-      "id": "opp-辅食",
-      "seed": "辅食",
-      "origin": "seed",
+      "id": "opp-xiaohongshu-简历",
+      "seed": "简历",
+      "platform": "xiaohongshu",
+      "origin": "xhs-filter",
       "status": "可验证",
       "demandWordCount": 6,
       "relatedWordCount": 15,
@@ -963,74 +1265,75 @@
           "shapeId": "crowd",
           "shape": "人群长尾",
           "words": [
-            "宝宝",
-            "一岁宝宝辅食",
-            "宝宝吃辅食"
+            "幼师",
+            "打工人",
+            "职场人",
+            "求职者"
           ]
         },
         {
-          "shapeId": "purchase",
-          "shape": "品类求购",
+          "shapeId": "choice",
+          "shape": "选型决策",
           "words": [
-            "辅食锅",
-            "辅食机"
+            "优秀案例"
           ]
         },
         {
-          "shapeId": "trust",
-          "shape": "验证口碑",
+          "shapeId": "tool",
+          "shape": "工具获取",
           "words": [
-            "难吃"
+            "简单模板"
           ]
         }
       ],
       "demandEvidence": [
         {
-          "word": "宝宝",
-          "value": 100,
+          "word": "幼师",
+          "value": null,
           "shape": "人群长尾",
           "shapeId": "crowd"
         },
         {
-          "word": "辅食锅",
-          "value": 87,
-          "shape": "品类求购",
-          "shapeId": "purchase"
-        },
-        {
-          "word": "一岁宝宝辅食",
-          "value": 70,
+          "word": "打工人",
+          "value": null,
           "shape": "人群长尾",
           "shapeId": "crowd"
         },
         {
-          "word": "宝宝吃辅食",
-          "value": 66,
+          "word": "优秀案例",
+          "value": null,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        },
+        {
+          "word": "简单模板",
+          "value": null,
+          "shape": "工具获取",
+          "shapeId": "tool"
+        },
+        {
+          "word": "职场人",
+          "value": null,
           "shape": "人群长尾",
           "shapeId": "crowd"
         },
         {
-          "word": "辅食机",
-          "value": 51,
-          "shape": "品类求购",
-          "shapeId": "purchase"
-        },
-        {
-          "word": "难吃",
-          "value": 49,
-          "shape": "验证口碑",
-          "shapeId": "trust"
+          "word": "求职者",
+          "value": null,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
-        "做辅食",
-        "辅食粥",
-        "山药",
-        "辅食勺",
-        "儿童辅食",
-        "米粉",
-        "菠菜",
-        "核桃油"
+        "学前教育",
+        "工作经历",
+        "个人简介",
+        "摄影师",
+        "word版",
+        "boss直聘",
+        "高级感",
+        "服装设计"
       ],
       "gaps": [
         "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
@@ -1038,56 +1341,73 @@
       ],
       "projects": [
         {
-          "name": "Oak-and-Sprout/sprout-track",
-          "stars": 388,
-          "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
+          "name": "reactive-resume/reactive-resume",
+          "stars": 43850,
+          "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
-            "activity",
-            "baby",
-            "baby-tracker",
-            "family-friendly",
-            "open-source",
+            "agent-skills",
+            "ai",
+            "dsh-plugin",
+            "hacktoberfest",
+            "javascript",
+            "mcp-server",
+            "react",
+            "resume-builder",
             "self-hosted",
-            "sprout",
-            "sprout-track",
-            "tracker",
-            "tracking"
+            "typescript"
           ],
           "language": "TypeScript",
-          "url": "https://github.com/Oak-and-Sprout/sprout-track"
+          "url": "https://github.com/reactive-resume/reactive-resume"
         },
         {
-          "name": "mikebarkmin/baby-tracker",
-          "stars": 73,
-          "description": "A progressive web app to track your baby and share the data with your family in real-time.",
+          "name": "srbhr/Resume-Matcher",
+          "stars": 28586,
+          "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
-            "express",
-            "react",
-            "socketio",
-            "styled-components"
-          ],
-          "language": "JavaScript",
-          "url": "https://github.com/mikebarkmin/baby-tracker"
-        },
-        {
-          "name": "Woyken/huckleberry-homeassistant",
-          "stars": 39,
-          "description": "Home Assistant integration for Huckleberry baby tracker app - monitor sleep, feeding, diapers, and growth tracking",
-          "topics": [
-            "baby-tracker",
-            "hacs",
-            "home-assistant",
-            "huckleberry"
+            "applicant-tracking-system",
+            "ats",
+            "hacktoberfest",
+            "machine-learning",
+            "natural-language-processing",
+            "nextjs",
+            "python",
+            "resume",
+            "resume-builder",
+            "resume-parser",
+            "text-similarity",
+            "typescript",
+            "vector-search",
+            "word-embeddings"
           ],
           "language": "Python",
-          "url": "https://github.com/Woyken/huckleberry-homeassistant"
+          "url": "https://github.com/srbhr/Resume-Matcher"
+        },
+        {
+          "name": "rendercv/rendercv",
+          "stars": 17707,
+          "description": "Resume builder for academics and engineers",
+          "topics": [
+            "cv",
+            "cv-builder",
+            "cv-generator",
+            "cv-template",
+            "python",
+            "resume",
+            "resume-builder",
+            "resume-generator",
+            "resume-template",
+            "typst"
+          ],
+          "language": "Python",
+          "url": "https://github.com/rendercv/rendercv"
         }
       ],
-      "projectProbe": "宝宝"
+      "projectProbe": "幼师"
     },
     {
-      "id": "opp-考研",
+      "id": "opp-douyin-考研",
       "seed": "考研",
+      "platform": "douyin",
       "origin": "seed",
       "status": "可验证",
       "demandWordCount": 5,
@@ -1150,6 +1470,7 @@
           "shapeId": "service"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
         "考研预报名",
         "考研报名",
@@ -1167,7 +1488,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 11935,
+          "stars": 11941,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -1231,11 +1552,12 @@
       "projectProbe": "证件照"
     },
     {
-      "id": "opp-简历",
+      "id": "opp-douyin-简历",
       "seed": "简历",
+      "platform": "douyin",
       "origin": "seed",
       "status": "可验证",
-      "demandWordCount": 4,
+      "demandWordCount": 5,
       "relatedWordCount": 8,
       "directionCount": 3,
       "directions": [
@@ -1243,6 +1565,7 @@
           "shapeId": "tool",
           "shape": "工具获取",
           "words": [
+            "个人资料",
             "个人简历模板",
             "简历模板"
           ]
@@ -1263,6 +1586,12 @@
         }
       ],
       "demandEvidence": [
+        {
+          "word": "个人资料",
+          "value": 27,
+          "shape": "工具获取",
+          "shapeId": "tool"
+        },
         {
           "word": "简历怎么写",
           "value": 26,
@@ -1288,9 +1617,9 @@
           "shapeId": "tool"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
         "投简历",
-        "个人资料",
         "秋招",
         "写简历"
       ],
@@ -1301,7 +1630,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 43794,
+          "stars": 43850,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1320,7 +1649,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 28585,
+          "stars": 28586,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1343,7 +1672,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17702,
+          "stars": 17707,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "cv",
@@ -1361,11 +1690,12 @@
           "url": "https://github.com/rendercv/rendercv"
         }
       ],
-      "projectProbe": "个人简历模板"
+      "projectProbe": "个人资料"
     },
     {
-      "id": "opp-考公",
+      "id": "opp-douyin-考公",
       "seed": "考公",
+      "platform": "douyin",
       "origin": "seed",
       "status": "可验证",
       "demandWordCount": 4,
@@ -1421,6 +1751,7 @@
           "shapeId": "service"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
         "岗位",
         "题目",
@@ -1438,7 +1769,7 @@
       "projects": [
         {
           "name": "kuriv/civil-service-exam",
-          "stars": 1003,
+          "stars": 1004,
           "description": "公务员考试知识思维导图，我们岸上见！",
           "topics": [
             "civil-service",
@@ -1477,8 +1808,9 @@
       "projectProbe": "怎么学习"
     },
     {
-      "id": "opp-睡眠",
+      "id": "opp-douyin-睡眠",
       "seed": "睡眠",
+      "platform": "douyin",
       "origin": "seed",
       "status": "可验证",
       "demandWordCount": 4,
@@ -1534,6 +1866,7 @@
           "shapeId": "purchase"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
         "睡眠曲",
         "睡眠助眠",
@@ -1590,7 +1923,7 @@
         },
         {
           "name": "diegoscarabelli/garmin-health-data",
-          "stars": 122,
+          "stars": 123,
           "description": "A simple Python CLI to download Garmin Connect data as local files and load them into a SQLite database for analysis",
           "topics": [
             "ai-agents",
@@ -1615,8 +1948,9 @@
       "projectProbe": "睡眠面膜"
     },
     {
-      "id": "opp-健身",
+      "id": "opp-douyin-健身",
       "seed": "健身",
+      "platform": "douyin",
       "origin": "seed",
       "status": "可验证",
       "demandWordCount": 3,
@@ -1665,6 +1999,7 @@
           "shapeId": "service"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
         "健身房",
         "古法健身",
@@ -1682,7 +2017,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 22512,
+          "stars": 22538,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -1728,7 +2063,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7019,
+          "stars": 7032,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -1746,8 +2081,9 @@
       "projectProbe": "健身器材"
     },
     {
-      "id": "opp-收纳",
+      "id": "opp-douyin-收纳",
       "seed": "收纳",
+      "platform": "douyin",
       "origin": "seed",
       "status": "可验证",
       "demandWordCount": 7,
@@ -1818,6 +2154,7 @@
           "shapeId": "purchase"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
         "收纳筐",
         "化妆收纳",
@@ -1880,8 +2217,9 @@
       "projectProbe": "收纳包"
     },
     {
-      "id": "opp-宠物",
+      "id": "opp-douyin-宠物",
       "seed": "宠物",
+      "platform": "douyin",
       "origin": "seed",
       "status": "可验证",
       "demandWordCount": 6,
@@ -1945,6 +2283,7 @@
           "shapeId": "service"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
         "宠物狗",
         "宠物洗澡",
@@ -1958,28 +2297,6 @@
         "还没有真人原话，需要按词去内容平台取证"
       ],
       "projects": [
-        {
-          "name": "YosemiteCrew/Yosemite-Crew",
-          "stars": 2020,
-          "description": "Open-source operating system for animal health",
-          "topics": [
-            "animal-health",
-            "animals",
-            "docker",
-            "open-source-healthcare",
-            "pets",
-            "pims",
-            "pms",
-            "practice-management-system",
-            "react-native",
-            "self-hosted",
-            "typescript",
-            "veterinary",
-            "veterinary-software"
-          ],
-          "language": "TypeScript",
-          "url": "https://github.com/YosemiteCrew/Yosemite-Crew"
-        },
         {
           "name": "pjborowiecki/ARKA-Veterinary-Clinic-Page-and-Appointment-Booking-System",
           "stars": 165,
@@ -2019,13 +2336,284 @@
           ],
           "language": "JavaScript",
           "url": "https://github.com/scylladb/care-pet"
+        },
+        {
+          "name": "Vetdatahub/VetDataHub",
+          "stars": 50,
+          "description": "VetDataHub is an opensource veterinary datasets repository dedicated to advancing veterinary medicine through the sharin",
+          "topics": [
+            "africa",
+            "artificial-intelligence",
+            "data-science",
+            "datasets",
+            "ghana",
+            "hacktoberfest",
+            "hacktoberfest-accepted",
+            "veterinary"
+          ],
+          "language": "",
+          "url": "https://github.com/Vetdatahub/VetDataHub"
         }
       ],
       "projectProbe": "宠物医院"
     },
     {
-      "id": "opp-咖啡",
+      "id": "opp-xiaohongshu-副业",
+      "seed": "副业",
+      "platform": "xiaohongshu",
+      "origin": "xhs-filter",
+      "status": "可验证",
+      "demandWordCount": 5,
+      "relatedWordCount": 15,
+      "directionCount": 2,
+      "directions": [
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "兼职日结",
+            "普通人",
+            "打工人",
+            "年轻人"
+          ]
+        },
+        {
+          "shapeId": "cost",
+          "shape": "成本门槛",
+          "words": [
+            "低成本"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "兼职日结",
+          "value": null,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "低成本",
+          "value": null,
+          "shape": "成本门槛",
+          "shapeId": "cost"
+        },
+        {
+          "word": "普通人",
+          "value": null,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "打工人",
+          "value": null,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "年轻人",
+          "value": null,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        }
+      ],
+      "geoHints": [
+        "深圳",
+        "广州"
+      ],
+      "unmatchedSample": [
+        "正规渠道",
+        "真实有效",
+        "自由职业",
+        "入门",
+        "技能变现",
+        "剪辑师",
+        "小众",
+        "轻创业"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "weijunext/indie-hacker-tools",
+          "stars": 7976,
+          "description": "收录独立开发者出海技术栈和工具",
+          "topics": [],
+          "language": "",
+          "url": "https://github.com/weijunext/indie-hacker-tools"
+        },
+        {
+          "name": "mayeaux/nodetube",
+          "stars": 2363,
+          "description": "Open-source YouTube alternative that offers video, audio and image uploads, livestreaming and built-in monetization",
+          "topics": [
+            "alternative",
+            "audio-streaming",
+            "image-hosting",
+            "livestreaming",
+            "monetization",
+            "video-streaming",
+            "youtube"
+          ],
+          "language": "JavaScript",
+          "url": "https://github.com/mayeaux/nodetube"
+        },
+        {
+          "name": "XiaomingX/indie-hacker-tools-plus",
+          "stars": 1874,
+          "description": "为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and tools",
+          "topics": [
+            "agent",
+            "ai",
+            "awesome",
+            "awesome-list",
+            "awesome-lists",
+            "aws",
+            "azure",
+            "cloudflare",
+            "github",
+            "hacker",
+            "indiehacker",
+            "llm",
+            "nextjs",
+            "shadcn"
+          ],
+          "language": "",
+          "url": "https://github.com/XiaomingX/indie-hacker-tools-plus"
+        }
+      ],
+      "projectProbe": "兼职日结"
+    },
+    {
+      "id": "opp-xiaohongshu-辅食",
+      "seed": "辅食",
+      "platform": "xiaohongshu",
+      "origin": "xhs-filter",
+      "status": "可验证",
+      "demandWordCount": 5,
+      "relatedWordCount": 15,
+      "directionCount": 2,
+      "directions": [
+        {
+          "shapeId": "purchase",
+          "shape": "品类求购",
+          "words": [
+            "午晚餐",
+            "营养餐",
+            "儿童餐"
+          ]
+        },
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "小月龄",
+            "婴幼儿"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "午晚餐",
+          "value": null,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "营养餐",
+          "value": null,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "小月龄",
+          "value": null,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "儿童餐",
+          "value": null,
+          "shape": "品类求购",
+          "shapeId": "purchase"
+        },
+        {
+          "word": "婴幼儿",
+          "value": null,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        }
+      ],
+      "geoHints": [],
+      "unmatchedSample": [
+        "十一月",
+        "周岁",
+        "养脾胃",
+        "详细版",
+        "家常菜",
+        "易消化",
+        "去内热",
+        "低敏食物"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "Oak-and-Sprout/sprout-track",
+          "stars": 388,
+          "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
+          "topics": [
+            "activity",
+            "baby",
+            "baby-tracker",
+            "family-friendly",
+            "open-source",
+            "self-hosted",
+            "sprout",
+            "sprout-track",
+            "tracker",
+            "tracking"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/Oak-and-Sprout/sprout-track"
+        },
+        {
+          "name": "mikebarkmin/baby-tracker",
+          "stars": 73,
+          "description": "A progressive web app to track your baby and share the data with your family in real-time.",
+          "topics": [
+            "express",
+            "react",
+            "socketio",
+            "styled-components"
+          ],
+          "language": "JavaScript",
+          "url": "https://github.com/mikebarkmin/baby-tracker"
+        },
+        {
+          "name": "Woyken/huckleberry-homeassistant",
+          "stars": 39,
+          "description": "Home Assistant integration for Huckleberry baby tracker app - monitor sleep, feeding, diapers, and growth tracking",
+          "topics": [
+            "baby-tracker",
+            "hacs",
+            "home-assistant",
+            "huckleberry"
+          ],
+          "language": "Python",
+          "url": "https://github.com/Woyken/huckleberry-homeassistant"
+        }
+      ],
+      "projectProbe": "午晚餐"
+    },
+    {
+      "id": "opp-douyin-咖啡",
       "seed": "咖啡",
+      "platform": "douyin",
       "origin": "platform-pool",
       "status": "可验证",
       "demandWordCount": 3,
@@ -2068,6 +2656,7 @@
           "shapeId": "service"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [],
       "gaps": [
         "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
@@ -2105,8 +2694,267 @@
       "projectProbe": "咖啡馆"
     },
     {
-      "id": "opp-火锅",
+      "id": "opp-xiaohongshu-考研",
+      "seed": "考研",
+      "platform": "xiaohongshu",
+      "origin": "xhs-filter",
+      "status": "可验证",
+      "demandWordCount": 3,
+      "relatedWordCount": 15,
+      "directionCount": 2,
+      "directions": [
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "热度排行",
+            "机构推荐"
+          ]
+        },
+        {
+          "shapeId": "tool",
+          "shape": "工具获取",
+          "words": [
+            "资料"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "热度排行",
+          "value": null,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        },
+        {
+          "word": "资料",
+          "value": null,
+          "shape": "工具获取",
+          "shapeId": "tool"
+        },
+        {
+          "word": "机构推荐",
+          "value": null,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        }
+      ],
+      "geoHints": [
+        "四川",
+        "广东",
+        "北京"
+      ],
+      "unmatchedSample": [
+        "报名时间",
+        "最近状态",
+        "照片真实",
+        "学前教育",
+        "英语",
+        "激励",
+        "博主",
+        "笔记"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "ankidroid/Anki-Android",
+          "stars": 11941,
+          "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
+          "topics": [
+            "android",
+            "anki",
+            "ankidroid",
+            "education",
+            "flashcards",
+            "kotlin",
+            "learning",
+            "srs"
+          ],
+          "language": "Kotlin",
+          "url": "https://github.com/ankidroid/Anki-Android"
+        },
+        {
+          "name": "5mdld/anki-jlpt-decks",
+          "stars": 3031,
+          "description": "【egg rolls】JLPT N1～N5 一万词 Anki 牌组【简／繁】【语音＆例句】；Anki，日语，日文，日本語，牌组，卡组，牌組，卡組，能力考，日檢",
+          "topics": [
+            "anki",
+            "anki-deck",
+            "deck",
+            "flashcards",
+            "fsrs",
+            "japanese",
+            "jlpt",
+            "language-learning",
+            "n1",
+            "n2",
+            "n3",
+            "n4",
+            "n5",
+            "srs",
+            "vocabulary",
+            "vocabulary-learning"
+          ],
+          "language": "HTML",
+          "url": "https://github.com/5mdld/anki-jlpt-decks"
+        },
+        {
+          "name": "kantord/LibreLingo",
+          "stars": 2636,
+          "description": "🐢 🌎 📚 a community-owned language-learning platform",
+          "topics": [
+            "agplv3",
+            "education",
+            "flashcards",
+            "foreign-language",
+            "hacktoberfest",
+            "hacktoberfest2022",
+            "language-learning",
+            "python",
+            "second-language-acquisition",
+            "spaced-repetition",
+            "svelte"
+          ],
+          "language": "Python",
+          "url": "https://github.com/kantord/LibreLingo"
+        }
+      ],
+      "projectProbe": "热度排行"
+    },
+    {
+      "id": "opp-xiaohongshu-减肥",
+      "seed": "减肥",
+      "platform": "xiaohongshu",
+      "origin": "xhs-filter",
+      "status": "可验证",
+      "demandWordCount": 3,
+      "relatedWordCount": 15,
+      "directionCount": 2,
+      "directions": [
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "跟练",
+            "最快方法"
+          ]
+        },
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "打工人"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "跟练",
+          "value": null,
+          "shape": "求解教程",
+          "shapeId": "howto"
+        },
+        {
+          "word": "最快方法",
+          "value": null,
+          "shape": "求解教程",
+          "shapeId": "howto"
+        },
+        {
+          "word": "打工人",
+          "value": null,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        }
+      ],
+      "geoHints": [],
+      "unmatchedSample": [
+        "大体重",
+        "狠人版",
+        "真实有效",
+        "博主",
+        "最火",
+        "邪修版",
+        "运动计划",
+        "拉高代谢"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "hasaneyldrm/exercises-dataset",
+          "stars": 22538,
+          "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
+          "topics": [
+            "dataset",
+            "exercise-database",
+            "exercises",
+            "fitness",
+            "fitness-app",
+            "gym",
+            "json",
+            "logpress",
+            "react-native",
+            "workout"
+          ],
+          "language": "HTML",
+          "url": "https://github.com/hasaneyldrm/exercises-dataset"
+        },
+        {
+          "name": "Snouzy/workout-cool",
+          "stars": 8548,
+          "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
+          "topics": [
+            "coach",
+            "exercise",
+            "feature-sliced-design",
+            "fitness",
+            "gym",
+            "health",
+            "nextjs",
+            "open-source",
+            "postgresql",
+            "prisma",
+            "radix-ui",
+            "react",
+            "shadcn-ui",
+            "tailwindcss",
+            "training",
+            "typescript",
+            "webapp",
+            "workout"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/Snouzy/workout-cool"
+        },
+        {
+          "name": "wger-project/wger",
+          "stars": 7032,
+          "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
+          "topics": [
+            "django",
+            "fitness",
+            "gym",
+            "hacktoberfest",
+            "python",
+            "self-hosted",
+            "workout"
+          ],
+          "language": "Python",
+          "url": "https://github.com/wger-project/wger"
+        }
+      ],
+      "projectProbe": "跟练"
+    },
+    {
+      "id": "opp-douyin-火锅",
       "seed": "火锅",
+      "platform": "douyin",
       "origin": "platform-pool",
       "status": "可验证",
       "demandWordCount": 2,
@@ -2142,6 +2990,7 @@
           "shapeId": "local"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
         "龍歌自助小火锅",
         "重庆火锅",
@@ -2158,7 +3007,7 @@
       "projects": [
         {
           "name": "tastyigniter/TastyIgniter",
-          "stars": 3774,
+          "stars": 3775,
           "description": ":fire: Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants",
           "topics": [
             "food-ordering",
@@ -2236,8 +3085,478 @@
       "projectProbe": "火锅店"
     },
     {
-      "id": "opp-营养",
+      "id": "opp-xiaohongshu-装修",
+      "seed": "装修",
+      "platform": "xiaohongshu",
+      "origin": "xhs-filter",
+      "status": "可验证",
+      "demandWordCount": 2,
+      "relatedWordCount": 15,
+      "directionCount": 2,
+      "directions": [
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "真实案例"
+          ]
+        },
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "新手小白"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "真实案例",
+          "value": null,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        },
+        {
+          "word": "新手小白",
+          "value": null,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        }
+      ],
+      "geoHints": [
+        "长沙",
+        "重庆",
+        "上海",
+        "深圳",
+        "南昌",
+        "合肥",
+        "成都",
+        "西安"
+      ],
+      "unmatchedSample": [
+        "简约大气",
+        "意式极简",
+        "中古风",
+        "耐看高级",
+        "原木风"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "zx029w/zhuangxiu-skills",
+          "stars": 70,
+          "description": "45个装修避坑独立Skill合集 — 覆盖全屋定制、老房改造、合同审核、报价审核、方案诊断、环保避坑、流程管控、翻车急救、避坑问答、增项避雷、公司选择等装修全流程",
+          "topics": [
+            "agent-skills",
+            "claude-skills",
+            "home-renovation",
+            "renovation",
+            "skills"
+          ],
+          "language": "Python",
+          "url": "https://github.com/zx029w/zhuangxiu-skills"
+        },
+        {
+          "name": "meet244/Interia",
+          "stars": 21,
+          "description": "Interia: Your all-in-one interior design website, providing ideas, services, room designs, safety tips, testimonials, an",
+          "topics": [
+            "creative-design",
+            "design-ideas",
+            "design-solutions",
+            "furniture",
+            "home-decor",
+            "home-improvement",
+            "interior-design",
+            "modern-design",
+            "renovation",
+            "room-designs",
+            "stylish-interiors"
+          ],
+          "language": "CSS",
+          "url": "https://github.com/meet244/Interia"
+        },
+        {
+          "name": "SammyLeths/makeova",
+          "stars": 20,
+          "description": "Makeova is a modern responsive HTML5 landing page template suitable for use by home renovation agencies or contractors. ",
+          "topics": [
+            "bootstrap5",
+            "constant-velocity-slider",
+            "css3",
+            "glightbox",
+            "home-renovation",
+            "home-renovation-template",
+            "html5",
+            "javascript",
+            "renovation-contractor",
+            "sass",
+            "vanilla-javascript"
+          ],
+          "language": "CSS",
+          "url": "https://github.com/SammyLeths/makeova"
+        }
+      ],
+      "projectProbe": "真实案例"
+    },
+    {
+      "id": "opp-xiaohongshu-健身",
+      "seed": "健身",
+      "platform": "xiaohongshu",
+      "origin": "xhs-filter",
+      "status": "可验证",
+      "demandWordCount": 2,
+      "relatedWordCount": 15,
+      "directionCount": 2,
+      "directions": [
+        {
+          "shapeId": "howto",
+          "shape": "求解教程",
+          "words": [
+            "跟练"
+          ]
+        },
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "推荐附近"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "跟练",
+          "value": null,
+          "shape": "求解教程",
+          "shapeId": "howto"
+        },
+        {
+          "word": "推荐附近",
+          "value": null,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        }
+      ],
+      "geoHints": [
+        "东莞",
+        "南宁",
+        "深圳",
+        "成都",
+        "西安",
+        "长沙",
+        "广州",
+        "武汉"
+      ],
+      "unmatchedSample": [
+        "位置"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "hasaneyldrm/exercises-dataset",
+          "stars": 22538,
+          "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
+          "topics": [
+            "dataset",
+            "exercise-database",
+            "exercises",
+            "fitness",
+            "fitness-app",
+            "gym",
+            "json",
+            "logpress",
+            "react-native",
+            "workout"
+          ],
+          "language": "HTML",
+          "url": "https://github.com/hasaneyldrm/exercises-dataset"
+        },
+        {
+          "name": "Snouzy/workout-cool",
+          "stars": 8548,
+          "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
+          "topics": [
+            "coach",
+            "exercise",
+            "feature-sliced-design",
+            "fitness",
+            "gym",
+            "health",
+            "nextjs",
+            "open-source",
+            "postgresql",
+            "prisma",
+            "radix-ui",
+            "react",
+            "shadcn-ui",
+            "tailwindcss",
+            "training",
+            "typescript",
+            "webapp",
+            "workout"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/Snouzy/workout-cool"
+        },
+        {
+          "name": "wger-project/wger",
+          "stars": 7032,
+          "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
+          "topics": [
+            "django",
+            "fitness",
+            "gym",
+            "hacktoberfest",
+            "python",
+            "self-hosted",
+            "workout"
+          ],
+          "language": "Python",
+          "url": "https://github.com/wger-project/wger"
+        }
+      ],
+      "projectProbe": "跟练"
+    },
+    {
+      "id": "opp-xiaohongshu-睡眠",
+      "seed": "睡眠",
+      "platform": "xiaohongshu",
+      "origin": "xhs-filter",
+      "status": "可验证",
+      "demandWordCount": 2,
+      "relatedWordCount": 15,
+      "directionCount": 2,
+      "directions": [
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "成年人"
+          ]
+        },
+        {
+          "shapeId": "service",
+          "shape": "服务诉求",
+          "words": [
+            "疗愈馆"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "成年人",
+          "value": null,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "疗愈馆",
+          "value": null,
+          "shape": "服务诉求",
+          "shapeId": "service"
+        }
+      ],
+      "geoHints": [],
+      "unmatchedSample": [
+        "冥想助眠",
+        "入睡困难",
+        "白噪音",
+        "下雨声",
+        "科普",
+        "保健品",
+        "养生",
+        "赛道创业"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "DanielJamesTronca/SleepChartKit",
+          "stars": 247,
+          "description": "A production-ready, high-fidelity reproduction of Apple's detailed sleep analysis chart, built with pure SwiftUI.",
+          "topics": [
+            "apple-health",
+            "chart",
+            "fitness",
+            "healthkit",
+            "ios",
+            "sleep-chart",
+            "sleep-tracking",
+            "swift",
+            "swift-package",
+            "swiftui",
+            "swiftui-components"
+          ],
+          "language": "Swift",
+          "url": "https://github.com/DanielJamesTronca/SleepChartKit"
+        },
+        {
+          "name": "satayutata/geniemax-core",
+          "stars": 142,
+          "description": "Free, open, MIT health-analytics engine — recovery, sleep, HRV, strain, calories — no subscription. Currently reads WHOO",
+          "topics": [
+            "e2ee",
+            "health",
+            "hrv",
+            "local-first",
+            "quantified-self",
+            "recovery",
+            "sleep-tracking",
+            "swift",
+            "swift-package",
+            "wearables"
+          ],
+          "language": "Swift",
+          "url": "https://github.com/satayutata/geniemax-core"
+        },
+        {
+          "name": "diegoscarabelli/garmin-health-data",
+          "stars": 123,
+          "description": "A simple Python CLI to download Garmin Connect data as local files and load them into a SQLite database for analysis",
+          "topics": [
+            "ai-agents",
+            "cli",
+            "etl",
+            "fitdecode",
+            "fitness",
+            "garmin",
+            "garmin-connect",
+            "health-data",
+            "heart-rate",
+            "python",
+            "quantified-self",
+            "sleep-tracking",
+            "sqlite",
+            "wellness"
+          ],
+          "language": "Python",
+          "url": "https://github.com/diegoscarabelli/garmin-health-data"
+        }
+      ],
+      "projectProbe": "成年人"
+    },
+    {
+      "id": "opp-xiaohongshu-亲子游",
+      "seed": "亲子游",
+      "platform": "xiaohongshu",
+      "origin": "xhs-filter",
+      "status": "可验证",
+      "demandWordCount": 2,
+      "relatedWordCount": 15,
+      "directionCount": 2,
+      "directions": [
+        {
+          "shapeId": "crowd",
+          "shape": "人群长尾",
+          "words": [
+            "低龄儿童"
+          ]
+        },
+        {
+          "shapeId": "choice",
+          "shape": "选型决策",
+          "words": [
+            "十一推荐"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "低龄儿童",
+          "value": null,
+          "shape": "人群长尾",
+          "shapeId": "crowd"
+        },
+        {
+          "word": "十一推荐",
+          "value": null,
+          "shape": "选型决策",
+          "shapeId": "choice"
+        }
+      ],
+      "geoHints": [
+        "深圳",
+        "广东",
+        "佛山",
+        "成都",
+        "上海",
+        "重庆",
+        "江浙沪",
+        "福建"
+      ],
+      "unmatchedSample": [
+        "10月",
+        "三岁"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "JourniOne-ai/JourniOne-Planning-Skills",
+          "stars": 509,
+          "description": "JourniOne 旅行规划 Skill：从灵感与逐日路线，到带地图、可分享的 Travel Journal，按需衔接酒店与航班。",
+          "topics": [
+            "agent-skills",
+            "ai-agent",
+            "itinerary",
+            "journione",
+            "travel-journal",
+            "travel-planning"
+          ],
+          "language": "JavaScript",
+          "url": "https://github.com/JourniOne-ai/JourniOne-Planning-Skills"
+        },
+        {
+          "name": "zexuanw958-svg/travel-plan-viz",
+          "stars": 397,
+          "description": "Migo · 旅行领航 —— 把旅行行程生成为单文件、可离线、手机优先的 HTML（交互地图+每日时间轴+出发前提醒）。Claude Code / Codex 通用 Skill（travel-plan-viz）。",
+          "topics": [
+            "agent-skill",
+            "claude-code",
+            "claude-skill",
+            "codex",
+            "html",
+            "itinerary",
+            "migo",
+            "mobile-first",
+            "offline-first",
+            "travel",
+            "trip-planner"
+          ],
+          "language": "JavaScript",
+          "url": "https://github.com/zexuanw958-svg/travel-plan-viz"
+        },
+        {
+          "name": "rohitkumbhar/surmai",
+          "stars": 282,
+          "description": "Surmai is a personal/family travel organizer",
+          "topics": [
+            "itinerary",
+            "organization",
+            "planning",
+            "travel"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/rohitkumbhar/surmai"
+        }
+      ],
+      "projectProbe": "低龄儿童"
+    },
+    {
+      "id": "opp-douyin-营养",
       "seed": "营养",
+      "platform": "douyin",
       "origin": "platform-pool",
       "status": "可验证",
       "demandWordCount": 4,
@@ -2281,6 +3600,7 @@
           "shapeId": "purchase"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [],
       "gaps": [
         "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
@@ -2289,7 +3609,7 @@
       "projects": [
         {
           "name": "apoorvdarshan/fud-ai",
-          "stars": 453,
+          "stars": 455,
           "description": "Fud AI — free & open-source AI calorie & workout tracker for iOS and Android. Privacy-first, local-first, bring your own",
           "topics": [
             "ai",
@@ -2364,8 +3684,9 @@
       "projectProbe": "三餐"
     },
     {
-      "id": "opp-中医",
+      "id": "opp-douyin-中医",
       "seed": "中医",
+      "platform": "douyin",
       "origin": "platform-pool",
       "status": "可验证",
       "demandWordCount": 4,
@@ -2409,6 +3730,7 @@
           "shapeId": "service"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [],
       "gaps": [
         "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
@@ -2417,7 +3739,7 @@
       "projects": [
         {
           "name": "jangviktor-web/nihaixia",
-          "stars": 3439,
+          "stars": 3450,
           "description": "倪海厦视角的中医Agent Skill，基于倪海厦教学资料开发，蒸馏倪师伤寒论、金匮要略、黄帝内经、神农本草经、针灸篇等，人纪/医案/经方思维，六经辨证，八纲辨证，天机道，天纪，紫微斗数，易经，阴阳，八卦，五行，风水，地纪等，总结8个诊断公",
           "topics": [
             "acupuncture",
@@ -2458,7 +3780,7 @@
         },
         {
           "name": "jangviktor-web/nihaixia-app",
-          "stars": 226,
+          "stars": 228,
           "description": "倪海厦汉唐中医安卓客户端 · 中医六经辨证、伤寒论、子午流注、紫微斗数、易经、八字四柱排盘、周公解梦、小儿关煞、每日黄历、道教神仙节日、节气养生、玉匣记身体占，离线安卓应用中医诊断玄学助手：一款完全免费的 Flutter/Dart Andr",
           "topics": [
             "android",
@@ -2489,8 +3811,9 @@
       "projectProbe": "中医医院"
     },
     {
-      "id": "opp-口腔",
+      "id": "opp-douyin-口腔",
       "seed": "口腔",
+      "platform": "douyin",
       "origin": "platform-pool",
       "status": "可验证",
       "demandWordCount": 3,
@@ -2527,6 +3850,7 @@
           "shapeId": "service"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [],
       "gaps": [
         "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
@@ -2535,7 +3859,7 @@
       "projects": [
         {
           "name": "alexcorvi/apexo",
-          "stars": 131,
+          "stars": 132,
           "description": "A web/desktop application to manage your dental clinic practice.",
           "topics": [
             "clinic",
@@ -2548,7 +3872,7 @@
         },
         {
           "name": "Yoosseph/dental-scope",
-          "stars": 114,
+          "stars": 122,
           "description": "Explore teeth, jaws, nerves, tissues, root canals, cross-sections and layered dental structures in 3D.",
           "topics": [
             "dental",
@@ -2601,8 +3925,9 @@
       "projectProbe": "口腔医院"
     },
     {
-      "id": "opp-蛋糕",
+      "id": "opp-douyin-蛋糕",
       "seed": "蛋糕",
+      "platform": "douyin",
       "origin": "platform-pool",
       "status": "可验证",
       "demandWordCount": 2,
@@ -2632,6 +3957,7 @@
           "shapeId": "service"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [],
       "gaps": [
         "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
@@ -2641,8 +3967,9 @@
       "projectProbe": "蛋糕店"
     },
     {
-      "id": "opp-海鲜",
+      "id": "opp-douyin-海鲜",
       "seed": "海鲜",
+      "platform": "douyin",
       "origin": "platform-pool",
       "status": "可验证",
       "demandWordCount": 2,
@@ -2672,6 +3999,7 @@
           "shapeId": "service"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
         "海鲜火锅",
         "火锅",
@@ -2734,8 +4062,9 @@
       "projectProbe": "海鲜团购"
     },
     {
-      "id": "opp-装修",
+      "id": "opp-douyin-装修",
       "seed": "装修",
+      "platform": "douyin",
       "origin": "seed",
       "status": "可验证",
       "demandWordCount": 2,
@@ -2765,6 +4094,7 @@
           "shapeId": "choice"
         }
       ],
+      "geoHints": [],
       "unmatchedSample": [
         "房子装修",
         "承重墙",
@@ -2836,42 +4166,156 @@
         }
       ],
       "projectProbe": "装修效果图"
+    },
+    {
+      "id": "opp-xiaohongshu-考公",
+      "seed": "考公",
+      "platform": "xiaohongshu",
+      "origin": "xhs-filter",
+      "status": "可验证",
+      "demandWordCount": 2,
+      "relatedWordCount": 15,
+      "directionCount": 1,
+      "directions": [
+        {
+          "shapeId": "tool",
+          "shape": "工具获取",
+          "words": [
+            "必刷题库",
+            "备考资料"
+          ]
+        }
+      ],
+      "demandEvidence": [
+        {
+          "word": "必刷题库",
+          "value": null,
+          "shape": "工具获取",
+          "shapeId": "tool"
+        },
+        {
+          "word": "备考资料",
+          "value": null,
+          "shape": "工具获取",
+          "shapeId": "tool"
+        }
+      ],
+      "geoHints": [
+        "陕西",
+        "四川",
+        "郑州",
+        "广东",
+        "辽宁",
+        "湖北",
+        "黑龙江"
+      ],
+      "unmatchedSample": [
+        "热点",
+        "volg",
+        "真实反馈",
+        "25年",
+        "笔记",
+        "言语100题"
+      ],
+      "gaps": [
+        "关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页",
+        "还没有真人原话，需要按词去内容平台取证"
+      ],
+      "projects": [
+        {
+          "name": "kuriv/civil-service-exam",
+          "stars": 1004,
+          "description": "公务员考试知识思维导图，我们岸上见！",
+          "topics": [
+            "civil-service",
+            "civil-service-exam",
+            "civil-services",
+            "civil-services-exam",
+            "mindmap",
+            "mindmaps"
+          ],
+          "language": "Go",
+          "url": "https://github.com/kuriv/civil-service-exam"
+        },
+        {
+          "name": "zhangxiangliang/civil-service-exam",
+          "stars": 983,
+          "description": "考试攻略 | 公务员 | 事业单位",
+          "topics": [],
+          "language": "",
+          "url": "https://github.com/zhangxiangliang/civil-service-exam"
+        },
+        {
+          "name": "ministryofjustice/modernisation-platform",
+          "stars": 723,
+          "description": "A place for the core work of the Modernisation Platform • This repository is defined and managed in Terraform",
+          "topics": [
+            "architecture-decisions",
+            "aws",
+            "civil-service",
+            "documentation",
+            "modernisation-platform"
+          ],
+          "language": "HCL",
+          "url": "https://github.com/ministryofjustice/modernisation-platform"
+        }
+      ],
+      "projectProbe": "必刷题库"
     }
   ],
   "rejected": [
     {
       "seed": "烤肉",
+      "platform": "douyin",
       "rows": 1,
       "reason": "需求形状词 < 2"
     },
     {
       "seed": "皮肤",
+      "platform": "douyin",
       "rows": 0,
       "reason": "无关联词数据"
     },
     {
       "seed": "疼痛",
+      "platform": "douyin",
       "rows": 0,
       "reason": "无关联词数据"
     },
     {
       "seed": "牙齿",
+      "platform": "douyin",
       "rows": 1,
       "reason": "需求形状词 < 2"
     },
     {
       "seed": "关节",
+      "platform": "douyin",
       "rows": 0,
       "reason": "无关联词数据"
     },
     {
       "seed": "旗袍",
+      "platform": "douyin",
       "rows": 20,
       "reason": "需求形状词 < 2"
     },
     {
       "seed": "理财",
+      "platform": "douyin",
       "rows": 12,
+      "reason": "需求形状词 < 2"
+    },
+    {
+      "seed": "养老",
+      "platform": "xiaohongshu",
+      "rows": 15,
+      "reason": "需求形状词 < 2"
+    },
+    {
+      "seed": "宠物",
+      "platform": "xiaohongshu",
+      "rows": 15,
       "reason": "需求形状词 < 2"
     }
   ]

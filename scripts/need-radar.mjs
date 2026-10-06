@@ -20,11 +20,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { classifyWord, normalizePairs } from './demand-shapes.mjs';
+import { classifyWord, normalizePairs, isCityName } from './demand-shapes.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const RAW_PATH = path.join(ROOT, 'data', 'need-radar-raw.json');
 const SHEET_PATH = path.join(ROOT, 'data', 'douyin-topic-sheet.json');
+const XHS_PATH = path.join(ROOT, 'data', 'xhs-need-raw.json');
 const OUT_PATH = path.join(ROOT, 'data', 'need-radar.json');
 
 const MIN_NEED_WORDS = 2;
@@ -109,35 +110,52 @@ function readJson(file, fallback) {
     }
 }
 
-/** 合并两个来源的扩散结果：raw.expansions + sheet 里已分析的赛道词。 */
+/** 合并三个来源的扩散结果：抖音词池 + 已有赛道表 + 小红书筛选词。 */
 function loadExpansions() {
     const raw = readJson(RAW_PATH, {});
     const sheet = readJson(SHEET_PATH, null);
-    const sources = new Map(); // seed -> {rows, origin}
+    const xhs = readJson(XHS_PATH, null);
+    const sources = new Map(); // `${platform}:${seed}` -> {seed, platform, rows, origin}
 
     for (const [seed, pairs] of Object.entries(raw.expansions || {})) {
-        sources.set(seed, { rows: normalizePairs(pairs), origin: 'platform-pool' });
+        sources.set(`douyin:${seed}`, { seed, platform: 'douyin', rows: normalizePairs(pairs), origin: 'platform-pool' });
     }
     for (const topic of sheet?.topics || []) {
         if (!topic.keyword) continue;
-        const existing = sources.get(topic.keyword);
+        const key = `douyin:${topic.keyword}`;
+        const existing = sources.get(key);
         const rows = normalizePairs(topic.relatedWords);
         if (existing) {
             existing.rows = existing.rows.concat(rows);
         } else {
-            sources.set(topic.keyword, { rows, origin: topic.origin || 'sheet' });
+            sources.set(key, { seed: topic.keyword, platform: 'douyin', rows, origin: topic.origin || 'sheet' });
         }
     }
-    return { raw, sheet, sources };
+    for (const [seed, words] of Object.entries(xhs?.expansions || {})) {
+        if (!words || !words.length) continue;
+        sources.set(`xiaohongshu:${seed}`, {
+            seed,
+            platform: 'xiaohongshu',
+            rows: normalizePairs(words),
+            origin: 'xhs-filter'
+        });
+    }
+    return { raw, sheet, xhs, sources };
 }
 
 /** 一个种子词 → 一张机会卡（含需求方向 + 缺口）。 */
-function buildOpportunity(seed, rows, origin) {
+function buildOpportunity(seed, platform, rows, origin) {
     const evidence = [];
     const unmatched = [];
+    const geoHints = [];
     const shapeGroups = new Map();
 
     for (const row of rows) {
+        // 地名词是平台的地域筛选器，只作为「本地意图」展示，不计入需求证据
+        if (isCityName(row.word)) {
+            geoHints.push(row.word);
+            continue;
+        }
         const shape = classifyWord(row.word);
         if (!shape) {
             unmatched.push(row.word);
@@ -155,8 +173,9 @@ function buildOpportunity(seed, rows, origin) {
 
     const directions = [...shapeGroups.values()].sort((a, b) => b.words.length - a.words.length);
     return {
-        id: `opp-${seed}`,
+        id: `opp-${platform}-${seed}`,
         seed,
+        platform,
         origin,
         status: '可验证',
         demandWordCount: evidence.length,
@@ -164,6 +183,7 @@ function buildOpportunity(seed, rows, origin) {
         directionCount: directions.length,
         directions,
         demandEvidence: evidence,
+        geoHints: [...new Set(geoHints)].slice(0, 8),
         unmatchedSample: unmatched.slice(0, 8),
         gaps: [
             '关联词的数值是相关性(0-100)，不是搜索量；要绝对强度需逐词查指数页',
@@ -261,25 +281,32 @@ async function main() {
 
     const opportunities = [];
     const rejected = [];
-    for (const [seed, { rows, origin }] of sources) {
-        const opp = buildOpportunity(seed, rows, origin);
+    for (const [, { seed, platform, rows, origin }] of sources) {
+        const opp = buildOpportunity(seed, platform, rows, origin);
         if (opp) opportunities.push(opp);
-        else rejected.push({ seed, rows: rows.length, reason: rows.length ? `需求形状词 < ${MIN_NEED_WORDS}` : '无关联词数据' });
+        else rejected.push({ seed, platform, rows: rows.length, reason: rows.length ? `需求形状词 < ${MIN_NEED_WORDS}` : '无关联词数据' });
     }
 
-    opportunities.sort((a, b) => b.directionCount - a.directionCount || b.demandWordCount - a.demandWordCount);
+    opportunities.sort((a, b) =>
+        b.directionCount - a.directionCount ||
+        b.demandWordCount - a.demandWordCount ||
+        a.platform.localeCompare(b.platform)
+    );
     const picked = top > 0 ? opportunities.slice(0, top) : opportunities;
 
     const token = process.env.GITHUB_TOKEN || '';
     const gh = await matchProjects(picked, { enabled: !noGithub, token });
 
     const poolWords = Object.values(raw.seedPool || {}).reduce((n, list) => n + list.length, 0);
+    const byPlatform = {};
+    for (const opp of picked) byPlatform[opp.platform] = (byPlatform[opp.platform] || 0) + 1;
     const payload = {
         generatedAt: new Date().toISOString(),
         source: raw.source || '抖音指数',
         poolDomains: Object.keys(raw.seedPool || {}).length,
         poolWords,
         seedCount: sources.size,
+        sources: byPlatform,
         opportunityCount: picked.length,
         projectsMatched: gh.matched,
         errors: gh.errors,
@@ -293,12 +320,14 @@ async function main() {
     log('=== Need2Build · 需求雷达 ===');
     log(`平台词池：${payload.poolDomains} 个领域 / ${poolWords} 个词（零人工挑词）`);
     log(`扩散种子：${sources.size} 个 · 成机会 ${picked.length} 张 · 匹配到项目 ${gh.matched} 张`);
+    log(`来源分布：${Object.entries(byPlatform).map(([k, v]) => `${k} ${v}`).join(' · ')}`);
     if (gh.errors.length) log(`GitHub 匹配失败 ${gh.errors.length} 个：${gh.errors.slice(0, 3).join('；')}`);
     log('');
 
     for (const opp of picked) {
-        log(`[${opp.seed}] 需求词 ${opp.demandWordCount}/${opp.relatedWordCount} · 方向 ${opp.directionCount} 类 · ${opp.origin}`);
+        log(`[${opp.platform}] ${opp.seed} — 需求词 ${opp.demandWordCount}/${opp.relatedWordCount} · 方向 ${opp.directionCount} 类 · ${opp.origin}`);
         opp.directions.forEach(d => log(`    需求方向 · ${d.shape}：${d.words.join('、')}`));
+        if (opp.geoHints.length) log(`    地域意图 · ${opp.geoHints.join('、')}`);
         if (opp.projects.length) {
             opp.projects.forEach(p => log(`    开源项目 · ${p.name} ★${p.stars} ${p.description}`));
         } else if (!noGithub) {

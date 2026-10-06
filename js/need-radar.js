@@ -52,11 +52,24 @@ function renderNeedRadar() {
     }
 
     list.innerHTML = d.opportunities.map(opp => {
+        const platformLabel = opp.platform === 'xiaohongshu' ? '小红书' : '抖音';
+        const platformCls = opp.platform === 'xiaohongshu' ? 'nr-plat-xhs' : 'nr-plat-dy';
+        const originLabel = {
+            'platform-pool': '平台词表',
+            'xhs-filter': '搜索筛选词',
+            'seed': '赛道种子',
+            'hot-topic-control': '热榜对照'
+        }[opp.origin] || opp.origin;
+
         const directions = opp.directions.map(dir => `
             <div class="nr-dir">
                 <span class="nr-dir-label">${escapeHtml(dir.shape)}</span>
                 <span class="nr-dir-words">${dir.words.map(w => escapeHtml(w)).join('、')}</span>
             </div>`).join('');
+
+        const geo = opp.geoHints && opp.geoHints.length
+            ? `<div class="nr-geo">地域意图：${opp.geoHints.map(w => escapeHtml(w)).join('、')}</div>`
+            : '';
 
         const projects = opp.projects && opp.projects.length
             ? `<div class="nr-projects">${opp.projects.map(p => `
@@ -71,11 +84,13 @@ function renderNeedRadar() {
         <div class="nr-card">
             <div class="nr-head">
                 <span class="nr-seed">${escapeHtml(opp.seed)}</span>
+                <span class="nr-plat ${platformCls}">${platformLabel}</span>
                 <span class="nr-badge">需求雷达</span>
-                <span class="nr-origin">${opp.origin === 'platform-pool' ? '平台词表' : '赛道种子'}</span>
+                <span class="nr-origin">${escapeHtml(originLabel)}</span>
                 <span class="nr-meta">需求词 ${opp.demandWordCount}/${opp.relatedWordCount} · 方向 ${opp.directionCount} 类</span>
             </div>
             <div class="nr-directions">${directions}</div>
+            ${geo}
             ${projects}
         </div>`;
     }).join('');

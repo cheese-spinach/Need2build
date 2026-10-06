@@ -2439,3 +2439,27 @@ a {
 .nr-project:hover .nr-project-name {
     text-decoration: underline;
 }
+
+.nr-plat {
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 999px;
+    font-weight: 500;
+}
+
+.nr-plat-dy {
+    background: rgba(26, 26, 26, 0.08);
+    color: #1a1a1a;
+}
+
+.nr-plat-xhs {
+    background: rgba(255, 36, 66, 0.1);
+    color: #ff2442;
+}
+
+.nr-geo {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
