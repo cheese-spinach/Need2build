@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T03:40:49.853Z",
+  "generatedAt": "2026-10-07T06:16:33.876Z",
   "source": "抖音指数（原巨量算数）· 创作指南关键词榜 + 关键词分析关联分析",
   "poolDomains": 24,
   "poolWords": 119,
@@ -270,7 +270,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 22538,
+          "stars": 22563,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -289,7 +289,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8548,
+          "stars": 8555,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -316,7 +316,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7032,
+          "stars": 7052,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -563,7 +563,7 @@
       "projects": [
         {
           "name": "JourniOne-ai/JourniOne-Planning-Skills",
-          "stars": 509,
+          "stars": 547,
           "description": "JourniOne 旅行规划 Skill：从灵感与逐日路线，到带地图、可分享的 Travel Journal，按需衔接酒店与航班。",
           "topics": [
             "agent-skills",
@@ -578,7 +578,7 @@
         },
         {
           "name": "zexuanw958-svg/travel-plan-viz",
-          "stars": 397,
+          "stars": 398,
           "description": "Migo · 旅行领航 —— 把旅行行程生成为单文件、可离线、手机优先的 HTML（交互地图+每日时间轴+出发前提醒）。Claude Code / Codex 通用 Skill（travel-plan-viz）。",
           "topics": [
             "agent-skill",
@@ -598,7 +598,7 @@
         },
         {
           "name": "rohitkumbhar/surmai",
-          "stars": 282,
+          "stars": 283,
           "description": "Surmai is a personal/family travel organizer",
           "topics": [
             "itinerary",
@@ -742,7 +742,7 @@
       "projects": [
         {
           "name": "weijunext/indie-hacker-tools",
-          "stars": 7976,
+          "stars": 7974,
           "description": "收录独立开发者出海技术栈和工具",
           "topics": [],
           "language": "",
@@ -750,7 +750,7 @@
         },
         {
           "name": "mayeaux/nodetube",
-          "stars": 2363,
+          "stars": 2364,
           "description": "Open-source YouTube alternative that offers video, audio and image uploads, livestreaming and built-in monetization",
           "topics": [
             "alternative",
@@ -1054,7 +1054,7 @@
       "projects": [
         {
           "name": "Oak-and-Sprout/sprout-track",
-          "stars": 388,
+          "stars": 389,
           "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
           "topics": [
             "activity",
@@ -1195,7 +1195,7 @@
       "projects": [
         {
           "name": "yf0522/ai-companion-runtime",
-          "stars": 45,
+          "stars": 46,
           "description": "Eldercare runtime: risk-gated companion with reminders, anti-fraud, family escalation, and traceability",
           "topics": [
             "ai-agent",
@@ -1342,7 +1342,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 43850,
+          "stars": 43924,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1361,7 +1361,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 28586,
+          "stars": 28593,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1384,7 +1384,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17707,
+          "stars": 17705,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "cv",
@@ -1488,7 +1488,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 11941,
+          "stars": 11951,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -1505,7 +1505,7 @@
         },
         {
           "name": "5mdld/anki-jlpt-decks",
-          "stars": 3031,
+          "stars": 3034,
           "description": "【egg rolls】JLPT N1～N5 一万词 Anki 牌组【简／繁】【语音＆例句】；Anki，日语，日文，日本語，牌组，卡组，牌組，卡組，能力考，日檢",
           "topics": [
             "anki",
@@ -1630,7 +1630,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 43850,
+          "stars": 43924,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1649,7 +1649,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 28586,
+          "stars": 28593,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1672,7 +1672,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17707,
+          "stars": 17705,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "cv",
@@ -2017,7 +2017,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 22538,
+          "stars": 22563,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2036,7 +2036,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8548,
+          "stars": 8555,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -2063,7 +2063,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7032,
+          "stars": 7052,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -2438,7 +2438,7 @@
       "projects": [
         {
           "name": "weijunext/indie-hacker-tools",
-          "stars": 7976,
+          "stars": 7974,
           "description": "收录独立开发者出海技术栈和工具",
           "topics": [],
           "language": "",
@@ -2446,7 +2446,7 @@
         },
         {
           "name": "mayeaux/nodetube",
-          "stars": 2363,
+          "stars": 2364,
           "description": "Open-source YouTube alternative that offers video, audio and image uploads, livestreaming and built-in monetization",
           "topics": [
             "alternative",
@@ -2564,7 +2564,7 @@
       "projects": [
         {
           "name": "Oak-and-Sprout/sprout-track",
-          "stars": 388,
+          "stars": 389,
           "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
           "topics": [
             "activity",
@@ -2761,7 +2761,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 11941,
+          "stars": 11951,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -2778,7 +2778,7 @@
         },
         {
           "name": "5mdld/anki-jlpt-decks",
-          "stars": 3031,
+          "stars": 3034,
           "description": "【egg rolls】JLPT N1～N5 一万词 Anki 牌组【简／繁】【语音＆例句】；Anki，日语，日文，日本語，牌组，卡组，牌組，卡組，能力考，日檢",
           "topics": [
             "anki",
@@ -2888,7 +2888,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 22538,
+          "stars": 22563,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2907,7 +2907,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8548,
+          "stars": 8555,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -2934,7 +2934,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7032,
+          "stars": 7052,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -3261,7 +3261,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 22538,
+          "stars": 22563,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -3280,7 +3280,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8548,
+          "stars": 8555,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -3307,7 +3307,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7032,
+          "stars": 7052,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -3504,7 +3504,7 @@
       "projects": [
         {
           "name": "JourniOne-ai/JourniOne-Planning-Skills",
-          "stars": 509,
+          "stars": 547,
           "description": "JourniOne 旅行规划 Skill：从灵感与逐日路线，到带地图、可分享的 Travel Journal，按需衔接酒店与航班。",
           "topics": [
             "agent-skills",
@@ -3519,7 +3519,7 @@
         },
         {
           "name": "zexuanw958-svg/travel-plan-viz",
-          "stars": 397,
+          "stars": 398,
           "description": "Migo · 旅行领航 —— 把旅行行程生成为单文件、可离线、手机优先的 HTML（交互地图+每日时间轴+出发前提醒）。Claude Code / Codex 通用 Skill（travel-plan-viz）。",
           "topics": [
             "agent-skill",
@@ -3539,7 +3539,7 @@
         },
         {
           "name": "rohitkumbhar/surmai",
-          "stars": 282,
+          "stars": 283,
           "description": "Surmai is a personal/family travel organizer",
           "topics": [
             "itinerary",
@@ -3609,7 +3609,7 @@
       "projects": [
         {
           "name": "apoorvdarshan/fud-ai",
-          "stars": 455,
+          "stars": 456,
           "description": "Fud AI — free & open-source AI calorie & workout tracker for iOS and Android. Privacy-first, local-first, bring your own",
           "topics": [
             "ai",
@@ -3657,7 +3657,7 @@
         },
         {
           "name": "brandonp2412/FitBook",
-          "stars": 171,
+          "stars": 173,
           "description": "Offline-first calorie and nutrition tracker with barcode scanning, food search, macro tracking, and progress graphs. Bui",
           "topics": [
             "android",
@@ -3739,7 +3739,7 @@
       "projects": [
         {
           "name": "jangviktor-web/nihaixia",
-          "stars": 3450,
+          "stars": 3469,
           "description": "倪海厦视角的中医Agent Skill，基于倪海厦教学资料开发，蒸馏倪师伤寒论、金匮要略、黄帝内经、神农本草经、针灸篇等，人纪/医案/经方思维，六经辨证，八纲辨证，天机道，天纪，紫微斗数，易经，阴阳，八卦，五行，风水，地纪等，总结8个诊断公",
           "topics": [
             "acupuncture",
@@ -3780,7 +3780,7 @@
         },
         {
           "name": "jangviktor-web/nihaixia-app",
-          "stars": 228,
+          "stars": 230,
           "description": "倪海厦汉唐中医安卓客户端 · 中医六经辨证、伤寒论、子午流注、紫微斗数、易经、八字四柱排盘、周公解梦、小儿关煞、每日黄历、道教神仙节日、节气养生、玉匣记身体占，离线安卓应用中医诊断玄学助手：一款完全免费的 Flutter/Dart Andr",
           "topics": [
             "android",
@@ -3872,7 +3872,7 @@
         },
         {
           "name": "Yoosseph/dental-scope",
-          "stars": 122,
+          "stars": 127,
           "description": "Explore teeth, jaws, nerves, tissues, root canals, cross-sections and layered dental structures in 3D.",
           "topics": [
             "dental",
