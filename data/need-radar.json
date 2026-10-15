@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T05:09:39.651Z",
+  "generatedAt": "2026-10-15T04:58:06.176Z",
   "source": "抖音指数（原巨量算数）· 创作指南关键词榜 + 关键词分析关联分析",
   "poolDomains": 24,
   "poolWords": 119,
@@ -107,7 +107,7 @@
       "projects": [
         {
           "name": "mescon/Muximux",
-          "stars": 1224,
+          "stars": 1225,
           "description": "A self-hosted homelab dashboard with an optional built-in reverse proxy that makes stubborn apps work in iframes",
           "topics": [
             "caddy",
@@ -131,7 +131,7 @@
         },
         {
           "name": "aashari/example-android-mi-band-2",
-          "stars": 108,
+          "stars": 109,
           "description": "Android example showing Bluetooth communication with Xiaomi Mi Band 2. Demonstrates device pairing, data syncing, activi",
           "topics": [
             "android",
@@ -270,7 +270,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 22797,
+          "stars": 22828,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -289,7 +289,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 11234,
+          "stars": 11892,
           "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are",
           "topics": [
             "bodyweight",
@@ -316,7 +316,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8603,
+          "stars": 8610,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -441,7 +441,7 @@
       "projects": [
         {
           "name": "abuanwar072/furniture_app_flutter",
-          "stars": 619,
+          "stars": 620,
           "description": "watch it on YouTube ",
           "topics": [
             "android-app",
@@ -574,7 +574,7 @@
       "projects": [
         {
           "name": "JourniOne-ai/JourniOne-Planning-Skills",
-          "stars": 854,
+          "stars": 890,
           "description": "JourniOne 旅行规划 Skill：从灵感与逐日路线，到带地图、可分享的 Travel Journal，按需衔接酒店与航班。",
           "topics": [
             "agent-skills",
@@ -609,7 +609,7 @@
         },
         {
           "name": "awangwang123/jianhao-travel-planner",
-          "stars": 381,
+          "stars": 383,
           "description": "出行路书工作流 skill：联网实查 + 多源交叉验证，产出可核验、能执行的旅行攻略。覆盖吃住行游拍避全维度，附美食情报卡、基准骨架与校验工具，支持一键部署在线版。",
           "topics": [
             "ai-agent",
@@ -758,7 +758,7 @@
       "projects": [
         {
           "name": "weijunext/indie-hacker-tools",
-          "stars": 7970,
+          "stars": 7974,
           "description": "收录独立开发者出海技术栈和工具",
           "topics": [],
           "language": "",
@@ -766,7 +766,7 @@
         },
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 2449,
+          "stars": 2635,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -1353,7 +1353,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 44255,
+          "stars": 44314,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1372,7 +1372,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 28659,
+          "stars": 28668,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1395,7 +1395,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17742,
+          "stars": 17755,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "cv",
@@ -1499,7 +1499,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12014,
+          "stars": 12015,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -1516,7 +1516,7 @@
         },
         {
           "name": "5mdld/anki-jlpt-decks",
-          "stars": 3050,
+          "stars": 3055,
           "description": "【egg rolls】JLPT N1～N5 一万词 Anki 牌组【简／繁】【语音＆例句】；Anki，日语，日文，日本語，牌组，卡组，牌組，卡組，能力考，日檢",
           "topics": [
             "anki",
@@ -1641,7 +1641,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 44255,
+          "stars": 44314,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1660,7 +1660,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 28659,
+          "stars": 28668,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1683,7 +1683,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17742,
+          "stars": 17755,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "cv",
@@ -1780,7 +1780,7 @@
       "projects": [
         {
           "name": "kuriv/civil-service-exam",
-          "stars": 1007,
+          "stars": 1008,
           "description": "公务员考试知识思维导图，我们岸上见！",
           "topics": [
             "civil-service",
@@ -1795,7 +1795,7 @@
         },
         {
           "name": "zhangxiangliang/civil-service-exam",
-          "stars": 987,
+          "stars": 990,
           "description": "考试攻略 | 公务员 | 事业单位",
           "topics": [],
           "language": "",
@@ -2028,7 +2028,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 22797,
+          "stars": 22828,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2047,7 +2047,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8603,
+          "stars": 8610,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -2074,7 +2074,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7117,
+          "stars": 7124,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -2183,7 +2183,7 @@
       "projects": [
         {
           "name": "abuanwar072/furniture_app_flutter",
-          "stars": 619,
+          "stars": 620,
           "description": "watch it on YouTube ",
           "topics": [
             "android-app",
@@ -2310,7 +2310,7 @@
       "projects": [
         {
           "name": "pjborowiecki/ARKA-Veterinary-Clinic-Page-and-Appointment-Booking-System",
-          "stars": 165,
+          "stars": 166,
           "description": "A full-stack freelance project built for one of my clients using NextJS 14 with its latest features (app router, server ",
           "topics": [
             "appointment-booking",
@@ -2449,7 +2449,7 @@
       "projects": [
         {
           "name": "weijunext/indie-hacker-tools",
-          "stars": 7970,
+          "stars": 7974,
           "description": "收录独立开发者出海技术栈和工具",
           "topics": [],
           "language": "",
@@ -2457,7 +2457,7 @@
         },
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 2449,
+          "stars": 2636,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -2767,7 +2767,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12014,
+          "stars": 12015,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -2784,7 +2784,7 @@
         },
         {
           "name": "5mdld/anki-jlpt-decks",
-          "stars": 3050,
+          "stars": 3055,
           "description": "【egg rolls】JLPT N1～N5 一万词 Anki 牌组【简／繁】【语音＆例句】；Anki，日语，日文，日本語，牌组，卡组，牌組，卡組，能力考，日檢",
           "topics": [
             "anki",
@@ -2894,7 +2894,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 22797,
+          "stars": 22828,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2913,7 +2913,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 11236,
+          "stars": 11892,
           "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are",
           "topics": [
             "bodyweight",
@@ -2940,7 +2940,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8603,
+          "stars": 8610,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -3024,7 +3024,7 @@
       "projects": [
         {
           "name": "tastyigniter/TastyIgniter",
-          "stars": 3795,
+          "stars": 3796,
           "description": ":fire: Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants",
           "topics": [
             "food-ordering",
@@ -3046,7 +3046,7 @@
         },
         {
           "name": "enatega/food-delivery-multivendor",
-          "stars": 1398,
+          "stars": 1401,
           "description": "Enatega is a fully customizable and scalable delivery management system that supports multiple business models and servi",
           "topics": [
             "delivery-application",
@@ -3074,7 +3074,7 @@
         },
         {
           "name": "enatega/food-delivery-singlevendor",
-          "stars": 680,
+          "stars": 681,
           "description": "A fully functional and white label food delivery solution. Capable of building your own food delivery application! Inclu",
           "topics": [
             "enatega",
@@ -3164,7 +3164,7 @@
       "projects": [
         {
           "name": "zx029w/zhuangxiu-skills",
-          "stars": 74,
+          "stars": 76,
           "description": "45个装修避坑独立Skill合集 — 覆盖全屋定制、老房改造、合同审核、报价审核、方案诊断、环保避坑、流程管控、翻车急救、避坑问答、增项避雷、公司选择等装修全流程",
           "topics": [
             "agent-skills",
@@ -3278,7 +3278,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 22797,
+          "stars": 22828,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -3297,7 +3297,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8603,
+          "stars": 8610,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -3324,7 +3324,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7117,
+          "stars": 7124,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -3521,7 +3521,7 @@
       "projects": [
         {
           "name": "JourniOne-ai/JourniOne-Planning-Skills",
-          "stars": 854,
+          "stars": 890,
           "description": "JourniOne 旅行规划 Skill：从灵感与逐日路线，到带地图、可分享的 Travel Journal，按需衔接酒店与航班。",
           "topics": [
             "agent-skills",
@@ -3556,7 +3556,7 @@
         },
         {
           "name": "awangwang123/jianhao-travel-planner",
-          "stars": 381,
+          "stars": 383,
           "description": "出行路书工作流 skill：联网实查 + 多源交叉验证，产出可核验、能执行的旅行攻略。覆盖吃住行游拍避全维度，附美食情报卡、基准骨架与校验工具，支持一键部署在线版。",
           "topics": [
             "ai-agent",
@@ -3631,7 +3631,7 @@
       "projects": [
         {
           "name": "apoorvdarshan/fud-ai",
-          "stars": 473,
+          "stars": 475,
           "description": "Fud AI — free & open-source AI calorie & workout tracker for iOS and Android. Privacy-first, local-first, bring your own",
           "topics": [
             "ai",
@@ -3679,7 +3679,7 @@
         },
         {
           "name": "brandonp2412/FitBook",
-          "stars": 175,
+          "stars": 176,
           "description": "Offline-first calorie and nutrition tracker with barcode scanning, food search, macro tracking, and progress graphs. Bui",
           "topics": [
             "android",
@@ -3761,7 +3761,7 @@
       "projects": [
         {
           "name": "jangviktor-web/nihaixia",
-          "stars": 3542,
+          "stars": 3561,
           "description": "倪海厦视角的中医Agent Skill，基于倪海厦教学资料开发，蒸馏倪师伤寒论、金匮要略、黄帝内经、神农本草经、针灸篇等，人纪/医案/经方思维，六经辨证，八纲辨证，天机道，天纪，紫微斗数，易经，阴阳，八卦，五行，风水，地纪等，总结8个诊断公",
           "topics": [
             "acupuncture",
@@ -3786,7 +3786,7 @@
         },
         {
           "name": "pariskang/CMLM-ZhongJing",
-          "stars": 530,
+          "stars": 531,
           "description": "首个中医大语言模型——“仲景”。受古代中医学巨匠张仲景深邃智慧启迪，专为传统中医领域打造的预训练大语言模型。  The first-ever Traditional Chinese Medicine large language model",
           "topics": [
             "chatbot",
@@ -3881,7 +3881,7 @@
       "projects": [
         {
           "name": "Yoosseph/dental-scope",
-          "stars": 142,
+          "stars": 143,
           "description": "Explore teeth, jaws, nerves, tissues, root canals, cross-sections and layered dental structures in 3D.",
           "topics": [
             "dental",
@@ -3916,7 +3916,7 @@
         },
         {
           "name": "dentalpin/dentalpin",
-          "stars": 92,
+          "stars": 94,
           "description": "The open source agentic dental software. Built for AI.",
           "topics": [
             "agentic-ai",
@@ -4134,7 +4134,7 @@
       "projects": [
         {
           "name": "zx029w/zhuangxiu-skills",
-          "stars": 74,
+          "stars": 76,
           "description": "45个装修避坑独立Skill合集 — 覆盖全屋定制、老房改造、合同审核、报价审核、方案诊断、环保避坑、流程管控、翻车急救、避坑问答、增项避雷、公司选择等装修全流程",
           "topics": [
             "agent-skills",
@@ -4246,7 +4246,7 @@
       "projects": [
         {
           "name": "kuriv/civil-service-exam",
-          "stars": 1007,
+          "stars": 1008,
           "description": "公务员考试知识思维导图，我们岸上见！",
           "topics": [
             "civil-service",
@@ -4261,7 +4261,7 @@
         },
         {
           "name": "zhangxiangliang/civil-service-exam",
-          "stars": 987,
+          "stars": 990,
           "description": "考试攻略 | 公务员 | 事业单位",
           "topics": [],
           "language": "",
