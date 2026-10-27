@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T05:06:20.397Z",
+  "generatedAt": "2026-10-27T05:22:07.255Z",
   "source": "抖音指数（原巨量算数）· 创作指南关键词榜 + 关键词分析关联分析",
   "poolDomains": 24,
   "poolWords": 119,
@@ -270,7 +270,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23218,
+          "stars": 23251,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -289,7 +289,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 15903,
+          "stars": 16321,
           "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines,",
           "topics": [
             "apple-watch",
@@ -318,7 +318,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8641,
+          "stars": 8648,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -591,7 +591,7 @@
         },
         {
           "name": "awangwang123/jianhao-travel-planner",
-          "stars": 414,
+          "stars": 415,
           "description": "出行路书工作流 skill：联网实查 + 多源交叉验证，产出可核验、能执行的旅行攻略。覆盖吃住行游拍避全维度，附美食情报卡、基准骨架与校验工具，支持一键部署在线版。",
           "topics": [
             "ai-agent",
@@ -604,7 +604,7 @@
             "travel-planner",
             "trip-planning"
           ],
-          "language": "HTML",
+          "language": "Python",
           "url": "https://github.com/awangwang123/jianhao-travel-planner"
         },
         {
@@ -768,7 +768,7 @@
         },
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 5519,
+          "stars": 5843,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -920,7 +920,7 @@
       "projects": [
         {
           "name": "Widle-Studio/Grocery-App",
-          "stars": 1141,
+          "stars": 1142,
           "description": "Flutter Grocery Shopping App (Mobile App, Web App)",
           "topics": [
             "dart",
@@ -1067,7 +1067,7 @@
       "projects": [
         {
           "name": "Oak-and-Sprout/sprout-track",
-          "stars": 395,
+          "stars": 396,
           "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
           "topics": [
             "activity",
@@ -1099,7 +1099,7 @@
         },
         {
           "name": "Woyken/huckleberry-homeassistant",
-          "stars": 43,
+          "stars": 44,
           "description": "Home Assistant integration for Huckleberry baby tracker app - monitor sleep, feeding, diapers, and growth tracking",
           "topics": [
             "baby-tracker",
@@ -1355,7 +1355,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 44858,
+          "stars": 44913,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1374,7 +1374,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 28863,
+          "stars": 28878,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1397,7 +1397,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17834,
+          "stars": 17841,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "cv",
@@ -1501,7 +1501,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12094,
+          "stars": 12098,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -1518,7 +1518,7 @@
         },
         {
           "name": "5mdld/anki-jlpt-decks",
-          "stars": 3084,
+          "stars": 3088,
           "description": "【egg rolls】JLPT N1～N5 一万词 Anki 牌组【简／繁】【语音＆例句】；Anki，日语，日文，日本語，牌组，卡组，牌組，卡組，能力考，日檢",
           "topics": [
             "anki",
@@ -1543,7 +1543,7 @@
         },
         {
           "name": "kantord/LibreLingo",
-          "stars": 2632,
+          "stars": 2634,
           "description": "🐢 🌎 📚 a community-owned language-learning platform",
           "topics": [
             "agplv3",
@@ -1643,7 +1643,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 44858,
+          "stars": 44913,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1662,7 +1662,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 28863,
+          "stars": 28878,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1685,7 +1685,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17834,
+          "stars": 17841,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "cv",
@@ -1782,7 +1782,7 @@
       "projects": [
         {
           "name": "kuriv/civil-service-exam",
-          "stars": 1008,
+          "stars": 1009,
           "description": "公务员考试知识思维导图，我们岸上见！",
           "topics": [
             "civil-service",
@@ -1797,7 +1797,7 @@
         },
         {
           "name": "zhangxiangliang/civil-service-exam",
-          "stars": 993,
+          "stars": 994,
           "description": "考试攻略 | 公务员 | 事业单位",
           "topics": [],
           "language": "",
@@ -2030,7 +2030,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23218,
+          "stars": 23251,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2049,7 +2049,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8641,
+          "stars": 8648,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -2076,7 +2076,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7183,
+          "stars": 7192,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -2459,7 +2459,7 @@
         },
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 5519,
+          "stars": 5843,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -2572,7 +2572,7 @@
       "projects": [
         {
           "name": "Oak-and-Sprout/sprout-track",
-          "stars": 395,
+          "stars": 396,
           "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
           "topics": [
             "activity",
@@ -2604,7 +2604,7 @@
         },
         {
           "name": "Woyken/huckleberry-homeassistant",
-          "stars": 43,
+          "stars": 44,
           "description": "Home Assistant integration for Huckleberry baby tracker app - monitor sleep, feeding, diapers, and growth tracking",
           "topics": [
             "baby-tracker",
@@ -2769,7 +2769,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12094,
+          "stars": 12098,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -2786,7 +2786,7 @@
         },
         {
           "name": "5mdld/anki-jlpt-decks",
-          "stars": 3084,
+          "stars": 3088,
           "description": "【egg rolls】JLPT N1～N5 一万词 Anki 牌组【简／繁】【语音＆例句】；Anki，日语，日文，日本語，牌组，卡组，牌組，卡組，能力考，日檢",
           "topics": [
             "anki",
@@ -2811,7 +2811,7 @@
         },
         {
           "name": "kantord/LibreLingo",
-          "stars": 2632,
+          "stars": 2634,
           "description": "🐢 🌎 📚 a community-owned language-learning platform",
           "topics": [
             "agplv3",
@@ -2896,7 +2896,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23218,
+          "stars": 23251,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2915,7 +2915,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 15903,
+          "stars": 16323,
           "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines,",
           "topics": [
             "apple-watch",
@@ -2944,7 +2944,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8641,
+          "stars": 8648,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -3028,7 +3028,7 @@
       "projects": [
         {
           "name": "tastyigniter/TastyIgniter",
-          "stars": 3813,
+          "stars": 3814,
           "description": ":fire: Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants",
           "topics": [
             "food-ordering",
@@ -3050,7 +3050,7 @@
         },
         {
           "name": "enatega/food-delivery-multivendor",
-          "stars": 1409,
+          "stars": 1410,
           "description": "Enatega is a fully customizable and scalable delivery management system that supports multiple business models and servi",
           "topics": [
             "delivery-application",
@@ -3168,7 +3168,7 @@
       "projects": [
         {
           "name": "zx029w/zhuangxiu-skills",
-          "stars": 84,
+          "stars": 85,
           "description": "46个装修避坑独立Skill合集 — 覆盖全屋定制、老房改造、合同审核、报价审核、方案诊断、环保避坑、流程管控、翻车急救、避坑问答、增项避雷、公司选择等装修全流程",
           "topics": [
             "agent-skills",
@@ -3282,7 +3282,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23218,
+          "stars": 23251,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -3301,7 +3301,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8641,
+          "stars": 8648,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -3328,7 +3328,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7183,
+          "stars": 7192,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -3540,7 +3540,7 @@
         },
         {
           "name": "awangwang123/jianhao-travel-planner",
-          "stars": 414,
+          "stars": 415,
           "description": "出行路书工作流 skill：联网实查 + 多源交叉验证，产出可核验、能执行的旅行攻略。覆盖吃住行游拍避全维度，附美食情报卡、基准骨架与校验工具，支持一键部署在线版。",
           "topics": [
             "ai-agent",
@@ -3553,7 +3553,7 @@
             "travel-planner",
             "trip-planning"
           ],
-          "language": "HTML",
+          "language": "Python",
           "url": "https://github.com/awangwang123/jianhao-travel-planner"
         },
         {
@@ -3635,7 +3635,7 @@
       "projects": [
         {
           "name": "apoorvdarshan/fud-ai",
-          "stars": 494,
+          "stars": 497,
           "description": "Fud AI — free & open-source AI calorie & workout tracker for iOS and Android. Privacy-first, local-first, bring your own",
           "topics": [
             "ai",
@@ -3765,7 +3765,7 @@
       "projects": [
         {
           "name": "jangviktor-web/nihaixia",
-          "stars": 3822,
+          "stars": 3833,
           "description": "倪海厦视角的中医Agent Skill，基于倪海厦教学资料开发，蒸馏倪师伤寒论、金匮要略、黄帝内经、神农本草经、针灸篇等，人纪/医案/经方思维，六经辨证，八纲辨证，天机道，天纪，紫微斗数，易经，阴阳，八卦，五行，风水，地纪等，总结8个诊断公",
           "topics": [
             "acupuncture",
@@ -3806,7 +3806,7 @@
         },
         {
           "name": "jangviktor-web/nihaixia-app",
-          "stars": 259,
+          "stars": 262,
           "description": "倪海厦汉唐中医安卓客户端 · 中医六经辨证、伤寒论、子午流注取穴，灵龟八法，五运六气，小六壬，梅花易数，紫微斗数、易经、八字四柱排盘、周公解梦、小儿关煞、每日黄历、道教神仙节日、节气养生、玉匣记身体占，离线安卓应用中医诊断玄学助手：一款完全",
           "topics": [
             "android",
@@ -3898,7 +3898,7 @@
         },
         {
           "name": "Yoosseph/dental-scope",
-          "stars": 110,
+          "stars": 112,
           "description": "Explore teeth, jaws, nerves, tissues, root canals, cross-sections and layered dental structures in 3D.",
           "topics": [
             "dental",
@@ -4038,7 +4038,7 @@
       "projects": [
         {
           "name": "Widle-Studio/Grocery-App",
-          "stars": 1141,
+          "stars": 1142,
           "description": "Flutter Grocery Shopping App (Mobile App, Web App)",
           "topics": [
             "dart",
@@ -4138,7 +4138,7 @@
       "projects": [
         {
           "name": "zx029w/zhuangxiu-skills",
-          "stars": 84,
+          "stars": 85,
           "description": "46个装修避坑独立Skill合集 — 覆盖全屋定制、老房改造、合同审核、报价审核、方案诊断、环保避坑、流程管控、翻车急救、避坑问答、增项避雷、公司选择等装修全流程",
           "topics": [
             "agent-skills",
@@ -4250,7 +4250,7 @@
       "projects": [
         {
           "name": "kuriv/civil-service-exam",
-          "stars": 1008,
+          "stars": 1009,
           "description": "公务员考试知识思维导图，我们岸上见！",
           "topics": [
             "civil-service",
@@ -4265,7 +4265,7 @@
         },
         {
           "name": "zhangxiangliang/civil-service-exam",
-          "stars": 993,
+          "stars": 994,
           "description": "考试攻略 | 公务员 | 事业单位",
           "topics": [],
           "language": "",
