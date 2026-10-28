@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T05:22:07.255Z",
+  "generatedAt": "2026-10-28T06:01:20.749Z",
   "source": "抖音指数（原巨量算数）· 创作指南关键词榜 + 关键词分析关联分析",
   "poolDomains": 24,
   "poolWords": 119,
@@ -270,7 +270,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23251,
+          "stars": 23286,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -289,7 +289,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 16321,
+          "stars": 16752,
           "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines,",
           "topics": [
             "apple-watch",
@@ -318,7 +318,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8648,
+          "stars": 8650,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -576,7 +576,7 @@
       "projects": [
         {
           "name": "JourniOne-ai/JourniOne-Planning-Skills",
-          "stars": 1174,
+          "stars": 1175,
           "description": "JourniOne 旅行规划 Skill：从灵感与逐日路线，到带地图、可分享的 Travel Journal，按需衔接酒店与航班。",
           "topics": [
             "agent-skills",
@@ -591,7 +591,7 @@
         },
         {
           "name": "awangwang123/jianhao-travel-planner",
-          "stars": 415,
+          "stars": 414,
           "description": "出行路书工作流 skill：联网实查 + 多源交叉验证，产出可核验、能执行的旅行攻略。覆盖吃住行游拍避全维度，附美食情报卡、基准骨架与校验工具，支持一键部署在线版。",
           "topics": [
             "ai-agent",
@@ -609,7 +609,7 @@
         },
         {
           "name": "zexuanw958-svg/travel-plan-viz",
-          "stars": 408,
+          "stars": 409,
           "description": "Migo · 旅行领航 —— 把旅行行程生成为单文件、可离线、手机优先的 HTML（交互地图+每日时间轴+出发前提醒）。Claude Code / Codex 通用 Skill（travel-plan-viz）。",
           "topics": [
             "agent-skill",
@@ -760,7 +760,7 @@
       "projects": [
         {
           "name": "weijunext/indie-hacker-tools",
-          "stars": 7979,
+          "stars": 7980,
           "description": "收录独立开发者出海技术栈和工具",
           "topics": [],
           "language": "",
@@ -768,7 +768,7 @@
         },
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 5843,
+          "stars": 6094,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -1067,7 +1067,7 @@
       "projects": [
         {
           "name": "Oak-and-Sprout/sprout-track",
-          "stars": 396,
+          "stars": 397,
           "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
           "topics": [
             "activity",
@@ -1355,7 +1355,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 44913,
+          "stars": 44964,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1374,7 +1374,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 28878,
+          "stars": 28899,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1501,7 +1501,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12098,
+          "stars": 12106,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -1518,7 +1518,7 @@
         },
         {
           "name": "5mdld/anki-jlpt-decks",
-          "stars": 3088,
+          "stars": 3090,
           "description": "【egg rolls】JLPT N1～N5 一万词 Anki 牌组【简／繁】【语音＆例句】；Anki，日语，日文，日本語，牌组，卡组，牌組，卡組，能力考，日檢",
           "topics": [
             "anki",
@@ -1542,24 +1542,25 @@
           "url": "https://github.com/5mdld/anki-jlpt-decks"
         },
         {
-          "name": "kantord/LibreLingo",
-          "stars": 2634,
-          "description": "🐢 🌎 📚 a community-owned language-learning platform",
+          "name": "designfuchen/word-atlas",
+          "stars": 2745,
+          "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.",
           "topics": [
-            "agplv3",
-            "education",
+            "chinese",
+            "dataset",
+            "english-learning",
             "flashcards",
-            "foreign-language",
-            "hacktoberfest",
-            "hacktoberfest2022",
+            "fsrs",
+            "ielts",
             "language-learning",
-            "python",
-            "second-language-acquisition",
+            "pwa",
+            "react",
             "spaced-repetition",
-            "svelte"
+            "vocabulary",
+            "webgl"
           ],
-          "language": "Python",
-          "url": "https://github.com/kantord/LibreLingo"
+          "language": "TypeScript",
+          "url": "https://github.com/designfuchen/word-atlas"
         }
       ],
       "projectProbe": "证件照"
@@ -1643,7 +1644,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 44913,
+          "stars": 44964,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1662,7 +1663,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 28878,
+          "stars": 28899,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1782,7 +1783,7 @@
       "projects": [
         {
           "name": "kuriv/civil-service-exam",
-          "stars": 1009,
+          "stars": 1010,
           "description": "公务员考试知识思维导图，我们岸上见！",
           "topics": [
             "civil-service",
@@ -2030,7 +2031,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23251,
+          "stars": 23286,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2049,7 +2050,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8648,
+          "stars": 8650,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -2076,7 +2077,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7192,
+          "stars": 7199,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -2311,8 +2312,30 @@
       ],
       "projects": [
         {
+          "name": "YosemiteCrew/Yosemite-Crew",
+          "stars": 2022,
+          "description": "Open-source operating system for animal health",
+          "topics": [
+            "animal-health",
+            "animals",
+            "docker",
+            "open-source-healthcare",
+            "pets",
+            "pims",
+            "pms",
+            "practice-management-system",
+            "react-native",
+            "self-hosted",
+            "typescript",
+            "veterinary",
+            "veterinary-software"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/YosemiteCrew/Yosemite-Crew"
+        },
+        {
           "name": "pjborowiecki/ARKA-Veterinary-Clinic-Page-and-Appointment-Booking-System",
-          "stars": 166,
+          "stars": 165,
           "description": "A full-stack freelance project built for one of my clients using NextJS 14 with its latest features (app router, server ",
           "topics": [
             "appointment-booking",
@@ -2349,23 +2372,6 @@
           ],
           "language": "JavaScript",
           "url": "https://github.com/scylladb/care-pet"
-        },
-        {
-          "name": "Vetdatahub/VetDataHub",
-          "stars": 50,
-          "description": "VetDataHub is an opensource veterinary datasets repository dedicated to advancing veterinary medicine through the sharin",
-          "topics": [
-            "africa",
-            "artificial-intelligence",
-            "data-science",
-            "datasets",
-            "ghana",
-            "hacktoberfest",
-            "hacktoberfest-accepted",
-            "veterinary"
-          ],
-          "language": "",
-          "url": "https://github.com/Vetdatahub/VetDataHub"
         }
       ],
       "projectProbe": "宠物医院"
@@ -2451,7 +2457,7 @@
       "projects": [
         {
           "name": "weijunext/indie-hacker-tools",
-          "stars": 7979,
+          "stars": 7980,
           "description": "收录独立开发者出海技术栈和工具",
           "topics": [],
           "language": "",
@@ -2459,7 +2465,7 @@
         },
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 5843,
+          "stars": 6094,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -2572,7 +2578,7 @@
       "projects": [
         {
           "name": "Oak-and-Sprout/sprout-track",
-          "stars": 396,
+          "stars": 397,
           "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
           "topics": [
             "activity",
@@ -2769,7 +2775,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12098,
+          "stars": 12106,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -2786,7 +2792,7 @@
         },
         {
           "name": "5mdld/anki-jlpt-decks",
-          "stars": 3088,
+          "stars": 3090,
           "description": "【egg rolls】JLPT N1～N5 一万词 Anki 牌组【简／繁】【语音＆例句】；Anki，日语，日文，日本語，牌组，卡组，牌組，卡組，能力考，日檢",
           "topics": [
             "anki",
@@ -2810,24 +2816,25 @@
           "url": "https://github.com/5mdld/anki-jlpt-decks"
         },
         {
-          "name": "kantord/LibreLingo",
-          "stars": 2634,
-          "description": "🐢 🌎 📚 a community-owned language-learning platform",
+          "name": "designfuchen/word-atlas",
+          "stars": 2745,
+          "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.",
           "topics": [
-            "agplv3",
-            "education",
+            "chinese",
+            "dataset",
+            "english-learning",
             "flashcards",
-            "foreign-language",
-            "hacktoberfest",
-            "hacktoberfest2022",
+            "fsrs",
+            "ielts",
             "language-learning",
-            "python",
-            "second-language-acquisition",
+            "pwa",
+            "react",
             "spaced-repetition",
-            "svelte"
+            "vocabulary",
+            "webgl"
           ],
-          "language": "Python",
-          "url": "https://github.com/kantord/LibreLingo"
+          "language": "TypeScript",
+          "url": "https://github.com/designfuchen/word-atlas"
         }
       ],
       "projectProbe": "热度排行"
@@ -2896,7 +2903,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23251,
+          "stars": 23286,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2915,7 +2922,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 16323,
+          "stars": 16753,
           "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines,",
           "topics": [
             "apple-watch",
@@ -2944,7 +2951,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8648,
+          "stars": 8650,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -3028,7 +3035,7 @@
       "projects": [
         {
           "name": "tastyigniter/TastyIgniter",
-          "stars": 3814,
+          "stars": 3815,
           "description": ":fire: Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants",
           "topics": [
             "food-ordering",
@@ -3050,7 +3057,7 @@
         },
         {
           "name": "enatega/food-delivery-multivendor",
-          "stars": 1410,
+          "stars": 1409,
           "description": "Enatega is a fully customizable and scalable delivery management system that supports multiple business models and servi",
           "topics": [
             "delivery-application",
@@ -3168,8 +3175,8 @@
       "projects": [
         {
           "name": "zx029w/zhuangxiu-skills",
-          "stars": 85,
-          "description": "46个装修避坑独立Skill合集 — 覆盖全屋定制、老房改造、合同审核、报价审核、方案诊断、环保避坑、流程管控、翻车急救、避坑问答、增项避雷、公司选择等装修全流程",
+          "stars": 86,
+          "description": "48个装修避坑独立Skill合集 — 覆盖全屋定制、老房改造、合同审核、报价审核、方案诊断、环保避坑、流程管控、翻车急救、避坑问答、增项避雷、公司选择等装修全流程",
           "topics": [
             "agent-skills",
             "claude-skills",
@@ -3282,7 +3289,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23251,
+          "stars": 23286,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -3301,7 +3308,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8648,
+          "stars": 8650,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -3328,7 +3335,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7192,
+          "stars": 7199,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -3525,7 +3532,7 @@
       "projects": [
         {
           "name": "JourniOne-ai/JourniOne-Planning-Skills",
-          "stars": 1174,
+          "stars": 1175,
           "description": "JourniOne 旅行规划 Skill：从灵感与逐日路线，到带地图、可分享的 Travel Journal，按需衔接酒店与航班。",
           "topics": [
             "agent-skills",
@@ -3540,7 +3547,7 @@
         },
         {
           "name": "awangwang123/jianhao-travel-planner",
-          "stars": 415,
+          "stars": 414,
           "description": "出行路书工作流 skill：联网实查 + 多源交叉验证，产出可核验、能执行的旅行攻略。覆盖吃住行游拍避全维度，附美食情报卡、基准骨架与校验工具，支持一键部署在线版。",
           "topics": [
             "ai-agent",
@@ -3558,7 +3565,7 @@
         },
         {
           "name": "zexuanw958-svg/travel-plan-viz",
-          "stars": 408,
+          "stars": 409,
           "description": "Migo · 旅行领航 —— 把旅行行程生成为单文件、可离线、手机优先的 HTML（交互地图+每日时间轴+出发前提醒）。Claude Code / Codex 通用 Skill（travel-plan-viz）。",
           "topics": [
             "agent-skill",
@@ -3635,7 +3642,7 @@
       "projects": [
         {
           "name": "apoorvdarshan/fud-ai",
-          "stars": 497,
+          "stars": 502,
           "description": "Fud AI — free & open-source AI calorie & workout tracker for iOS and Android. Privacy-first, local-first, bring your own",
           "topics": [
             "ai",
@@ -3765,7 +3772,7 @@
       "projects": [
         {
           "name": "jangviktor-web/nihaixia",
-          "stars": 3833,
+          "stars": 3861,
           "description": "倪海厦视角的中医Agent Skill，基于倪海厦教学资料开发，蒸馏倪师伤寒论、金匮要略、黄帝内经、神农本草经、针灸篇等，人纪/医案/经方思维，六经辨证，八纲辨证，天机道，天纪，紫微斗数，易经，阴阳，八卦，五行，风水，地纪等，总结8个诊断公",
           "topics": [
             "acupuncture",
@@ -3898,7 +3905,7 @@
         },
         {
           "name": "Yoosseph/dental-scope",
-          "stars": 112,
+          "stars": 113,
           "description": "Explore teeth, jaws, nerves, tissues, root canals, cross-sections and layered dental structures in 3D.",
           "topics": [
             "dental",
@@ -3920,7 +3927,7 @@
         },
         {
           "name": "dentalpin/dentalpin",
-          "stars": 107,
+          "stars": 108,
           "description": "The open source agentic dental software. Built for AI.",
           "topics": [
             "agentic-ai",
@@ -4138,8 +4145,8 @@
       "projects": [
         {
           "name": "zx029w/zhuangxiu-skills",
-          "stars": 85,
-          "description": "46个装修避坑独立Skill合集 — 覆盖全屋定制、老房改造、合同审核、报价审核、方案诊断、环保避坑、流程管控、翻车急救、避坑问答、增项避雷、公司选择等装修全流程",
+          "stars": 86,
+          "description": "48个装修避坑独立Skill合集 — 覆盖全屋定制、老房改造、合同审核、报价审核、方案诊断、环保避坑、流程管控、翻车急救、避坑问答、增项避雷、公司选择等装修全流程",
           "topics": [
             "agent-skills",
             "claude-skills",
@@ -4250,7 +4257,7 @@
       "projects": [
         {
           "name": "kuriv/civil-service-exam",
-          "stars": 1009,
+          "stars": 1010,
           "description": "公务员考试知识思维导图，我们岸上见！",
           "topics": [
             "civil-service",
