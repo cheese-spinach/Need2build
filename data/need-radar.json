@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T06:09:22.293Z",
+  "generatedAt": "2026-10-31T06:03:08.039Z",
   "source": "抖音指数（原巨量算数）· 创作指南关键词榜 + 关键词分析关联分析",
   "poolDomains": 24,
   "poolWords": 119,
@@ -270,7 +270,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23348,
+          "stars": 23388,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -289,7 +289,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 17377,
+          "stars": 17946,
           "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines,",
           "topics": [
             "apple-watch",
@@ -318,7 +318,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8654,
+          "stars": 8655,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -576,7 +576,7 @@
       "projects": [
         {
           "name": "liketrek/TREK",
-          "stars": 15232,
+          "stars": 15263,
           "description": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offli",
           "topics": [
             "budget-tracker",
@@ -768,7 +768,7 @@
       "projects": [
         {
           "name": "weijunext/indie-hacker-tools",
-          "stars": 7981,
+          "stars": 7980,
           "description": "收录独立开发者出海技术栈和工具",
           "topics": [],
           "language": "",
@@ -776,7 +776,7 @@
         },
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 6518,
+          "stars": 6690,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -794,7 +794,7 @@
         },
         {
           "name": "mayeaux/nodetube",
-          "stars": 2372,
+          "stars": 2373,
           "description": "Open-source YouTube alternative that offers video, audio and image uploads, livestreaming and built-in monetization",
           "topics": [
             "alternative",
@@ -1075,7 +1075,7 @@
       "projects": [
         {
           "name": "Oak-and-Sprout/sprout-track",
-          "stars": 398,
+          "stars": 399,
           "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
           "topics": [
             "activity",
@@ -1363,7 +1363,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 45083,
+          "stars": 45111,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1382,7 +1382,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 28944,
+          "stars": 28979,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1405,7 +1405,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17864,
+          "stars": 17873,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "ats-friendly",
@@ -1510,7 +1510,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12122,
+          "stars": 12131,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -1527,7 +1527,7 @@
         },
         {
           "name": "mengxi-ream/read-frog",
-          "stars": 10217,
+          "stars": 10231,
           "description": "🐸 Read Frog - Open-source AI language learning & flashcards, an Immersive Translate alternative | 🐸 陪读蛙 - 开源 AI 语言学习与闪",
           "topics": [
             "anki",
@@ -1556,7 +1556,7 @@
         },
         {
           "name": "designfuchen/word-atlas",
-          "stars": 3271,
+          "stars": 3410,
           "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.",
           "topics": [
             "chinese",
@@ -1657,7 +1657,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 45083,
+          "stars": 45111,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1676,7 +1676,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 28944,
+          "stars": 28979,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1699,7 +1699,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17864,
+          "stars": 17873,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "ats-friendly",
@@ -1951,7 +1951,7 @@
         },
         {
           "name": "diegoscarabelli/garmin-health-data",
-          "stars": 127,
+          "stars": 126,
           "description": "A simple Python CLI to download Garmin Connect data as local files and load them into a SQLite database for analysis",
           "topics": [
             "ai-agents",
@@ -2045,7 +2045,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23348,
+          "stars": 23388,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2064,7 +2064,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8654,
+          "stars": 8655,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -2091,7 +2091,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7206,
+          "stars": 7212,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -2471,7 +2471,7 @@
       "projects": [
         {
           "name": "weijunext/indie-hacker-tools",
-          "stars": 7981,
+          "stars": 7980,
           "description": "收录独立开发者出海技术栈和工具",
           "topics": [],
           "language": "",
@@ -2479,7 +2479,7 @@
         },
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 6518,
+          "stars": 6690,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -2497,7 +2497,7 @@
         },
         {
           "name": "mayeaux/nodetube",
-          "stars": 2372,
+          "stars": 2373,
           "description": "Open-source YouTube alternative that offers video, audio and image uploads, livestreaming and built-in monetization",
           "topics": [
             "alternative",
@@ -2592,7 +2592,7 @@
       "projects": [
         {
           "name": "Oak-and-Sprout/sprout-track",
-          "stars": 398,
+          "stars": 399,
           "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
           "topics": [
             "activity",
@@ -2789,7 +2789,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12122,
+          "stars": 12131,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -2806,7 +2806,7 @@
         },
         {
           "name": "mengxi-ream/read-frog",
-          "stars": 10217,
+          "stars": 10231,
           "description": "🐸 Read Frog - Open-source AI language learning & flashcards, an Immersive Translate alternative | 🐸 陪读蛙 - 开源 AI 语言学习与闪",
           "topics": [
             "anki",
@@ -2835,7 +2835,7 @@
         },
         {
           "name": "designfuchen/word-atlas",
-          "stars": 3271,
+          "stars": 3410,
           "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.",
           "topics": [
             "chinese",
@@ -2921,7 +2921,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23348,
+          "stars": 23388,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2940,7 +2940,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 17379,
+          "stars": 17947,
           "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines,",
           "topics": [
             "apple-watch",
@@ -2969,7 +2969,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8654,
+          "stars": 8655,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -3075,7 +3075,7 @@
         },
         {
           "name": "enatega/food-delivery-multivendor",
-          "stars": 1410,
+          "stars": 1412,
           "description": "Enatega is a fully customizable and scalable delivery management system that supports multiple business models and servi",
           "topics": [
             "delivery-application",
@@ -3307,7 +3307,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23348,
+          "stars": 23388,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -3326,7 +3326,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8654,
+          "stars": 8655,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -3353,7 +3353,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7206,
+          "stars": 7212,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -3466,7 +3466,7 @@
         },
         {
           "name": "diegoscarabelli/garmin-health-data",
-          "stars": 127,
+          "stars": 126,
           "description": "A simple Python CLI to download Garmin Connect data as local files and load them into a SQLite database for analysis",
           "topics": [
             "ai-agents",
@@ -3550,7 +3550,7 @@
       "projects": [
         {
           "name": "liketrek/TREK",
-          "stars": 15232,
+          "stars": 15263,
           "description": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offli",
           "topics": [
             "budget-tracker",
@@ -3668,7 +3668,7 @@
       "projects": [
         {
           "name": "apoorvdarshan/fud-ai",
-          "stars": 506,
+          "stars": 507,
           "description": "Fud AI — free & open-source AI calorie & workout tracker for iOS and Android. Privacy-first, local-first, bring your own",
           "topics": [
             "ai",
@@ -3697,7 +3697,7 @@
         },
         {
           "name": "kcal-app/kcal",
-          "stars": 355,
+          "stars": 356,
           "description": "the personal food nutrition journal",
           "topics": [
             "calorie-tracker",
@@ -3798,7 +3798,7 @@
       "projects": [
         {
           "name": "jangviktor-web/nihaixia",
-          "stars": 3890,
+          "stars": 3909,
           "description": "倪海厦视角的中医Agent Skill，基于倪海厦教学资料开发，蒸馏倪师伤寒论、金匮要略、黄帝内经、神农本草经、针灸篇等，人纪/医案/经方思维，六经辨证，八纲辨证，天机道，天纪，紫微斗数，易经，阴阳，八卦，五行，风水，地纪等，总结8个诊断公",
           "topics": [
             "acupuncture",
@@ -3839,7 +3839,7 @@
         },
         {
           "name": "jangviktor-web/nihaixia-app",
-          "stars": 266,
+          "stars": 269,
           "description": "倪海厦汉唐中医安卓客户端 · 中医六经辨证、伤寒论、子午流注取穴，灵龟八法，五运六气，小六壬，梅花易数，紫微斗数、易经、八字四柱排盘、周公解梦、小儿关煞、每日黄历、道教神仙节日、节气养生、玉匣记身体占，离线安卓应用中医诊断玄学助手：一款完全",
           "topics": [
             "android",
