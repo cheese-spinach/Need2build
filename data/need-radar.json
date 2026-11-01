@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T06:03:08.039Z",
+  "generatedAt": "2026-11-01T06:32:34.196Z",
   "source": "抖音指数（原巨量算数）· 创作指南关键词榜 + 关键词分析关联分析",
   "poolDomains": 24,
   "poolWords": 119,
@@ -270,7 +270,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23388,
+          "stars": 23428,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -289,7 +289,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 17946,
+          "stars": 18351,
           "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines,",
           "topics": [
             "apple-watch",
@@ -576,7 +576,7 @@
       "projects": [
         {
           "name": "liketrek/TREK",
-          "stars": 15263,
+          "stars": 15282,
           "description": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offli",
           "topics": [
             "budget-tracker",
@@ -604,7 +604,7 @@
         },
         {
           "name": "JourniOne-ai/JourniOne-Planning-Skills",
-          "stars": 1175,
+          "stars": 1176,
           "description": "JourniOne 旅行规划 Skill：从灵感与逐日路线，到带地图、可分享的 Travel Journal，按需衔接酒店与航班。",
           "topics": [
             "agent-skills",
@@ -768,7 +768,7 @@
       "projects": [
         {
           "name": "weijunext/indie-hacker-tools",
-          "stars": 7980,
+          "stars": 7981,
           "description": "收录独立开发者出海技术栈和工具",
           "topics": [],
           "language": "",
@@ -776,7 +776,7 @@
         },
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 6690,
+          "stars": 6849,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -928,7 +928,7 @@
       "projects": [
         {
           "name": "widle-ai/Grocery-App",
-          "stars": 1143,
+          "stars": 1144,
           "description": "Flutter Grocery Shopping App (Mobile App, Web App)",
           "topics": [
             "dart",
@@ -1363,7 +1363,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 45111,
+          "stars": 45140,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1382,7 +1382,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 28979,
+          "stars": 29012,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1405,7 +1405,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17873,
+          "stars": 17879,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "ats-friendly",
@@ -1510,7 +1510,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12131,
+          "stars": 12137,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -1527,7 +1527,7 @@
         },
         {
           "name": "mengxi-ream/read-frog",
-          "stars": 10231,
+          "stars": 10242,
           "description": "🐸 Read Frog - Open-source AI language learning & flashcards, an Immersive Translate alternative | 🐸 陪读蛙 - 开源 AI 语言学习与闪",
           "topics": [
             "anki",
@@ -1556,7 +1556,7 @@
         },
         {
           "name": "designfuchen/word-atlas",
-          "stars": 3410,
+          "stars": 3591,
           "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.",
           "topics": [
             "chinese",
@@ -1657,7 +1657,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 45111,
+          "stars": 45140,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1676,7 +1676,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 28979,
+          "stars": 29012,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1699,7 +1699,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17873,
+          "stars": 17879,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "ats-friendly",
@@ -1797,7 +1797,7 @@
       "projects": [
         {
           "name": "kuriv/civil-service-exam",
-          "stars": 1011,
+          "stars": 1012,
           "description": "公务员考试知识思维导图，我们岸上见！",
           "topics": [
             "civil-service",
@@ -2045,7 +2045,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23388,
+          "stars": 23428,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2091,7 +2091,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7212,
+          "stars": 7214,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -2471,7 +2471,7 @@
       "projects": [
         {
           "name": "weijunext/indie-hacker-tools",
-          "stars": 7980,
+          "stars": 7981,
           "description": "收录独立开发者出海技术栈和工具",
           "topics": [],
           "language": "",
@@ -2479,7 +2479,7 @@
         },
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 6690,
+          "stars": 6849,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -2497,7 +2497,7 @@
         },
         {
           "name": "mayeaux/nodetube",
-          "stars": 2373,
+          "stars": 2374,
           "description": "Open-source YouTube alternative that offers video, audio and image uploads, livestreaming and built-in monetization",
           "topics": [
             "alternative",
@@ -2693,7 +2693,7 @@
       "projects": [
         {
           "name": "sdaschner/scalable-coffee-shop",
-          "stars": 407,
+          "stars": 408,
           "description": "A scalable, event-driven and event-sourced Java EE application",
           "topics": [],
           "language": "Java",
@@ -2701,7 +2701,7 @@
         },
         {
           "name": "darshanpawar101/Coffee-Shop-App",
-          "stars": 349,
+          "stars": 350,
           "description": "",
           "topics": [],
           "language": "TypeScript",
@@ -2789,7 +2789,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12131,
+          "stars": 12137,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -2806,7 +2806,7 @@
         },
         {
           "name": "mengxi-ream/read-frog",
-          "stars": 10231,
+          "stars": 10242,
           "description": "🐸 Read Frog - Open-source AI language learning & flashcards, an Immersive Translate alternative | 🐸 陪读蛙 - 开源 AI 语言学习与闪",
           "topics": [
             "anki",
@@ -2835,7 +2835,7 @@
         },
         {
           "name": "designfuchen/word-atlas",
-          "stars": 3410,
+          "stars": 3591,
           "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.",
           "topics": [
             "chinese",
@@ -2921,7 +2921,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23388,
+          "stars": 23428,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2940,7 +2940,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 17947,
+          "stars": 18351,
           "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines,",
           "topics": [
             "apple-watch",
@@ -3053,7 +3053,7 @@
       "projects": [
         {
           "name": "tastyigniter/TastyIgniter",
-          "stars": 3816,
+          "stars": 3817,
           "description": ":fire: Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants",
           "topics": [
             "food-ordering",
@@ -3075,7 +3075,7 @@
         },
         {
           "name": "enatega/food-delivery-multivendor",
-          "stars": 1412,
+          "stars": 1414,
           "description": "Enatega is a fully customizable and scalable delivery management system that supports multiple business models and servi",
           "topics": [
             "delivery-application",
@@ -3103,7 +3103,7 @@
         },
         {
           "name": "enatega/food-delivery-singlevendor",
-          "stars": 683,
+          "stars": 684,
           "description": "A fully functional and white label food delivery solution. Capable of building your own food delivery application! Inclu",
           "topics": [
             "enatega",
@@ -3307,7 +3307,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23388,
+          "stars": 23428,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -3353,7 +3353,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7212,
+          "stars": 7214,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -3550,7 +3550,7 @@
       "projects": [
         {
           "name": "liketrek/TREK",
-          "stars": 15263,
+          "stars": 15282,
           "description": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offli",
           "topics": [
             "budget-tracker",
@@ -3578,7 +3578,7 @@
         },
         {
           "name": "JourniOne-ai/JourniOne-Planning-Skills",
-          "stars": 1175,
+          "stars": 1176,
           "description": "JourniOne 旅行规划 Skill：从灵感与逐日路线，到带地图、可分享的 Travel Journal，按需衔接酒店与航班。",
           "topics": [
             "agent-skills",
@@ -3668,7 +3668,7 @@
       "projects": [
         {
           "name": "apoorvdarshan/fud-ai",
-          "stars": 507,
+          "stars": 508,
           "description": "Fud AI — free & open-source AI calorie & workout tracker for iOS and Android. Privacy-first, local-first, bring your own",
           "topics": [
             "ai",
@@ -3798,7 +3798,7 @@
       "projects": [
         {
           "name": "jangviktor-web/nihaixia",
-          "stars": 3909,
+          "stars": 3936,
           "description": "倪海厦视角的中医Agent Skill，基于倪海厦教学资料开发，蒸馏倪师伤寒论、金匮要略、黄帝内经、神农本草经、针灸篇等，人纪/医案/经方思维，六经辨证，八纲辨证，天机道，天纪，紫微斗数，易经，阴阳，八卦，五行，风水，地纪等，总结8个诊断公",
           "topics": [
             "acupuncture",
@@ -4071,7 +4071,7 @@
       "projects": [
         {
           "name": "widle-ai/Grocery-App",
-          "stars": 1143,
+          "stars": 1144,
           "description": "Flutter Grocery Shopping App (Mobile App, Web App)",
           "topics": [
             "dart",
@@ -4283,7 +4283,7 @@
       "projects": [
         {
           "name": "kuriv/civil-service-exam",
-          "stars": 1011,
+          "stars": 1012,
           "description": "公务员考试知识思维导图，我们岸上见！",
           "topics": [
             "civil-service",
