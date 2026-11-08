@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T06:20:46.374Z",
+  "generatedAt": "2026-11-08T06:26:40.592Z",
   "source": "抖音指数（原巨量算数）· 创作指南关键词榜 + 关键词分析关联分析",
   "poolDomains": 24,
   "poolWords": 119,
@@ -107,7 +107,7 @@
       "projects": [
         {
           "name": "mescon/Muximux",
-          "stars": 1231,
+          "stars": 1233,
           "description": "A self-hosted homelab dashboard with an optional built-in reverse proxy that makes stubborn apps work in iframes",
           "topics": [
             "caddy",
@@ -270,7 +270,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23603,
+          "stars": 23624,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -289,7 +289,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 20017,
+          "stars": 20224,
           "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines,",
           "topics": [
             "apple-watch",
@@ -442,6 +442,35 @@
       ],
       "projects": [
         {
+          "name": "pascalorg/editor",
+          "stars": 25385,
+          "description": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI.",
+          "topics": [
+            "3d",
+            "3d-scanning",
+            "aec",
+            "agent-skills",
+            "ai-agents",
+            "bim",
+            "building-design",
+            "cad",
+            "cli",
+            "floor-plan",
+            "ifc",
+            "interior-design",
+            "local-first",
+            "mcp",
+            "mcp-server",
+            "openbim",
+            "point-cloud",
+            "scan-to-bim",
+            "threejs",
+            "webgpu"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/pascalorg/editor"
+        },
+        {
           "name": "abuanwar072/furniture_app_flutter",
           "stars": 620,
           "description": "watch it on YouTube ",
@@ -466,23 +495,6 @@
           ],
           "language": "Python",
           "url": "https://github.com/clvrai/furniture"
-        },
-        {
-          "name": "JideGuru/FlutterFurnitureAppUI",
-          "stars": 511,
-          "description": "Flutter representation of a furniture app UI",
-          "topics": [
-            "android",
-            "cross-platform",
-            "flutter",
-            "furniture",
-            "furniture-app-ui",
-            "ios",
-            "mobile",
-            "ui"
-          ],
-          "language": "Dart",
-          "url": "https://github.com/JideGuru/FlutterFurnitureAppUI"
         }
       ],
       "projectProbe": "置物架"
@@ -576,7 +588,7 @@
       "projects": [
         {
           "name": "liketrek/TREK",
-          "stars": 15412,
+          "stars": 15432,
           "description": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offli",
           "topics": [
             "budget-tracker",
@@ -619,7 +631,7 @@
         },
         {
           "name": "awangwang123/jianhao-travel-planner",
-          "stars": 422,
+          "stars": 426,
           "description": "出行路书工作流 skill：联网实查 + 多源交叉验证，产出可核验、能执行的旅行攻略。覆盖吃住行游拍避全维度，附美食情报卡、基准骨架与校验工具，支持一键部署在线版。",
           "topics": [
             "ai-agent",
@@ -768,7 +780,7 @@
       "projects": [
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 8005,
+          "stars": 8269,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -786,7 +798,7 @@
         },
         {
           "name": "weijunext/indie-hacker-tools",
-          "stars": 7981,
+          "stars": 7980,
           "description": "收录独立开发者出海技术栈和工具",
           "topics": [],
           "language": "",
@@ -1075,7 +1087,7 @@
       "projects": [
         {
           "name": "Oak-and-Sprout/sprout-track",
-          "stars": 402,
+          "stars": 403,
           "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
           "topics": [
             "activity",
@@ -1107,7 +1119,7 @@
         },
         {
           "name": "Woyken/huckleberry-homeassistant",
-          "stars": 45,
+          "stars": 46,
           "description": "Home Assistant integration for Huckleberry baby tracker app - monitor sleep, feeding, diapers, and growth tracking",
           "topics": [
             "baby-tracker",
@@ -1363,7 +1375,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 45443,
+          "stars": 45457,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1382,7 +1394,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 29165,
+          "stars": 29175,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1405,7 +1417,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17917,
+          "stars": 17919,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "ats-friendly",
@@ -1510,7 +1522,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12182,
+          "stars": 12187,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -1527,7 +1539,7 @@
         },
         {
           "name": "mengxi-ream/read-frog",
-          "stars": 10318,
+          "stars": 10330,
           "description": "🐸 Read Frog - Open-source AI language learning & flashcards, an Immersive Translate alternative | 🐸 陪读蛙 - 开源 AI 语言学习与闪",
           "topics": [
             "anki",
@@ -1556,7 +1568,7 @@
         },
         {
           "name": "designfuchen/word-atlas",
-          "stars": 4338,
+          "stars": 4416,
           "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.",
           "topics": [
             "chinese",
@@ -1657,7 +1669,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 45443,
+          "stars": 45457,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1676,7 +1688,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 29165,
+          "stars": 29175,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1699,7 +1711,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17917,
+          "stars": 17919,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "ats-friendly",
@@ -1797,7 +1809,7 @@
       "projects": [
         {
           "name": "kuriv/civil-service-exam",
-          "stars": 1010,
+          "stars": 1011,
           "description": "公务员考试知识思维导图，我们岸上见！",
           "topics": [
             "civil-service",
@@ -2045,7 +2057,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23603,
+          "stars": 23624,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2091,7 +2103,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7236,
+          "stars": 7242,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -2199,6 +2211,35 @@
       ],
       "projects": [
         {
+          "name": "pascalorg/editor",
+          "stars": 25385,
+          "description": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI.",
+          "topics": [
+            "3d",
+            "3d-scanning",
+            "aec",
+            "agent-skills",
+            "ai-agents",
+            "bim",
+            "building-design",
+            "cad",
+            "cli",
+            "floor-plan",
+            "ifc",
+            "interior-design",
+            "local-first",
+            "mcp",
+            "mcp-server",
+            "openbim",
+            "point-cloud",
+            "scan-to-bim",
+            "threejs",
+            "webgpu"
+          ],
+          "language": "TypeScript",
+          "url": "https://github.com/pascalorg/editor"
+        },
+        {
           "name": "abuanwar072/furniture_app_flutter",
           "stars": 620,
           "description": "watch it on YouTube ",
@@ -2223,23 +2264,6 @@
           ],
           "language": "Python",
           "url": "https://github.com/clvrai/furniture"
-        },
-        {
-          "name": "JideGuru/FlutterFurnitureAppUI",
-          "stars": 511,
-          "description": "Flutter representation of a furniture app UI",
-          "topics": [
-            "android",
-            "cross-platform",
-            "flutter",
-            "furniture",
-            "furniture-app-ui",
-            "ios",
-            "mobile",
-            "ui"
-          ],
-          "language": "Dart",
-          "url": "https://github.com/JideGuru/FlutterFurnitureAppUI"
         }
       ],
       "projectProbe": "收纳包"
@@ -2377,7 +2401,7 @@
         },
         {
           "name": "evangauer/openvpm",
-          "stars": 57,
+          "stars": 62,
           "description": "Free, open-source, API-first veterinary practice management system (PIMS) — self-hostable, with a built-in AI agent and ",
           "topics": [
             "ai-agents",
@@ -2481,7 +2505,7 @@
       "projects": [
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 8005,
+          "stars": 8269,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -2499,7 +2523,7 @@
         },
         {
           "name": "weijunext/indie-hacker-tools",
-          "stars": 7981,
+          "stars": 7980,
           "description": "收录独立开发者出海技术栈和工具",
           "topics": [],
           "language": "",
@@ -2602,7 +2626,7 @@
       "projects": [
         {
           "name": "Oak-and-Sprout/sprout-track",
-          "stars": 402,
+          "stars": 403,
           "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
           "topics": [
             "activity",
@@ -2634,7 +2658,7 @@
         },
         {
           "name": "Woyken/huckleberry-homeassistant",
-          "stars": 45,
+          "stars": 46,
           "description": "Home Assistant integration for Huckleberry baby tracker app - monitor sleep, feeding, diapers, and growth tracking",
           "topics": [
             "baby-tracker",
@@ -2799,7 +2823,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12182,
+          "stars": 12187,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -2816,7 +2840,7 @@
         },
         {
           "name": "mengxi-ream/read-frog",
-          "stars": 10318,
+          "stars": 10330,
           "description": "🐸 Read Frog - Open-source AI language learning & flashcards, an Immersive Translate alternative | 🐸 陪读蛙 - 开源 AI 语言学习与闪",
           "topics": [
             "anki",
@@ -2845,7 +2869,7 @@
         },
         {
           "name": "designfuchen/word-atlas",
-          "stars": 4338,
+          "stars": 4416,
           "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.",
           "topics": [
             "chinese",
@@ -2931,7 +2955,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23603,
+          "stars": 23624,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2950,7 +2974,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 20017,
+          "stars": 20225,
           "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines,",
           "topics": [
             "apple-watch",
@@ -3063,7 +3087,7 @@
       "projects": [
         {
           "name": "tastyigniter/TastyIgniter",
-          "stars": 3833,
+          "stars": 3834,
           "description": ":fire: Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants",
           "topics": [
             "food-ordering",
@@ -3317,7 +3341,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23603,
+          "stars": 23624,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -3363,7 +3387,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7236,
+          "stars": 7242,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -3560,7 +3584,7 @@
       "projects": [
         {
           "name": "liketrek/TREK",
-          "stars": 15412,
+          "stars": 15432,
           "description": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offli",
           "topics": [
             "budget-tracker",
@@ -3603,7 +3627,7 @@
         },
         {
           "name": "awangwang123/jianhao-travel-planner",
-          "stars": 422,
+          "stars": 426,
           "description": "出行路书工作流 skill：联网实查 + 多源交叉验证，产出可核验、能执行的旅行攻略。覆盖吃住行游拍避全维度，附美食情报卡、基准骨架与校验工具，支持一键部署在线版。",
           "topics": [
             "ai-agent",
@@ -3678,7 +3702,7 @@
       "projects": [
         {
           "name": "apoorvdarshan/fud-ai",
-          "stars": 518,
+          "stars": 519,
           "description": "Fud AI — free & open-source AI calorie & workout tracker for iOS and Android. Privacy-first, local-first, bring your own",
           "topics": [
             "ai",
@@ -3808,7 +3832,7 @@
       "projects": [
         {
           "name": "jangviktor-web/nihaixia",
-          "stars": 4023,
+          "stars": 4033,
           "description": "倪海厦视角的中医Agent Skill，基于倪海厦教学资料开发，蒸馏倪师伤寒论、金匮要略、黄帝内经、神农本草经、针灸篇等，人纪/医案/经方思维，六经辨证，八纲辨证，天机道，天纪，紫微斗数，易经，阴阳，八卦，五行，风水，地纪等，总结8个诊断公",
           "topics": [
             "acupuncture",
@@ -3833,7 +3857,7 @@
         },
         {
           "name": "pariskang/CMLM-ZhongJing",
-          "stars": 536,
+          "stars": 535,
           "description": "首个中医大语言模型——“仲景”。受古代中医学巨匠张仲景深邃智慧启迪，专为传统中医领域打造的预训练大语言模型。  The first-ever Traditional Chinese Medicine large language model",
           "topics": [
             "chatbot",
@@ -3849,29 +3873,29 @@
         },
         {
           "name": "jangviktor-web/nihaixia-app",
-          "stars": 285,
-          "description": "倪海厦汉唐中医安卓客户端 · 中医六经辨证、伤寒论、子午流注取穴，灵龟八法，五运六气，小六壬，梅花易数，紫微斗数、易经、八字四柱排盘、周公解梦、小儿关煞、每日黄历、道教神仙节日、节气养生、玉匣记身体占，离线安卓应用中医诊断玄学助手：一款完全",
+          "stars": 286,
+          "description": "倪海厦汉唐中医 AI 辅助诊断安卓客户端 · AI 讲义问答｜可选「问倪师AI」：本地讲义检索 + 自配模型（OpenAI 兼容 / 智谱 GLM-4.7-Flash / 书生 Atria-Dawn），默认关闭零联网；六经辨证智能问诊、伤寒",
           "topics": [
+            "ai",
             "android",
             "chinese-medicine",
             "dart",
             "diagnosis",
-            "differential-diagnosis",
             "flutter",
             "herbal-medicine",
             "jingfang",
-            "medical-app",
+            "llm",
             "medical-cases",
             "meridian",
-            "ni-haisha",
             "nihaisha",
             "nihaixia",
-            "offline-app",
             "offline-first",
+            "openai-compatible",
+            "rag",
             "shanghan-lun",
             "six-meridian",
-            "traditional-chinese-medicine",
-            "ziweidoushu"
+            "tcm",
+            "traditional-chinese-medicine"
           ],
           "language": "Dart",
           "url": "https://github.com/jangviktor-web/nihaixia-app"
@@ -3941,7 +3965,7 @@
         },
         {
           "name": "Yoosseph/dental-scope",
-          "stars": 113,
+          "stars": 114,
           "description": "Explore teeth, jaws, nerves, tissues, root canals, cross-sections and layered dental structures in 3D.",
           "topics": [
             "dental",
@@ -3963,7 +3987,7 @@
         },
         {
           "name": "dentalpin/dentalpin",
-          "stars": 111,
+          "stars": 112,
           "description": "The open source agentic dental software. Built for AI.",
           "topics": [
             "agentic-ai",
@@ -4293,7 +4317,7 @@
       "projects": [
         {
           "name": "kuriv/civil-service-exam",
-          "stars": 1010,
+          "stars": 1011,
           "description": "公务员考试知识思维导图，我们岸上见！",
           "topics": [
             "civil-service",
