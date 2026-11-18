@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T08:14:58.968Z",
+  "generatedAt": "2026-11-18T07:49:01.740Z",
   "source": "抖音指数（原巨量算数）· 创作指南关键词榜 + 关键词分析关联分析",
   "poolDomains": 24,
   "poolWords": 119,
@@ -107,7 +107,7 @@
       "projects": [
         {
           "name": "mescon/Muximux",
-          "stars": 1237,
+          "stars": 1238,
           "description": "A self-hosted homelab dashboard with an optional built-in reverse proxy that makes stubborn apps work in iframes",
           "topics": [
             "caddy",
@@ -270,7 +270,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23835,
+          "stars": 23854,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -289,7 +289,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 22313,
+          "stars": 22608,
           "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines,",
           "topics": [
             "apple-watch",
@@ -318,7 +318,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8695,
+          "stars": 8696,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -443,7 +443,7 @@
       "projects": [
         {
           "name": "pascalorg/editor",
-          "stars": 25567,
+          "stars": 25596,
           "description": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI.",
           "topics": [
             "3d",
@@ -588,7 +588,7 @@
       "projects": [
         {
           "name": "liketrek/TREK",
-          "stars": 15603,
+          "stars": 15758,
           "description": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offli",
           "topics": [
             "budget-tracker",
@@ -616,7 +616,7 @@
         },
         {
           "name": "JourniOne-ai/JourniOne-Planning-Skills",
-          "stars": 1186,
+          "stars": 1187,
           "description": "JourniOne 旅行规划 Skill：从灵感与逐日路线，到带地图、可分享的 Travel Journal，按需衔接酒店与航班。",
           "topics": [
             "agent-skills",
@@ -631,7 +631,7 @@
         },
         {
           "name": "awangwang123/jianhao-travel-planner",
-          "stars": 445,
+          "stars": 447,
           "description": "出行路书工作流 skill：联网实查 + 多源交叉验证，产出可核验、能执行的旅行攻略。覆盖吃住行游拍避全维度，附美食情报卡、基准骨架与校验工具，支持一键部署在线版。",
           "topics": [
             "ai-agent",
@@ -780,7 +780,7 @@
       "projects": [
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 9628,
+          "stars": 9768,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -940,7 +940,7 @@
       "projects": [
         {
           "name": "widle-ai/Grocery-App",
-          "stars": 1145,
+          "stars": 1146,
           "description": "Flutter Grocery Shopping App (Mobile App, Web App)",
           "topics": [
             "dart",
@@ -1087,7 +1087,7 @@
       "projects": [
         {
           "name": "Oak-and-Sprout/sprout-track",
-          "stars": 406,
+          "stars": 408,
           "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
           "topics": [
             "activity",
@@ -1375,7 +1375,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 45843,
+          "stars": 45878,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1394,7 +1394,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 29321,
+          "stars": 29335,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1417,7 +1417,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17962,
+          "stars": 17970,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "ats-friendly",
@@ -1522,7 +1522,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12266,
+          "stars": 12276,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -1539,7 +1539,7 @@
         },
         {
           "name": "mengxi-ream/read-frog",
-          "stars": 10466,
+          "stars": 10476,
           "description": "🐸 Read Frog - Open-source AI language learning & flashcards, an Immersive Translate alternative | 🐸 陪读蛙 - 开源 AI 语言学习与闪",
           "topics": [
             "anki",
@@ -1568,7 +1568,7 @@
         },
         {
           "name": "designfuchen/word-atlas",
-          "stars": 4955,
+          "stars": 5006,
           "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.",
           "topics": [
             "chinese",
@@ -1669,7 +1669,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 45843,
+          "stars": 45878,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1688,7 +1688,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 29321,
+          "stars": 29335,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1711,7 +1711,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 17962,
+          "stars": 17970,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "ats-friendly",
@@ -1963,7 +1963,7 @@
         },
         {
           "name": "diegoscarabelli/garmin-health-data",
-          "stars": 130,
+          "stars": 131,
           "description": "A simple Python CLI to download Garmin Connect data as local files and load them into a SQLite database for analysis",
           "topics": [
             "ai-agents",
@@ -2057,7 +2057,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23835,
+          "stars": 23854,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2076,7 +2076,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8695,
+          "stars": 8696,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -2103,7 +2103,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7282,
+          "stars": 7287,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -2212,7 +2212,7 @@
       "projects": [
         {
           "name": "pascalorg/editor",
-          "stars": 25567,
+          "stars": 25596,
           "description": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI.",
           "topics": [
             "3d",
@@ -2505,7 +2505,7 @@
       "projects": [
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 9628,
+          "stars": 9768,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -2626,7 +2626,7 @@
       "projects": [
         {
           "name": "Oak-and-Sprout/sprout-track",
-          "stars": 406,
+          "stars": 408,
           "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
           "topics": [
             "activity",
@@ -2823,7 +2823,7 @@
       "projects": [
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12266,
+          "stars": 12276,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -2840,7 +2840,7 @@
         },
         {
           "name": "mengxi-ream/read-frog",
-          "stars": 10466,
+          "stars": 10476,
           "description": "🐸 Read Frog - Open-source AI language learning & flashcards, an Immersive Translate alternative | 🐸 陪读蛙 - 开源 AI 语言学习与闪",
           "topics": [
             "anki",
@@ -2869,7 +2869,7 @@
         },
         {
           "name": "designfuchen/word-atlas",
-          "stars": 4955,
+          "stars": 5006,
           "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.",
           "topics": [
             "chinese",
@@ -2955,7 +2955,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23835,
+          "stars": 23854,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2974,7 +2974,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 22314,
+          "stars": 22608,
           "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines,",
           "topics": [
             "apple-watch",
@@ -3003,7 +3003,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8695,
+          "stars": 8696,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -3087,7 +3087,7 @@
       "projects": [
         {
           "name": "tastyigniter/TastyIgniter",
-          "stars": 3865,
+          "stars": 3868,
           "description": ":fire: Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants",
           "topics": [
             "food-ordering",
@@ -3227,7 +3227,7 @@
       "projects": [
         {
           "name": "zx029w/zhuangxiu-skills",
-          "stars": 99,
+          "stars": 103,
           "description": "51个装修避坑独立Skill合集 — 覆盖全屋定制、老房改造、合同审核、报价审核、方案诊断、环保避坑、流程管控、翻车急救、避坑问答、增项避雷、公司选择等装修全流程",
           "topics": [
             "agent-skills",
@@ -3342,7 +3342,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23835,
+          "stars": 23854,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -3361,7 +3361,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8695,
+          "stars": 8696,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -3388,7 +3388,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7282,
+          "stars": 7287,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -3501,7 +3501,7 @@
         },
         {
           "name": "diegoscarabelli/garmin-health-data",
-          "stars": 130,
+          "stars": 131,
           "description": "A simple Python CLI to download Garmin Connect data as local files and load them into a SQLite database for analysis",
           "topics": [
             "ai-agents",
@@ -3585,7 +3585,7 @@
       "projects": [
         {
           "name": "liketrek/TREK",
-          "stars": 15604,
+          "stars": 15758,
           "description": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offli",
           "topics": [
             "budget-tracker",
@@ -3613,7 +3613,7 @@
         },
         {
           "name": "JourniOne-ai/JourniOne-Planning-Skills",
-          "stars": 1186,
+          "stars": 1187,
           "description": "JourniOne 旅行规划 Skill：从灵感与逐日路线，到带地图、可分享的 Travel Journal，按需衔接酒店与航班。",
           "topics": [
             "agent-skills",
@@ -3628,7 +3628,7 @@
         },
         {
           "name": "awangwang123/jianhao-travel-planner",
-          "stars": 445,
+          "stars": 447,
           "description": "出行路书工作流 skill：联网实查 + 多源交叉验证，产出可核验、能执行的旅行攻略。覆盖吃住行游拍避全维度，附美食情报卡、基准骨架与校验工具，支持一键部署在线版。",
           "topics": [
             "ai-agent",
@@ -3703,7 +3703,7 @@
       "projects": [
         {
           "name": "apoorvdarshan/fud-ai",
-          "stars": 540,
+          "stars": 544,
           "description": "Fud AI — free & open-source AI calorie & workout tracker for iOS and Android. Privacy-first, local-first, bring your own",
           "topics": [
             "ai",
@@ -3833,7 +3833,7 @@
       "projects": [
         {
           "name": "jangviktor-web/nihaixia",
-          "stars": 4137,
+          "stars": 4149,
           "description": "倪海厦视角的中医Agent Skill，基于倪海厦教学资料开发，蒸馏倪师伤寒论、金匮要略、黄帝内经、神农本草经、针灸篇等，人纪/医案/经方思维，六经辨证，八纲辨证，天机道，天纪，紫微斗数，易经，阴阳，八卦，五行，风水，地纪等，总结8个诊断公",
           "topics": [
             "acupuncture",
@@ -3858,7 +3858,7 @@
         },
         {
           "name": "pariskang/CMLM-ZhongJing",
-          "stars": 537,
+          "stars": 538,
           "description": "首个中医大语言模型——“仲景”。受古代中医学巨匠张仲景深邃智慧启迪，专为传统中医领域打造的预训练大语言模型。  The first-ever Traditional Chinese Medicine large language model",
           "topics": [
             "chatbot",
@@ -3874,7 +3874,7 @@
         },
         {
           "name": "jangviktor-web/nihaixia-app",
-          "stars": 299,
+          "stars": 301,
           "description": "倪海厦汉唐中医 AI 辅助诊断安卓客户端 · AI 讲义问答·六经辨证智能问诊、伤寒论 394 条、金匮 433 篇、322 首经方、465 味本草、408 穴位、1257 例倪师医案、本草讲稿 335 篇、针灸讲稿 72 篇｜可选「问倪师",
           "topics": [
             "ai",
@@ -3966,7 +3966,7 @@
         },
         {
           "name": "dentalpin/dentalpin",
-          "stars": 126,
+          "stars": 128,
           "description": "The open source agentic dental software. Built for AI.",
           "topics": [
             "agentic-ai",
@@ -3995,7 +3995,7 @@
         },
         {
           "name": "Yoosseph/dental-scope",
-          "stars": 123,
+          "stars": 125,
           "description": "Explore teeth, jaws, nerves, tissues, root canals, cross-sections and layered dental structures in 3D.",
           "topics": [
             "dental",
@@ -4106,7 +4106,7 @@
       "projects": [
         {
           "name": "widle-ai/Grocery-App",
-          "stars": 1145,
+          "stars": 1146,
           "description": "Flutter Grocery Shopping App (Mobile App, Web App)",
           "topics": [
             "dart",
@@ -4206,7 +4206,7 @@
       "projects": [
         {
           "name": "zx029w/zhuangxiu-skills",
-          "stars": 99,
+          "stars": 103,
           "description": "51个装修避坑独立Skill合集 — 覆盖全屋定制、老房改造、合同审核、报价审核、方案诊断、环保避坑、流程管控、翻车急救、避坑问答、增项避雷、公司选择等装修全流程",
           "topics": [
             "agent-skills",
