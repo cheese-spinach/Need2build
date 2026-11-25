@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T10:12:42.358Z",
+  "generatedAt": "2026-11-25T08:58:20.132Z",
   "source": "抖音指数（原巨量算数）· 创作指南关键词榜 + 关键词分析关联分析",
   "poolDomains": 24,
   "poolWords": 119,
@@ -270,7 +270,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23991,
+          "stars": 24008,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -289,7 +289,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 23771,
+          "stars": 23979,
           "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines,",
           "topics": [
             "apple-watch",
@@ -318,7 +318,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8706,
+          "stars": 8707,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -443,7 +443,7 @@
       "projects": [
         {
           "name": "pascalorg/editor",
-          "stars": 25709,
+          "stars": 25741,
           "description": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI.",
           "topics": [
             "3d",
@@ -588,7 +588,7 @@
       "projects": [
         {
           "name": "liketrek/TREK",
-          "stars": 15916,
+          "stars": 15930,
           "description": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offli",
           "topics": [
             "budget-tracker",
@@ -780,7 +780,7 @@
       "projects": [
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 10487,
+          "stars": 10598,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -1087,7 +1087,7 @@
       "projects": [
         {
           "name": "Oak-and-Sprout/sprout-track",
-          "stars": 407,
+          "stars": 408,
           "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
           "topics": [
             "activity",
@@ -1243,6 +1243,35 @@
           "url": "https://github.com/yf0522/ai-companion-runtime"
         },
         {
+          "name": "eclexdex/home-care-agent",
+          "stars": 30,
+          "description": "Elder care safety net for an elderly parent living alone: five paste-ready Home Assistant automations (panic button, doo",
+          "topics": [
+            "aging-in-place",
+            "ai-agent",
+            "assistive-technology",
+            "caregiver",
+            "elder-care",
+            "eldercare",
+            "elderly",
+            "fall-prevention",
+            "haos",
+            "home-assistant",
+            "home-automation",
+            "home-care",
+            "local-first",
+            "panic-button",
+            "presence-detection",
+            "privacy-first",
+            "self-hosted",
+            "senior-care",
+            "zha",
+            "zigbee"
+          ],
+          "language": "YAML",
+          "url": "https://github.com/eclexdex/home-care-agent"
+        },
+        {
           "name": "nclamvn/bom-cham",
           "stars": 26,
           "description": "Bờm Chăm — AI chăm sóc người thân cao tuổi 🏠 Để gia đình yên tâm, để ông bà an vui",
@@ -1258,28 +1287,6 @@
           ],
           "language": "TypeScript",
           "url": "https://github.com/nclamvn/bom-cham"
-        },
-        {
-          "name": "GeriLife/wellbeing",
-          "stars": 13,
-          "description": "Welbeing activity log and visualization tool.",
-          "topics": [
-            "activity-counts",
-            "activity-heatmap",
-            "activity-trends",
-            "eldercare",
-            "elderly",
-            "elderly-people",
-            "emotion",
-            "geri",
-            "nursing",
-            "residential-care",
-            "residents",
-            "visualization",
-            "wellbeing"
-          ],
-          "language": "JavaScript",
-          "url": "https://github.com/GeriLife/wellbeing"
         }
       ],
       "projectProbe": "赡养老人"
@@ -1375,7 +1382,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 46036,
+          "stars": 46088,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1394,7 +1401,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 29402,
+          "stars": 29412,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1417,7 +1424,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 18000,
+          "stars": 18008,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "ats-friendly",
@@ -1522,7 +1529,7 @@
       "projects": [
         {
           "name": "MODSetter/SurfSense",
-          "stars": 16932,
+          "stars": 16945,
           "description": "Air-gapped, private AI for confidential documents. Open-source NotebookLM alternative that runs on your computer. Join o",
           "topics": [
             "air-gapped",
@@ -1551,7 +1558,7 @@
         },
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12328,
+          "stars": 12335,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -1568,7 +1575,7 @@
         },
         {
           "name": "mengxi-ream/read-frog",
-          "stars": 10528,
+          "stars": 10537,
           "description": "🐸 Read Frog - Open-source AI language learning & flashcards, an Immersive Translate alternative | 🐸 陪读蛙 - 开源 AI 语言学习与闪",
           "topics": [
             "anki",
@@ -1677,7 +1684,7 @@
       "projects": [
         {
           "name": "reactive-resume/reactive-resume",
-          "stars": 46036,
+          "stars": 46088,
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source a",
           "topics": [
             "agent-skills",
@@ -1696,7 +1703,7 @@
         },
         {
           "name": "srbhr/Resume-Matcher",
-          "stars": 29402,
+          "stars": 29412,
           "description": "The #1 AI Harness for Building Resumes, PDFs, Cover Letters & more, locally with 100+ LLMs support.",
           "topics": [
             "applicant-tracking-system",
@@ -1719,7 +1726,7 @@
         },
         {
           "name": "rendercv/rendercv",
-          "stars": 18000,
+          "stars": 18008,
           "description": "Resume builder for academics and engineers",
           "topics": [
             "ats-friendly",
@@ -1832,7 +1839,7 @@
         },
         {
           "name": "zhangxiangliang/civil-service-exam",
-          "stars": 1001,
+          "stars": 1002,
           "description": "考试攻略 | 公务员 | 事业单位",
           "topics": [],
           "language": "",
@@ -2065,7 +2072,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23991,
+          "stars": 24008,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2084,7 +2091,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8706,
+          "stars": 8707,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -2111,7 +2118,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7313,
+          "stars": 7319,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -2220,7 +2227,7 @@
       "projects": [
         {
           "name": "pascalorg/editor",
-          "stars": 25709,
+          "stars": 25741,
           "description": "Open-source 3D architecture software for AECO, scan-to-BIM. Agent-friendly, browser-first, MCP, CLI.",
           "topics": [
             "3d",
@@ -2513,7 +2520,7 @@
       "projects": [
         {
           "name": "Jakeschincariol/replica-skill",
-          "stars": 10488,
+          "stars": 10598,
           "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users",
           "topics": [
             "agent",
@@ -2634,7 +2641,7 @@
       "projects": [
         {
           "name": "Oak-and-Sprout/sprout-track",
-          "stars": 407,
+          "stars": 408,
           "description": "A tracker to track baby diapers, feedings, naps, pumping, and other activities.",
           "topics": [
             "activity",
@@ -2831,7 +2838,7 @@
       "projects": [
         {
           "name": "MODSetter/SurfSense",
-          "stars": 16932,
+          "stars": 16945,
           "description": "Air-gapped, private AI for confidential documents. Open-source NotebookLM alternative that runs on your computer. Join o",
           "topics": [
             "air-gapped",
@@ -2860,7 +2867,7 @@
         },
         {
           "name": "ankidroid/Anki-Android",
-          "stars": 12328,
+          "stars": 12335,
           "description": "AnkiDroid: Anki flashcards on Android. Your secret trick to achieve superhuman information retention.",
           "topics": [
             "android",
@@ -2877,7 +2884,7 @@
         },
         {
           "name": "mengxi-ream/read-frog",
-          "stars": 10528,
+          "stars": 10537,
           "description": "🐸 Read Frog - Open-source AI language learning & flashcards, an Immersive Translate alternative | 🐸 陪读蛙 - 开源 AI 语言学习与闪",
           "topics": [
             "anki",
@@ -2971,7 +2978,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23991,
+          "stars": 24008,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -2990,7 +2997,7 @@
         },
         {
           "name": "DuarteSantos8/openGym",
-          "stars": 23771,
+          "stars": 23979,
           "description": "Open-source gym & body-weight tracker, now in the App Store (iPhone + Apple Watch) and as an Android APK. Plan routines,",
           "topics": [
             "apple-watch",
@@ -3019,7 +3026,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8706,
+          "stars": 8707,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -3103,7 +3110,7 @@
       "projects": [
         {
           "name": "tastyigniter/TastyIgniter",
-          "stars": 3879,
+          "stars": 3881,
           "description": ":fire: Powerful, yet easy to use, open-source online ordering, table reservation and management system for restaurants",
           "topics": [
             "food-ordering",
@@ -3125,7 +3132,7 @@
         },
         {
           "name": "enatega/food-delivery-multivendor",
-          "stars": 1430,
+          "stars": 1432,
           "description": "Enatega is a fully customizable and scalable delivery management system that supports multiple business models and servi",
           "topics": [
             "delivery-application",
@@ -3257,7 +3264,7 @@
         },
         {
           "name": "meet244/Interia",
-          "stars": 21,
+          "stars": 22,
           "description": "Interia: Your all-in-one interior design website, providing ideas, services, room designs, safety tips, testimonials, an",
           "topics": [
             "creative-design",
@@ -3358,7 +3365,7 @@
       "projects": [
         {
           "name": "hasaneyldrm/exercises-dataset",
-          "stars": 23991,
+          "stars": 24008,
           "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step ins",
           "topics": [
             "dataset",
@@ -3377,7 +3384,7 @@
         },
         {
           "name": "Snouzy/workout-cool",
-          "stars": 8706,
+          "stars": 8707,
           "description": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exerci",
           "topics": [
             "coach",
@@ -3404,7 +3411,7 @@
         },
         {
           "name": "wger-project/wger",
-          "stars": 7313,
+          "stars": 7319,
           "description": "Self hosted FLOSS fitness/workout, nutrition and weight tracker",
           "topics": [
             "django",
@@ -3601,7 +3608,7 @@
       "projects": [
         {
           "name": "liketrek/TREK",
-          "stars": 15916,
+          "stars": 15930,
           "description": "The most complete open-source travel planner: real-time collaboration, bookings, budgets, packing lists, journals, offli",
           "topics": [
             "budget-tracker",
@@ -3719,7 +3726,7 @@
       "projects": [
         {
           "name": "apoorvdarshan/fud-ai",
-          "stars": 556,
+          "stars": 559,
           "description": "Fud AI — free & open-source AI calorie & workout tracker for iOS and Android. Privacy-first, local-first, bring your own",
           "topics": [
             "ai",
@@ -3748,7 +3755,7 @@
         },
         {
           "name": "kcal-app/kcal",
-          "stars": 358,
+          "stars": 359,
           "description": "the personal food nutrition journal",
           "topics": [
             "calorie-tracker",
@@ -3849,7 +3856,7 @@
       "projects": [
         {
           "name": "jangviktor-web/nihaixia",
-          "stars": 4247,
+          "stars": 4254,
           "description": "倪海厦视角的中医Agent Skill，基于倪海厦教学资料开发，蒸馏倪师伤寒论、金匮要略、黄帝内经、神农本草经、针灸篇等，人纪/医案/经方思维，六经辨证，八纲辨证，天机道，天纪，紫微斗数，易经，阴阳，八卦，五行，风水，地纪等，总结8个诊断公",
           "topics": [
             "acupuncture",
@@ -3890,7 +3897,7 @@
         },
         {
           "name": "jangviktor-web/nihaixia-app",
-          "stars": 303,
+          "stars": 306,
           "description": "倪海厦汉唐中医 AI 辅助诊断安卓客户端 · AI 讲义问答·六经辨证智能问诊、伤寒论 394 条、金匮 433 篇、322 首经方、465 味本草、408 穴位、1257 例倪师医案、本草讲稿 335 篇、针灸讲稿 72 篇｜可选「问倪师",
           "topics": [
             "ai",
@@ -3982,7 +3989,7 @@
         },
         {
           "name": "dentalpin/dentalpin",
-          "stars": 133,
+          "stars": 134,
           "description": "The open source agentic dental software. Built for AI.",
           "topics": [
             "agentic-ai",
@@ -4236,7 +4243,7 @@
         },
         {
           "name": "meet244/Interia",
-          "stars": 21,
+          "stars": 22,
           "description": "Interia: Your all-in-one interior design website, providing ideas, services, room designs, safety tips, testimonials, an",
           "topics": [
             "creative-design",
@@ -4350,7 +4357,7 @@
         },
         {
           "name": "zhangxiangliang/civil-service-exam",
-          "stars": 1001,
+          "stars": 1002,
           "description": "考试攻略 | 公务员 | 事业单位",
           "topics": [],
           "language": "",
